@@ -1,0 +1,435 @@
+/* Додаткові стилі для нової системи */
+
+/* Огляд ринку */
+.market-overview-section {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.market-overview-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .market-overview-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.overview-card {
+    background: #f7fafc;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.overview-card h3 {
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Списки статусів та валют */
+.status-list, .currency-list, .risks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.currency-item, .risk-item {
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid;
+    font-size: 0.9rem;
+}
+
+.currency-item.positive {
+    border-left-color: #48bb78;
+    background: #f0fff4;
+}
+
+.currency-item.negative {
+    border-left-color: #f56565;
+    background: #fff5f5;
+}
+
+.currency-item.info {
+    border-left-color: #4299e1;
+    background: #ebf8ff;
+}
+
+.risk-item {
+    border-left-color: #ed8936;
+    background: #fffbeb;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Групи рекомендацій */
+.recommendation-group {
+    margin-bottom: 25px;
+}
+
+.recommendation-group h3 {
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buy-group h3 {
+    color: #38a169;
+}
+
+.avoid-group h3 {
+    color: #e53e3e;
+}
+
+.neutral-group h3 {
+    color: #d69e2e;
+}
+
+.group-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+@media (min-width: 768px) {
+    .group-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Картки рекомендацій */
+.recommendation-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+    border: 1px solid #e2e8f0;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.recommendation-card.strong-buy {
+    border-left: 5px solid #38a169;
+    background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
+}
+
+.recommendation-card.buy {
+    border-left: 5px solid #48bb78;
+    background: linear-gradient(135deg, #f0fff4 0%, #9ae6b4 100%);
+}
+
+.recommendation-card.strong-avoid {
+    border-left: 5px solid #c53030;
+    background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+}
+
+.recommendation-card.avoid {
+    border-left: 5px solid #f56565;
+    background: linear-gradient(135deg, #fff5f5 0%, #fc8181 100%);
+}
+
+.recommendation-card.neutral {
+    border-left: 5px solid #d69e2e;
+    background: linear-gradient(135deg, #fffbeb 0%, #feebc8 100%);
+}
+
+.recommendation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.asset-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.asset-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 5px;
+}
+
+.action-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+}
+
+.action-badge.strong-buy, .action-badge.buy {
+    background: linear-gradient(135deg, #38a169 0%, #2f855a 100%);
+}
+
+.action-badge.strong-avoid, .action-badge.avoid {
+    background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
+}
+
+.action-badge.neutral {
+    background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%);
+}
+
+.confidence-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 3px 8px rgba(102, 126, 234, 0.3);
+}
+
+.recommendation-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 480px) {
+    .recommendation-details {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.detail-item {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.detail-item .label {
+    color: #718096;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.confidence-bar {
+    width: 100%;
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.confidence-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #48bb78 0%, #38a169 100%);
+    border-radius: 3px;
+}
+
+.confidence-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.risk-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.risk-low {
+    background: #c6f6d5;
+    color: #22543d;
+}
+
+.risk-medium {
+    background: #fed7d7;
+    color: #742a2a;
+}
+
+.risk-high {
+    background: #feebc8;
+    color: #744210;
+}
+
+.recommendation-reason {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-left: 4px solid #4299e1;
+}
+
+.reason-header {
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.reason-text {
+    color: #4a5568;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.recommendation-footer {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #e2e8f0;
+    text-align: right;
+}
+
+.recommendation-footer small {
+    color: #a0aec0;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+/* Секція дій */
+.section-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.refresh-btn {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+}
+
+.refresh-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(66, 153, 225, 0.3);
+}
+
+.retry-btn {
+    background: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Стани завантаження та помилок */
+.loading-state, .error-state, .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.loading-state .spinner {
+    font-size: 2.5rem;
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+.error-state i {
+    font-size: 3rem;
+    color: #f56565;
+    margin-bottom: 20px;
+}
+
+.error-state h3 {
+    color: #c53030;
+    margin-bottom: 10px;
+}
+
+.error-state p {
+    color: #718096;
+    margin-bottom: 20px;
+}
+
+.empty-state i {
+    font-size: 3.5rem;
+    color: #cbd5e0;
+    margin-bottom: 20px;
+}
+
+.empty-state h3 {
+    color: #4a5568;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.empty-state p {
+    color: #a0aec0;
+    font-size: 1rem;
+}
+
+.no-data {
+    color: #a0aec0;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .market-overview-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .group-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .recommendation-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .section-actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
