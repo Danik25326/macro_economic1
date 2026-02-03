@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>🤖 Курсовий радник - Макроекономічні рекомендації</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <style>
+        /* Додаткові стилі для нової системи */
+        .buy-recommendation {
+            border-left: 5px solid #38a169 !important;
+            background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%) !important;
+        }
+        
+        .avoid-recommendation {
+            border-left: 5px solid #e53e3e !important;
+            background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%) !important;
+        }
+        
+        .neutral-recommendation {
+            border-left: 5px solid #d69e2e !important;
+            background: linear-gradient(135deg, #fffbeb 0%, #feebc8 100%) !important;
+        }
+        
+        .sentiment-indicator {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        .sentiment-positive {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            color: white;
+        }
+        
+        .sentiment-negative {
+            background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
+            color: white;
+        }
+        
+        .sentiment-neutral {
+            background: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);
+            color: white;
+        }
+        
+        .market-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+            border-radius: 10px;
+            font-weight: 500;
+            margin: 5px 0;
+        }
+        
+        .status-open {
+            background: rgba(72, 187, 120, 0.1);
+            color: #38a169;
+            border: 1px solid #38a169;
+        }
+        
+        .status-closed {
+            background: rgba(245, 101, 101, 0.1);
+            color: #e53e3e;
+            border: 1px solid #e53e3e;
+        }
+        
+        .risk-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        
+        .risk-low { background: #c6f6d5; color: #22543d; }
+        .risk-medium { background: #fed7d7; color: #742a2a; }
+        .risk-high { background: #feebc8; color: #744210; }
+        
+        .news-badge {
+            background: #4299e1;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 5px;
+        }
+        
+        .asset-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        
+        .currency-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .crypto-icon { background: linear-gradient(135deg, #f6ad55 0%, #ed8936 100%); }
+        .commodity-icon { background: linear-gradient(135deg, #f6e05e 0%, #d69e2e 100%); }
+        
+        .timeframe-badge {
+            background: #edf2f7;
+            color: #4a5568;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Заголовок -->
+        <header class="main-header">
+            <div class="header-content">
+                <h1><i class="fas fa-chart-line"></i> <span data-translate="title">Курсовий радник AI</span></h1>
+                <p class="subtitle" data-translate="subtitle">Макроекономічні рекомендації на основі аналізу новин та ринкових даных (4 рази на день)</p>
+                <div class="header-stats">
+                    <span class="stat-badge"><i class="fas fa-sync-alt"></i> <span data-translate="frequency">Оновлення:</span> 4x/день</span>
+                    <span class="stat-badge"><i class="fas fa-bullseye"></i> <span data-translate="minConfidence">Мін. впевненість:</span> 65%</span>
+                    <span class="stat-badge"><i class="fas fa-brain"></i> <span data-translate="model">Модель:</span> GPT OSS 120B</span>
+                    <span class="stat-badge"><i class="fas fa-newspaper"></i> <span data-translate="newsBased">На основі новин</span></span>
+                </div>
+            </div>
+            
+            <div class="header-controls">
+                <div class="language-switcher">
+                    <button id="lang-uk" class="lang-btn active" data-lang="uk">🇺🇦 Українська</button>
+                    <button id="lang-ru" class="lang-btn" data-lang="ru">🇷🇺 Русский</button>
+                </div>
+                
+                <div class="auto-refresh-status">
+                    <div class="refresh-info">
+                        <i class="fas fa-clock"></i>
+                        <div class="refresh-text">
+                            <span data-translate="nextUpdate">Наступне оновлення:</span>
+                            <span id="next-update-timer" class="timer">--:--:--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основна інформація -->
+        <div class="dashboard">
+            <!-- Статистика -->
+            <div class="stats-grid">
+                <div class="stat-card primary">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 data-translate="lastUpdate">Останнє оновлення</h3>
+                        <p id="last-update" class="stat-value">--:--:--</p>
+                        <small data-translate="kievTime">(Київський час)</small>
+                    </div>
+                </div>
+                
+                <div class="stat-card success">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 data-translate="recommendationsCount">Рекомендацій</h3>
+                        <p id="recommendations-count" class="stat-value">0</p>
+                        <small data-translate="activeNow">активних зараз</small>
+                    </div>
+                </div>
+                
+                <div class="stat-card warning">
+                    <div class="stat-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 data-translate="newsAnalyzed">Новин проаналізовано</h3>
+                        <p id="news-analyzed" class="stat-value">0</p>
+                        <small data-translate="last24h">за останні 24 год</small>
+                    </div>
+                </div>
+                
+                <div class="stat-card info">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 data-translate="marketSentiment">Настрій ринку</h3>
+                        <p id="market-sentiment" class="stat-value">--</p>
+                        <small id="sentiment-desc" data-translate="calculating">розрахунок...</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Огляд ринку -->
+            <div class="market-overview-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-globe-europe"></i> <span data-translate="marketOverview">Огляд ринку</span></h2>
+                    <div class="time-info">
+                        <i class="fas fa-globe-europe"></i> <span data-translate="serverTime">Київський час:</span> <span id="server-time">--:--</span>
+                    </div>
+                </div>
+                
+                <div class="market-overview-cards">
+                    <div class="overview-card" id="market-status-card">
+                        <h3><i class="fas fa-exchange-alt"></i> <span data-translate="marketStatus">Статус ринків</span></h3>
+                        <div class="status-list" id="market-status-list">
+                            <div class="loading">Завантаження...</div>
+                        </div>
+                    </div>
+                    
+                    <div class="overview-card" id="top-currencies-card">
+                        <h3><i class="fas fa-coins"></i> <span data-translate="topCurrencies">Найкращі валюти</span></h3>
+                        <div class="currency-list" id="top-currencies-list">
+                            <div class="loading">Завантаження...</div>
+                        </div>
+                    </div>
+                    
+                    <div class="overview-card" id="risks-card">
+                        <h3><i class="fas fa-exclamation-triangle"></i> <span data-translate="keyRisks">Ключові ризики</span></h3>
+                        <div class="risks-list" id="key-risks-list">
+                            <div class="loading">Завантаження...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Рекомендації -->
+            <div class="recommendations-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-bullhorn"></i> <span data-translate="currentRecommendations">Поточні рекомендації</span></h2>
+                    <div class="section-actions">
+                        <button class="refresh-btn" id="manual-refresh-btn">
+                            <i class="fas fa-redo"></i> <span data-translate="refresh">Оновити</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="recommendations-container" id="recommendations-container">
+                    <div class="loading-state">
+                        <div class="spinner">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                        <p data-translate="loadingRecommendations">Завантаження рекомендацій...</p>
+                        <small data-translate="firstLoad">Перше оновлення через <span id="first-load-timer">3</span> сек</small>
+                    </div>
+                </div>
+                
+                <div class="no-recommendations" id="no-recommendations" style="display: none;">
+                    <div class="empty-state">
+                        <i class="fas fa-chart-line"></i>
+                        <h3 data-translate="noRecommendationsNow">Наразі немає рекомендацій</h3>
+                        <p data-translate="nextAutoUpdate">Наступне автоматичне оновлення о <span id="next-auto-time">--:--</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Інформаційна секція -->
+            <div class="info-section">
+                <div class="info-card">
+                    <h3><i class="fas fa-info-circle"></i> <span data-translate="howItWorks">Як працює система</span></h3>
+                    <ul>
+                        <li><strong data-translate="dataSources">Джерела даних:</strong> <span data-translate="dataSourcesDesc">Новини з Reuters, Bloomberg, НБУ, економічні показники</span></li>
+                        <li><strong data-translate="analysisFrequency">Частота аналізу:</strong> <span data-translate="analysisFrequencyDesc">4 рази на день (08:00, 12:00, 16:00, 20:00)</span></li>
+                        <li><strong data-translate="aiAnalysis">AI аналіз:</strong> <span data-translate="aiAnalysisDesc">GPT OSS 120B аналізує новини та генерує рекомендації</span></li>
+                        <li><strong data-translate="recommendationTypes">Типи рекомендацій:</strong> <span data-translate="recommendationTypesDesc">Купувати / Уникати з вказівкою причин та ризиків</span></li>
+                        <li><strong data-translate="timeframe">Часовий горизонт:</strong> <span data-translate="timeframeDesc">Короткострокові рекомендації (1-3 дні)</span></li>
+                    </ul>
+                </div>
+                
+                <div class="warning-card">
+                    <h3><i class="fas fa-exclamation-triangle"></i> <span data-translate="disclaimer">Дисклеймер</span></h3>
+                    <p data-translate="disclaimerText">
+                        Цей аналіз призначений тільки для інформаційних цілей. Це не фінансова порада. 
+                        Інвестування пов'язане з ризиками. Перед прийняттям рішень консультуйтеся з фахівцями. 
+                        Автори не несуть відповідальності за будь-які втрати.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Футер -->
+        <footer>
+            <p>© 2024 Курсовий радник AI | <span data-translate="createdWith">Створено з використанням</span> Groq Cloud & AI аналізу</p>
+            <p class="tech-info">
+                <span data-translate="technologies">Технології:</span> GPT OSS 120B • Python • GitHub Actions • Макроекономічний аналіз
+            </p>
+            <p class="tech-info" style="font-size: 0.8rem; opacity: 0.6; margin-top: 5px;">
+                Репозиторій: <a href="https://github.com/Danik25326/pocket_trading_bot" target="_blank" 
+                style="color: white; text-decoration: underline;">Danik25326/pocket_trading_bot</a> | 
+                Версія: 4.0 | Оновлення: 4x/день | Концепція: Макроекономічний аналіз
+            </p>
+        </footer>
+    </div>
+
+    <!-- Контейнер для повідомлень -->
+    <div id="message-container"></div>
+    
+    <script src="script.js"></script>
+    
+    <script>
+        // Автоматичне оновлення сторінки кожні 30 хвилин
+        setTimeout(() => {
+            console.log("🔄 Планове оновлення сторінки для стабільності...");
+            location.reload();
+        }, 30 * 60 * 1000);
+    </script>
+</body>
+</html>
