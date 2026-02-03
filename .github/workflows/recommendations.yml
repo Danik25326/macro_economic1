@@ -2,49 +2,195 @@ name: Generate Market Recommendations
 
 on:
   schedule:
-    # Запускаємо 4 рази на день
-    - cron: '0 8 * * *'   # 08:00 Київ
-    - cron: '0 12 * * *'  # 12:00 Київ
-    - cron: '0 16 * * *'  # 16:00 Київ
-    - cron: '0 20 * * *'  # 20:00 Київ
+    # 🕐 4 рази на день в Київський час
+    - cron: '0 8 * * *'   # 08:00 Київ (06:00 UTC)
+    - cron: '0 12 * * *'  # 12:00 Київ (10:00 UTC)
+    - cron: '0 16 * * *'  # 16:00 Київ (14:00 UTC)
+    - cron: '0 20 * * *'  # 20:00 Київ (18:00 UTC)
   
   workflow_dispatch:
     inputs:
       language:
-        description: 'Мова'
+        description: 'Мова рекомендацій'
         required: true
         default: 'uk'
+        type: choice
+        options:
+          - uk
+          - ru
+      force_analysis:
+        description: 'Примусовий аналіз (ігнорувати кеш)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   generate-recommendations:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: generate-recommendations-${{ github.ref }}
+      cancel-in-progress: false
     
     steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
     
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
     
+    - name: Clear caches
+      run: |
+        echo "🧹 Очищення кешу..."
+        pip cache purge || echo "Не вдалося очистити pip cache"
+        rm -rf ~/.cache/pip 2>/dev/null || true
+        echo "✅ Кеш очищено"
+    
     - name: Install dependencies
       run: |
-        pip install -r backend/requirements.txt
-        pip install feedparser aiohttp pytz
+        python -m pip install --upgrade pip
+        pip install --upgrade setuptools wheel
+        if [ -f backend/requirements.txt ]; then
+          pip install --no-cache-dir -r backend/requirements.txt
+          echo "✅ Залежності встановлено"
+        else
+          echo "❌ Файл requirements.txt не знайдено!"
+          exit 1
+        fi
     
-    - name: Generate recommendations
-      env:
-        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        LANGUAGE: ${{ inputs.language || 'uk' }}
+    - name: Create necessary directories
       run: |
-        echo "🎯 Генерація рекомендацій..."
-        python backend/currency_advisor.py
+        echo "📁 Створення директорій..."
+        mkdir -p data logs
         
-    - name: Commit and push
+        # Створюємо початкові файли, якщо їх немає
+        if [ ! -f data/recommendations.json ]; then 
+          echo '{"last_update": null, "recommendations": [], "market_overview": {}, "timezone": "Europe/Kiev"}' > data/recommendations.json
+          echo "✅ Створено recommendations.json"
+        fi
+        
+        if [ ! -f data/history_recommendations.json ]; then 
+          echo '[]' > data/history_recommendations.json
+          echo "✅ Створено history_recommendations.json"
+        fi
+        
+        if [ ! -f data/news_cache.json ]; then 
+          echo '{"last_update": null, "news": []}' > data/news_cache.json
+          echo "✅ Створено news_cache.json"
+        fi
+        
+        if [ ! -f data/economic_indicators.json ]; then 
+          echo '{"last_update": null, "indicators": {}}' > data/economic_indicators.json
+          echo "✅ Створено economic_indicators.json"
+        fi
+        
+        touch .nojekyll
+    
+    - name: Generate market recommendations
+      env:
+        TZ: 'Europe/Kiev'
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+        FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        LANGUAGE: ${{ inputs.language || 'uk' }}
+        FORCE_ANALYSIS: ${{ inputs.force_analysis || 'false' }}
+        GROQ_MODEL: 'openai/gpt-oss-120b'
+        CACHE_HOURS: '6'
+        LOG_LEVEL: 'INFO'
+        MAX_RECOMMENDATIONS: '8'
       run: |
-        git config --global user.name 'GitHub Actions'
+        echo "🚀 ПОЧАТОК ГЕНЕРАЦІЇ РЕКОМЕНДАЦІЙ"
+        echo "========================================"
+        echo "⏰ Запущено: $(date '+%Y-%m-%d %H:%M:%S') UTC"
+        echo "🏠 Київський час: $(TZ='Europe/Kiev' date '+%Y-%m-%d %H:%M:%S')"
+        echo "🌐 Мова: $LANGUAGE"
+        echo "🧠 AI: $GROQ_MODEL"
+        echo "📊 Макс. рекомендацій: $MAX_RECOMMENDATIONS"
+        echo "💾 Кеш: $CACHE_HOURS годин"
+        echo "========================================"
+        
+        export PYTHONPATH=$PYTHONPATH:$(pwd)/backend:$(pwd):$(pwd)/utils
+        
+        cd backend
+        echo "▶️ Запуск currency_advisor.py..."
+        python currency_advisor.py
+        
+        echo "✅ Генерація завершена о $(date '+%H:%M:%S') UTC"
+    
+    - name: Verify recommendations were created
+      run: |
+        echo "🔍 Перевірка результатів..."
+        if [ -f data/recommendations.json ]; then
+          REC_COUNT=$(jq '.recommendations | length' data/recommendations.json 2>/dev/null || echo "0")
+          echo "📊 Згенеровано рекомендацій: $REC_COUNT"
+          
+          if [ "$REC_COUNT" -gt 0 ]; then
+            echo "🎯 Рекомендації успішно згенеровані!"
+            
+            # Виводимо перші 3 рекомендації для перевірки
+            echo "📋 Топ-3 рекомендації:"
+            jq -r '.recommendations[0:3] | .[] | "  • \(.asset): \(.action) (\(.confidence*100|floor)%)\n    Причина: \(.reason[0:50])..."' data/recommendations.json 2>/dev/null || echo "Не вдалося прочитати"
+          else
+            echo "⚠️  Рекомендацій не знайдено"
+          fi
+        else
+          echo "❌ Файл recommendations.json не створено!"
+          exit 1
+        fi
+    
+    - name: Update frontend files
+      run: |
+        echo "🔄 Оновлення frontend файлів..."
+        
+        # Перевіряємо, чи є оновлення
+        if [ -f data/recommendations.json ]; then
+          LAST_UPDATE=$(jq -r '.last_update' data/recommendations.json)
+          echo "🕐 Останнє оновлення: $LAST_UPDATE"
+        fi
+    
+    - name: Commit and push changes
+      if: success()
+      run: |
+        echo "💾 Підготовка до коміту..."
+        git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        git add data/recommendations.json
-        git commit -m "🤖 Оновлення рекомендацій $(date +'%Y-%m-%d %H:%M')"
-        git push
+        
+        # Додаємо всі зміни в даних
+        git add data/
+        git add .nojekyll
+        
+        if git diff --staged --quiet; then
+          echo "⚠️ Немає змін для коміту"
+        else
+          CURRENT_TIME=$(TZ='Europe/Kiev' date '+%H:%M')
+          git commit -m "🤖 Рекомендації: $(date +'%Y-%m-%d %H:%M') [Мова: ${{ inputs.language || 'uk' }}]"
+          git push origin main
+          echo "✅ Зміни закомічено та відправлено"
+          echo "🕐 Час коміту (Київ): $CURRENT_TIME"
+        fi
+    
+    - name: Log completion time
+      if: always()
+      run: |
+        echo "========================================"
+        echo "🏁 Завершено о $(date '+%H:%M:%S') UTC"
+        echo "🏠 Київський час: $(TZ='Europe/Kiev' date '+%H:%M:%S')"
+        echo "⏳ Наступний аналіз:"
+        echo "   • 08:00 (ранок)"
+        echo "   • 12:00 (обід)"
+        echo "   • 16:00 (вечір)"
+        echo "   • 20:00 (ніч)"
+        echo "📊 Перевірка: Actions -> recommendations.yml"
+        echo "🌐 Сайт: https://danik25326.github.io/pocket_trading_bot/"
+        echo "========================================"
