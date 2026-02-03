@@ -1,0 +1,26 @@
+# Основні залежності
+groq==0.9.0
+python-dotenv==1.0.0
+pytz==2023.3
+
+# Для новин
+feedparser==6.0.10
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+lxml==5.1.0
+
+# Для обробки даних
+pandas==2.1.4
+numpy==1.26.2
+
+# Для роботи з часом
+python-dateutil==2.8.2
+
+# Для логування
+colorlog==6.8.0
+
+# Для HTTP запитів
+requests==2.31.0
+
+# Для обробки JSON
+ujson==5.8.0
