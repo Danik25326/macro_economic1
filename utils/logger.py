@@ -1,19 +1,19 @@
-
 import logging
 import os
 from datetime import datetime
+from pathlib import Path
 
 class Logger:
-    def __init__(self, name="signal_bot", log_dir="logs"):
+    def __init__(self, name="macroeconomic_bot", log_dir="logs"):
         self.logger = logging.getLogger(name)
         self.logger.setLevel(logging.INFO)
         
         # Створюємо папку для логів
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
+        log_path = Path(__file__).parent.parent / log_dir
+        log_path.mkdir(exist_ok=True)
         
         # Файловий handler
-        log_file = os.path.join(log_dir, f"{datetime.now().strftime('%Y%m%d')}.log")
+        log_file = log_path / f"{datetime.now().strftime('%Y%m%d')}.log"
         file_handler = logging.FileHandler(log_file, encoding='utf-8')
         file_handler.setLevel(logging.INFO)
         
@@ -30,20 +30,16 @@ class Logger:
         file_handler.setFormatter(formatter)
         console_handler.setFormatter(formatter)
         
+        # Видаляємо існуючі handler, щоб уникнути дублювання
+        if self.logger.hasHandlers():
+            self.logger.handlers.clear()
+        
         self.logger.addHandler(file_handler)
         self.logger.addHandler(console_handler)
     
-    def info(self, message):
-        self.logger.info(message)
-    
-    def warning(self, message):
-        self.logger.warning(message)
-    
-    def error(self, message):
-        self.logger.error(message)
-    
-    def debug(self, message):
-        self.logger.debug(message)
+    def get_logger(self):
+        return self.logger
 
-# Глобальний логер
-logger = Logger().logger
+# Глобальний логер для всієї системи
+logger_instance = Logger()
+logger = logger_instance.get_logger()
