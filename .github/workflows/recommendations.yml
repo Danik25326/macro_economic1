@@ -60,18 +60,34 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install --upgrade setuptools wheel
-        if [ -f backend/requirements.txt ]; then
-          pip install --no-cache-dir -r backend/requirements.txt
-          echo "✅ Залежності встановлено"
-        else
-          echo "❌ Файл requirements.txt не знайдено!"
-          exit 1
-        fi
+        
+        echo "📦 Встановлення основних залежностей..."
+        pip install --no-cache-dir groq==0.9.0
+        pip install --no-cache-dir python-dotenv==1.0.0
+        pip install --no-cache-dir pytz==2023.3
+        pip install --no-cache-dir feedparser==6.0.10
+        pip install --no-cache-dir aiohttp==3.9.1
+        pip install --no-cache-dir beautifulsoup4==4.12.2
+        pip install --no-cache-dir lxml==5.1.0
+        pip install --no-cache-dir pandas==2.1.4
+        pip install --no-cache-dir numpy==1.26.2
+        pip install --no-cache-dir python-dateutil==2.8.2
+        pip install --no-cache-dir colorlog==6.8.0
+        pip install --no-cache-dir requests==2.31.0
+        pip install --no-cache-dir ujson==5.8.0
+        
+        echo "✅ Залежності встановлено"
     
     - name: Create necessary directories
       run: |
         echo "📁 Створення директорій..."
-        mkdir -p data logs
+        mkdir -p data logs backend/utils
+        
+        # Копіюємо файли логера в правильне місце
+        echo "📂 Копіювання файлів utils..."
+        if [ -d utils ]; then
+          cp -r utils/* backend/utils/ 2>/dev/null || true
+        fi
         
         # Створюємо початкові файли, якщо їх немає
         if [ ! -f data/recommendations.json ]; then 
@@ -94,7 +110,73 @@ jobs:
           echo "✅ Створено economic_indicators.json"
         fi
         
+        # Створюємо порожні файли __init__.py для пакетів
+        touch backend/__init__.py
+        touch backend/utils/__init__.py
+        
         touch .nojekyll
+        
+        echo "📁 Структура директорій:"
+        find . -type f -name "*.py" | head -20
+    
+    - name: Verify Python environment
+      run: |
+        echo "🐍 Перевірка середовища Python..."
+        python --version
+        echo "📁 Поточний каталог:"
+        pwd
+        echo "📁 Вміст каталогу:"
+        ls -la
+        echo "📁 Вміст backend/:"
+        ls -la backend/
+        echo "📁 Вміст utils/:"
+        ls -la utils/ 2>/dev/null || echo "Директорії utils не існує"
+    
+    - name: Test imports
+      run: |
+        echo "🧪 Тестування імпортів Python..."
+        cd backend
+        python -c "
+import sys
+print('Python path:', sys.path)
+
+# Тестуємо базові імпорти
+try:
+    import logging
+    print('✅ logging: OK')
+except Exception as e:
+    print(f'❌ logging: {e}')
+
+try:
+    from config import Config
+    print('✅ config: OK')
+except Exception as e:
+    print(f'❌ config: {e}')
+
+try:
+    from news_analyzer import NewsAnalyzer
+    print('✅ news_analyzer: OK')
+except Exception as e:
+    print(f'❌ news_analyzer: {e}')
+
+try:
+    from economic_data import EconomicDataCollector
+    print('✅ economic_data: OK')
+except Exception as e:
+    print(f'❌ economic_data: {e}')
+
+try:
+    from groq_analyzer import GroqAnalyzer
+    print('✅ groq_analyzer: OK')
+except Exception as e:
+    print(f'❌ groq_analyzer: {e}')
+
+try:
+    from data_handler import DataHandler
+    print('✅ data_handler: OK')
+except Exception as e:
+    print(f'❌ data_handler: {e}')
+"
     
     - name: Generate market recommendations
       env:
@@ -109,6 +191,8 @@ jobs:
         CACHE_HOURS: '6'
         LOG_LEVEL: 'INFO'
         MAX_RECOMMENDATIONS: '8'
+        MIN_CONFIDENCE: '0.65'
+        PYTHONPATH: '${{ github.workspace }}/backend:${{ github.workspace }}:${{ github.workspace }}/utils'
       run: |
         echo "🚀 ПОЧАТОК ГЕНЕРАЦІЇ РЕКОМЕНДАЦІЙ"
         echo "========================================"
@@ -118,45 +202,128 @@ jobs:
         echo "🧠 AI: $GROQ_MODEL"
         echo "📊 Макс. рекомендацій: $MAX_RECOMMENDATIONS"
         echo "💾 Кеш: $CACHE_HOURS годин"
+        echo "📈 Мін. впевненість: $MIN_CONFIDENCE"
         echo "========================================"
         
-        export PYTHONPATH=$PYTHONPATH:$(pwd)/backend:$(pwd):$(pwd)/utils
+        echo "📁 Поточний каталог: $(pwd)"
+        echo "📁 Вміст каталогу:"
+        ls -la
+        
+        echo "🔧 Налаштування PYTHONPATH..."
+        export PYTHONPATH="$PYTHONPATH:${{ github.workspace }}/backend:${{ github.workspace }}:${{ github.workspace }}/utils"
+        echo "PYTHONPATH: $PYTHONPATH"
         
         cd backend
         echo "▶️ Запуск currency_advisor.py..."
+        
+        # Запускаємо основний скрипт
         python currency_advisor.py
+        
+        # Перевіряємо код завершення
+        EXIT_CODE=$?
+        if [ $EXIT_CODE -eq 0 ]; then
+            echo "✅ Скрипт успішно завершився"
+        else
+            echo "❌ Скрипт завершився з кодом помилки: $EXIT_CODE"
+            exit $EXIT_CODE
+        fi
         
         echo "✅ Генерація завершена о $(date '+%H:%M:%S') UTC"
     
     - name: Verify recommendations were created
       run: |
         echo "🔍 Перевірка результатів..."
+        
+        # Перевіряємо, чи існує файл
         if [ -f data/recommendations.json ]; then
-          REC_COUNT=$(jq '.recommendations | length' data/recommendations.json 2>/dev/null || echo "0")
-          echo "📊 Згенеровано рекомендацій: $REC_COUNT"
-          
-          if [ "$REC_COUNT" -gt 0 ]; then
-            echo "🎯 Рекомендації успішно згенеровані!"
+            echo "📄 Файл recommendations.json існує"
             
-            # Виводимо перші 3 рекомендації для перевірки
-            echo "📋 Топ-3 рекомендації:"
-            jq -r '.recommendations[0:3] | .[] | "  • \(.asset): \(.action) (\(.confidence*100|floor)%)\n    Причина: \(.reason[0:50])..."' data/recommendations.json 2>/dev/null || echo "Не вдалося прочитати"
-          else
-            echo "⚠️  Рекомендацій не знайдено"
-          fi
+            # Перевіряємо, чи файл не порожній
+            FILE_SIZE=$(stat -f%z data/recommendations.json 2>/dev/null || stat -c%s data/recommendations.json 2>/dev/null || echo "0")
+            
+            if [ "$FILE_SIZE" -gt 50 ]; then
+                echo "📊 Файл має розмір: $FILE_SIZE байт"
+                
+                # Спробуємо використати jq для аналізу
+                if command -v jq &> /dev/null; then
+                    REC_COUNT=$(jq '.recommendations | length' data/recommendations.json 2>/dev/null || echo "0")
+                    echo "📈 Згенеровано рекомендацій: $REC_COUNT"
+                    
+                    if [ "$REC_COUNT" -gt 0 ]; then
+                        echo "🎯 Рекомендації успішно згенеровані!"
+                        
+                        # Виводимо перші 3 рекомендації для перевірки
+                        echo "📋 Топ-3 рекомендації:"
+                        jq -r '.recommendations[0:3] | .[] | "  • \(.asset): \(.action) (\(.confidence*100|floor)%)\n    Причина: \(.reason[0:50])..."' data/recommendations.json 2>/dev/null || echo "Не вдалося прочитати деталі"
+                    else
+                        echo "⚠️  Рекомендацій не знайдено"
+                        # Показуємо вміст файлу для дебагу
+                        echo "📄 Вміст файлу (перші 500 символів):"
+                        head -c 500 data/recommendations.json
+                        echo ""
+                    fi
+                else
+                    echo "📄 Вміст файлу (перші 1000 символів):"
+                    head -c 1000 data/recommendations.json
+                    echo ""
+                fi
+            else
+                echo "⚠️  Файл recommendations.json порожній або занадто малий"
+                echo "📄 Вміст файлу:"
+                cat data/recommendations.json
+            fi
+            
+            # Перевіряємо час оновлення
+            if command -v jq &> /dev/null; then
+                LAST_UPDATE=$(jq -r '.last_update' data/recommendations.json 2>/dev/null || echo "null")
+                echo "🕐 Останнє оновлення: $LAST_UPDATE"
+            fi
+            
         else
-          echo "❌ Файл recommendations.json не створено!"
-          exit 1
+            echo "❌ Файл recommendations.json не створено!"
+            
+            # Перевіряємо, чи є інші файли даних
+            echo "🔎 Пошук інших файлів даних..."
+            ls -la data/ || echo "Директорія data не існує"
+            
+            # Перевіряємо логи
+            echo "📋 Перевірка логів..."
+            if [ -d logs ]; then
+                echo "Логи знайдено:"
+                ls -la logs/
+                if [ -f logs/*.log ]; then
+                    echo "Останні 20 рядків логу:"
+                    tail -20 logs/*.log 2>/dev/null || echo "Не вдалося прочитати логи"
+                fi
+            fi
+            
+            exit 1
         fi
     
     - name: Update frontend files
       run: |
         echo "🔄 Оновлення frontend файлів..."
         
-        # Перевіряємо, чи є оновлення
+        # Створюємо простий HTML файл для перевірки
         if [ -f data/recommendations.json ]; then
-          LAST_UPDATE=$(jq -r '.last_update' data/recommendations.json)
-          echo "🕐 Останнє оновлення: $LAST_UPDATE"
+            HTML_FILE="index_test.html"
+            echo "<html><head><title>Рекомендації</title></head><body>" > $HTML_FILE
+            echo "<h1>Останні рекомендації</h1>" >> $HTML_FILE
+            echo "<p>Останнє оновлення: $(date)</p>" >> $HTML_FILE
+            
+            if command -v jq &> /dev/null; then
+                REC_COUNT=$(jq '.recommendations | length' data/recommendations.json 2>/dev/null || echo "0")
+                echo "<p>Кількість рекомендацій: $REC_COUNT</p>" >> $HTML_FILE
+                
+                if [ "$REC_COUNT" -gt 0 ]; then
+                    echo "<ul>" >> $HTML_FILE
+                    jq -r '.recommendations[0:5] | .[] | "<li>\(.asset): \(.action) (\(.confidence*100|floor)%) - \(.reason[0:100])...</li>"' data/recommendations.json >> $HTML_FILE 2>/dev/null || echo "<li>Не вдалося прочитати рекомендації</li>" >> $HTML_FILE
+                    echo "</ul>" >> $HTML_FILE
+                fi
+            fi
+            
+            echo "</body></html>" >> $HTML_FILE
+            echo "✅ Створено тестовий HTML файл"
         fi
     
     - name: Commit and push changes
