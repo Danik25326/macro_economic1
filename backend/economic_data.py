@@ -1,11 +1,11 @@
 import aiohttp
 import asyncio
 import json
+import logging
 from datetime import datetime, timedelta
 import pytz
 from typing import Dict, Any, List
 from config import Config
-import logging
 
 logger = logging.getLogger("economic_data")
 
