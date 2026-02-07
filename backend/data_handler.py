@@ -1,9 +1,9 @@
 import json
 import os
+import logging
 from datetime import datetime, timedelta
 import pytz
 from config import Config
-import logging
 
 logger = logging.getLogger("data_handler")
 
