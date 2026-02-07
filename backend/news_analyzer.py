@@ -1,6 +1,8 @@
 import aiohttp
 import asyncio
 import feedparser
+import json
+import logging
 from datetime import datetime, timedelta
 import pytz
 import re
@@ -8,7 +10,6 @@ from typing import List, Dict, Any
 from config import Config
 
 logger = logging.getLogger("news_analyzer")
-
 class NewsAnalyzer:
     def __init__(self):
         self.kyiv_tz = pytz.timezone('Europe/Kiev')
