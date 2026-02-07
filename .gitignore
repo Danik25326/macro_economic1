@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
+ENV/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Data (за винятком конфігураційних файлів)
+data/*.json
+!data/signals.json
+!data/history.json
+!data/assets_config.json
+
+# OS
+.DS_Store
+Thumbs.db
