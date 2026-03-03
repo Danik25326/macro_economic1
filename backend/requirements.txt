@@ -1,7 +1,8 @@
 # Основні залежності
-groq==0.9.0
+groq>=0.12.0
 python-dotenv==1.0.0
 pytz==2023.3
+httpx>=0.23.0
 
 # Для новин
 feedparser==6.0.10
