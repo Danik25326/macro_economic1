@@ -1,57 +1,95 @@
 {
-  "last_update": "2024-01-15T12:30:45.123456+02:00",
-  "last_update_display": "2024-01-15 12:30:45",
+  "last_update": "2026-03-05T19:56:16.040531+02:00",
+  "last_update_display": "2026-03-05 19:56:16",
   "recommendations": [
     {
-      "asset": "EUR",
+      "asset": "USD",
       "action": "BUY",
-      "confidence": 0.82,
-      "reason": "ЄЦБ залишає ставки незмінними, інфляція в єврозоні сповільнюється. Останні новини свідчать про стабілізацію євро.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "EUR_20240115123045",
-      "generated_at": "2024-01-15T12:30:45.123456+02:00"
+      "confidence": 0.88,
+      "reason": "Долар США традиційно зростає під час геополітичних напружень; останні новини про ескалацію конфлікту США‑Ізраїль‑Іран підвищують попит на безпечну валюту.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260305195616",
+      "generated_at": "2026-03-05T19:56:16.040229+02:00"
     },
     {
-      "asset": "USD",
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Золото традиційно зростає в умовах геополітичних ризиків і сповільнення економічного зростання в Китаї, що робить його привабливим захисним активом.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20260305195616",
+      "generated_at": "2026-03-05T19:56:16.040301+02:00"
+    },
+    {
+      "asset": "EUR",
       "action": "AVOID",
-      "confidence": 0.78,
-      "reason": "Невизначеність щодо рішень ФРС, інфляційні дані вище очікувань. Рекомендується почекати з інвестиціями в долар.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "USD_20240115123045",
-      "generated_at": "2024-01-15T12:30:45.123456+02:00"
+      "confidence": 0.73,
+      "reason": "Євро стикається з тиском через падіння STOXX 600, що відображає занепокоєння інвесторів у Європі, а також відсутність позитивних макроекономічних даних.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "EUR_20260305195616",
+      "generated_at": "2026-03-05T19:56:16.040266+02:00"
+    },
+    {
+      "asset": "GBP",
+      "action": "NEUTRAL",
+      "confidence": 0.68,
+      "reason": "Фунт стерлінг залишився стабільним попри загальну ринкову нестабільність; немає нових даних, які б явно підштовхнули його вгору чи вниз.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GBP_20260305195616",
+      "generated_at": "2026-03-05T19:56:16.040280+02:00"
     },
     {
       "asset": "BTC",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Заявки на BTC ETF отримують схвалення, інституційний інтерес зростає. Технічні показники позитивні.",
-      "timeframe": "тиждень",
+      "action": "NEUTRAL",
+      "confidence": 0.65,
+      "reason": "Криптовалюти продовжують демонструвати високу волатильність; поточна ціна BTC $70,802 не підтримується фундаментальними драйверами, а геополітична нестабільність може викликати різкі коливання.",
+      "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20240115123045",
-      "generated_at": "2024-01-15T12:30:45.123456+02:00"
+      "id": "BTC_20260305195616",
+      "generated_at": "2026-03-05T19:56:16.040290+02:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "ПОЗИТИВНИЙ",
-    "positive_news_count": 15,
-    "negative_news_count": 8,
-    "total_news_analyzed": 42,
-    "top_currency": "EUR",
-    "worst_currency": "RUB",
+    "positive_news_count": 1,
+    "negative_news_count": 0,
+    "total_news_analyzed": 7,
+    "top_currency": "CNY",
+    "worst_currency": "GOLD",
     "market_status": {
-      "overall": "ACTIVE",
-      "forex": "OPEN",
-      "crypto": "OPEN"
+      "forex": {
+        "status": "OPEN",
+        "next_change": "Пт 23:00"
+      },
+      "crypto": {
+        "status": "OPEN",
+        "next_change": "Немає"
+      },
+      "european_stocks": {
+        "status": "CLOSED",
+        "next_change": "09:00"
+      },
+      "us_stocks": {
+        "status": "OPEN",
+        "next_change": "23:00"
+      },
+      "ukrainian_stocks": {
+        "status": "CLOSED",
+        "next_change": "10:00"
+      },
+      "overall": "ACTIVE"
     },
-    "last_economic_update": "2024-01-15T12:00:00+02:00",
-    "analysis_time": "12:30"
+    "last_economic_update": "2026-03-05T19:56:12.798920+02:00",
+    "analysis_time": "19:56"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20240115123045",
-  "total_recommendations": 3,
-  "news_count": 42,
+  "analysis_id": "analysis_20260305195616",
+  "total_recommendations": 5,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2024-01-15T16:00:00+02:00"
+  "next_analysis": "2026-03-05T20:00:00+02:00"
 }
