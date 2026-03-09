@@ -1,63 +1,63 @@
 {
-  "last_update": "2026-03-06T18:31:28.815096+02:00",
-  "last_update_display": "2026-03-06 18:31:28",
+  "last_update": "2026-03-09T10:56:34.898901+02:00",
+  "last_update_display": "2026-03-09 10:56:34",
   "recommendations": [
     {
-      "asset": "USD",
+      "asset": "GOLD",
       "action": "STRONG_BUY",
-      "confidence": 0.9,
-      "reason": "Зростає попит на долар як безпечний притулок через ескалацію конфлікту між Угорщиною та Україною та загальну європейську невизначеність.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.88,
+      "reason": "Gold is a classic hedge against inflation and geopolitical uncertainty; rising oil prices and market jitters boost its safe‑haven demand.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "USD_20260306183128",
-      "generated_at": "2026-03-06T18:31:28.814848+02:00"
+      "id": "GOLD_20260309105634",
+      "generated_at": "2026-03-09T10:56:34.898686+02:00"
     },
     {
-      "asset": "GOLD",
+      "asset": "USD",
       "action": "BUY",
       "confidence": 0.85,
-      "reason": "Підвищений ризик у Європі (угорсько‑український конфлікт, ядерна політика Фінляндії) стимулює інвесторів шукати захист у золоті.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20260306183128",
-      "generated_at": "2026-03-06T18:31:28.814894+02:00"
+      "reason": "US dollar benefits from safe‑haven demand as oil prices breach $100/barrel and the euro weakens amid Euro‑zone bond slump.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260309105634",
+      "generated_at": "2026-03-09T10:56:34.898619+02:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
       "confidence": 0.8,
-      "reason": "Йєна традиційно зростає в умовах геополітичної напруги, а поточна девальвація щодо долара робить її привабливою короткостроково.",
-      "timeframe": "1-3 дні",
+      "reason": "The yen traditionally strengthens in risk‑off environments; heightened Middle‑East conflict increases demand for low‑volatility currencies.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20260306183128",
-      "generated_at": "2026-03-06T18:31:28.814881+02:00"
-    },
-    {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 0.75,
-      "reason": "Ескалація конфлікту між Угорщиною та Україною та триваючі військові дії підвищують валютний ризик і можуть призвести до різкого падіння гривні.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "UAH_20260306183128",
-      "generated_at": "2026-03-06T18:31:28.814921+02:00"
+      "id": "JPY_20260309105634",
+      "generated_at": "2026-03-09T10:56:34.898651+02:00"
     },
     {
       "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.65,
-      "reason": "Євро стикається з протилежними факторами: корпоративна стабільність (South Bow) підтримує його, а геополітична нестабільність у регіоні створює тиск.",
+      "action": "AVOID",
+      "confidence": 0.78,
+      "reason": "Eurozone equities and bonds are slipping due to energy price spikes, limiting upside for the euro against the dollar.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260306183128",
-      "generated_at": "2026-03-06T18:31:28.814905+02:00"
+      "id": "EUR_20260309105634",
+      "generated_at": "2026-03-09T10:56:34.898664+02:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Crypto assets are highly volatile and lose investor appetite during geopolitical risk‑off phases; price is near historic highs but could retract sharply.",
+      "timeframe": "1-3 дні",
+      "risk_level": "high",
+      "id": "BTC_20260309105634",
+      "generated_at": "2026-03-09T10:56:34.898676+02:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 1,
-    "total_news_analyzed": 6,
+    "negative_news_count": 0,
+    "total_news_analyzed": 5,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -70,26 +70,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-03-06T18:31:25.029725+02:00",
-    "analysis_time": "18:31"
+    "last_economic_update": "2026-03-09T10:56:31.997327+02:00",
+    "analysis_time": "10:56"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260306183128",
+  "analysis_id": "analysis_20260309105634",
   "total_recommendations": 5,
-  "news_count": 6,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-03-06T20:00:00+02:00"
+  "next_analysis": "2026-03-09T12:00:00+02:00"
 }
