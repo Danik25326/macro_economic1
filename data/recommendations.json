@@ -1,56 +1,66 @@
 {
-  "last_update": "2026-03-09T10:56:34.898901+02:00",
-  "last_update_display": "2026-03-09 10:56:34",
+  "last_update": "2026-03-11T10:55:21.927498+02:00",
+  "last_update_display": "2026-03-11 10:55:21",
   "recommendations": [
-    {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Gold is a classic hedge against inflation and geopolitical uncertainty; rising oil prices and market jitters boost its safe‑haven demand.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20260309105634",
-      "generated_at": "2026-03-09T10:56:34.898686+02:00"
-    },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.85,
-      "reason": "US dollar benefits from safe‑haven demand as oil prices breach $100/barrel and the euro weakens amid Euro‑zone bond slump.",
+      "confidence": 0.88,
+      "reason": "Долар зміцнюється як безпечний притулок у відповідь на геополітичну нестабільність, а курс 43.86 UAH виглядає привабливим для інвесторів.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "USD_20260309105634",
-      "generated_at": "2026-03-09T10:56:34.898619+02:00"
+      "id": "USD_20260311105521",
+      "generated_at": "2026-03-11T10:55:21.927202+02:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.85,
+      "reason": "Золото отримує підтримку як традиційний захист від інфляції та геополітичних ризиків, особливо після новин про військові дії в регіоні.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "GOLD_20260311105521",
+      "generated_at": "2026-03-11T10:55:21.927260+02:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.8,
-      "reason": "The yen traditionally strengthens in risk‑off environments; heightened Middle‑East conflict increases demand for low‑volatility currencies.",
+      "confidence": 0.82,
+      "reason": "Йена традиційно зростає під час глобальної напруги; курс 0.28 UAH залишає простір для подальшого підвищення.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "JPY_20260311105521",
+      "generated_at": "2026-03-11T10:55:21.927236+02:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Швейцарський франк є стабільним активом, а відсутність прямих новин про його ослаблення підсилює його привабливість.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20260309105634",
-      "generated_at": "2026-03-09T10:56:34.898651+02:00"
+      "id": "CHF_20260311105521",
+      "generated_at": "2026-03-11T10:55:21.927249+02:00"
     },
     {
       "asset": "EUR",
-      "action": "AVOID",
-      "confidence": 0.78,
-      "reason": "Eurozone equities and bonds are slipping due to energy price spikes, limiting upside for the euro against the dollar.",
-      "timeframe": "1-3 дні",
+      "action": "NEUTRAL",
+      "confidence": 0.7,
+      "reason": "Євро під тиском через падіння європейських акцій, проте стабільність економік ЄС зберігає його в центрі уваги.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260309105634",
-      "generated_at": "2026-03-09T10:56:34.898664+02:00"
+      "id": "EUR_20260311105521",
+      "generated_at": "2026-03-11T10:55:21.927270+02:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Crypto assets are highly volatile and lose investor appetite during geopolitical risk‑off phases; price is near historic highs but could retract sharply.",
+      "confidence": 0.68,
+      "reason": "Криптовалюти залишаються надзвичайно волатильними, а відсутність позитивних новин про регуляцію підвищує ризик короткострокових втрат.",
       "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260309105634",
-      "generated_at": "2026-03-09T10:56:34.898676+02:00"
+      "id": "BTC_20260311105521",
+      "generated_at": "2026-03-11T10:55:21.927280+02:00"
     }
   ],
   "market_overview": {
@@ -83,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-03-09T10:56:31.997327+02:00",
-    "analysis_time": "10:56"
+    "last_economic_update": "2026-03-11T10:55:18.648639+02:00",
+    "analysis_time": "10:55"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260309105634",
-  "total_recommendations": 5,
+  "analysis_id": "analysis_20260311105521",
+  "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-03-09T12:00:00+02:00"
+  "next_analysis": "2026-03-11T12:00:00+02:00"
 }
