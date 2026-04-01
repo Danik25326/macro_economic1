@@ -1,43 +1,63 @@
 {
-  "last_update": "2026-04-01T12:18:51.307404+03:00",
-  "last_update_display": "2026-04-01 12:18:51",
+  "last_update": "2026-04-01T15:48:10.629885+03:00",
+  "last_update_display": "2026-04-01 15:48:10",
   "recommendations": [
     {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.85,
+      "reason": "Ескалація конфлікту в Україні та інфляційний тиск підвищують попит на золото як захисний актив, ціни стабільно зростають.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20260401154810",
+      "generated_at": "2026-04-01T15:48:10.629642+03:00"
+    },
+    {
       "asset": "USD",
-      "action": "AVOID",
-      "confidence": 0.75,
-      "reason": "Негативний вплив новин (1 негативних)",
-      "timeframe": "1-2 дні",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Зростання геополітичної напруги та очікування посилення монетарної політики США підтримують долар, курс 43.78 UAH, стабільний.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "USD_20260401121851",
-      "generated_at": "2026-04-01T12:18:51.307191+03:00"
+      "id": "USD_20260401154810",
+      "generated_at": "2026-04-01T15:48:10.629572+03:00"
     },
     {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 0.75,
-      "reason": "Негативний вплив новин (1 негативних)",
-      "timeframe": "1-2 дні",
-      "risk_level": "medium",
-      "id": "UAH_20260401121851",
-      "generated_at": "2026-04-01T12:18:51.307236+03:00"
+      "asset": "GBP",
+      "action": "BUY",
+      "confidence": 0.72,
+      "reason": "Фунт залишається привабливим завдяки відносно стабільній економіці Великобританії та попиту на безпечні активи, курс 58.32 UAH.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GBP_20260401154810",
+      "generated_at": "2026-04-01T15:48:10.629620+03:00"
     },
     {
-      "asset": "RUB",
+      "asset": "EUR",
       "action": "AVOID",
-      "confidence": 0.75,
-      "reason": "Негативний вплив новин (1 негативних)",
-      "timeframe": "1-2 дні",
+      "confidence": 0.7,
+      "reason": "Слабкість єврозони, курс 50.82 UAH та ризик відтоку капіталу через санкції знижують привабливість євро в короткостроковій перспективі.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "RUB_20260401121851",
-      "generated_at": "2026-04-01T12:18:51.307261+03:00"
+      "id": "EUR_20260401154810",
+      "generated_at": "2026-04-01T15:48:10.629606+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.65,
+      "reason": "Висока волатильність криптовалют і можливі регуляторні обмеження роблять BTC ризикованим у поточному геополітичному середовищі, незважаючи на рівень $68,495.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260401154810",
+      "generated_at": "2026-04-01T15:48:10.629632+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 2,
-    "total_news_analyzed": 6,
+    "total_news_analyzed": 5,
     "top_currency": "EUR",
     "worst_currency": "RUB",
     "market_status": {
@@ -63,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-01T12:18:48.340607+03:00",
-    "analysis_time": "12:18"
+    "last_economic_update": "2026-04-01T15:48:06.956625+03:00",
+    "analysis_time": "15:48"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260401121851",
-  "total_recommendations": 3,
-  "news_count": 6,
+  "analysis_id": "analysis_20260401154810",
+  "total_recommendations": 5,
+  "news_count": 5,
   "language": "uk",
   "next_analysis": "2026-04-01T16:00:00+03:00"
 }
