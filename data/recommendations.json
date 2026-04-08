@@ -1,75 +1,65 @@
 {
-  "last_update": "2026-04-08T12:14:18.222068+03:00",
-  "last_update_display": "2026-04-08 12:14:18",
+  "last_update": "2026-04-08T15:51:22.095906+03:00",
+  "last_update_display": "2026-04-08 15:51:22",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.85,
-      "reason": "Зниження цін на нафту та підвищена геополітична обережність підсилюють попит на золото як захисний актив; поточна інфляційна динаміка підтримує його зростання.",
+      "action": "STRONG_BUY",
+      "confidence": 0.88,
+      "reason": "Gold is likely to rally as investors seek stability while oil supply concerns and higher fuel prices in Ukraine increase inflationary pressure.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "GOLD_20260408121418",
-      "generated_at": "2026-04-08T12:14:18.221878+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Зниження цін на нафту зменшує інфляційний тиск в Єврозоні, а стабільна економічна політика ЄЦБ підтримує євро; плюс, ризик нових санкцій проти США знижує привабливість долара.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "EUR_20260408121418",
-      "generated_at": "2026-04-08T12:14:18.221801+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.8,
-      "reason": "Швейцарський франк залишається стабільним завдяки низькій інфляції та сильній фінансовій системі; поточна стабільність на ринках підсилює його статус безпечного активу.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260408121418",
-      "generated_at": "2026-04-08T12:14:18.221849+03:00"
+      "id": "GOLD_20260408155122",
+      "generated_at": "2026-04-08T15:51:22.095652+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Японська ієна традиційно зростає в умовах геополітичної невизначеності; деескалація в Перській затоці знижує ризик різкого підвищення волатильності, роблячи ієну безпечним притулком.",
-      "timeframe": "тиждень",
+      "confidence": 0.82,
+      "reason": "JPY benefits as a traditional safe‑haven amid heightened Middle‑East uncertainty and a possible dip in oil prices after the cease‑fire talks.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "JPY_20260408121418",
-      "generated_at": "2026-04-08T12:14:18.221836+03:00"
+      "id": "JPY_20260408155122",
+      "generated_at": "2026-04-08T15:51:22.095617+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.73,
+      "reason": "Eurozone growth remains modest; the cease‑fire may ease energy costs but the lingering geopolitical risk limits upside.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "EUR_20260408155122",
+      "generated_at": "2026-04-08T15:51:22.095666+03:00"
     },
     {
       "asset": "USD",
-      "action": "AVOID",
+      "action": "NEUTRAL",
       "confidence": 0.7,
-      "reason": "Зниження цін на нафту підриває прибутковість долара, а можливі скорочення ставок ФРС створюють додаткову невизначеність; короткостроково долар може стикатися з тиском.",
+      "reason": "USD retains safe‑haven appeal, yet a potential easing of oil prices could temper its strength against other majors.",
       "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "USD_20260408121418",
-      "generated_at": "2026-04-08T12:14:18.221860+03:00"
+      "id": "USD_20260408155122",
+      "generated_at": "2026-04-08T15:51:22.095677+03:00"
     },
     {
       "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Криптовалюти залишаються волатильними; хоча ціна BTC на високому рівні, регуляторний ризик у США (справа Adani) може викликати різкі коливання.",
-      "timeframe": "1-3 дні",
+      "action": "AVOID",
+      "confidence": 0.65,
+      "reason": "Cryptocurrency markets are highly volatile and lack direct correlation with the current geopolitical developments, making them unsuitable for conservative investors now.",
+      "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260408121418",
-      "generated_at": "2026-04-08T12:14:18.221869+03:00"
+      "id": "BTC_20260408155122",
+      "generated_at": "2026-04-08T15:51:22.095687+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 0,
+    "negative_news_count": 1,
     "total_news_analyzed": 5,
-    "top_currency": "USD",
-    "worst_currency": "GOLD",
+    "top_currency": "EUR",
+    "worst_currency": "UAH",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -93,12 +83,12 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-08T12:14:14.542277+03:00",
-    "analysis_time": "12:14"
+    "last_economic_update": "2026-04-08T15:51:18.528322+03:00",
+    "analysis_time": "15:51"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260408121418",
-  "total_recommendations": 6,
+  "analysis_id": "analysis_20260408155122",
+  "total_recommendations": 5,
   "news_count": 5,
   "language": "uk",
   "next_analysis": "2026-04-08T16:00:00+03:00"
