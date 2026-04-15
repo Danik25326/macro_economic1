@@ -1,75 +1,65 @@
 {
-  "last_update": "2026-04-15T15:54:34.278919+03:00",
-  "last_update_display": "2026-04-15 15:54:34",
+  "last_update": "2026-04-15T19:54:29.559201+03:00",
+  "last_update_display": "2026-04-15 19:54:29",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Geopolitical uncertainties and active markets keep gold attractive as a hedge, with price trending upward.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20260415155434",
-      "generated_at": "2026-04-15T15:54:34.278689+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Barclays' upbeat outlook on European airports signals stronger regional travel demand, supporting eurozone growth prospects.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.85,
+      "reason": "Золото отримує підтримку як захисний актив у умовах підвищеної політичної напруги (Трамп‑Іран, орбанізм) та нестабільності валютних ринків.",
+      "timeframe": "Тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260415155434",
-      "generated_at": "2026-04-15T15:54:34.278613+03:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "UK's stable regulatory environment and positive spill‑over from European travel recovery bolster the pound.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "GBP_20260415155434",
-      "generated_at": "2026-04-15T15:54:34.278644+03:00"
-    },
-    {
-      "asset": "USD",
-      "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "Dollar remains a safe‑haven but lacks fresh catalysts; current level reflects balanced US‑Euro interest‑rate outlook.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260415155434",
-      "generated_at": "2026-04-15T15:54:34.278658+03:00"
+      "id": "GOLD_20260415195429",
+      "generated_at": "2026-04-15T19:54:29.558993+03:00"
     },
     {
       "asset": "JPY",
-      "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Low‑yield yen offers limited upside as risk appetite improves; potential for further depreciation against major currencies.",
+      "action": "BUY",
+      "confidence": 0.8,
+      "reason": "Йєна традиційно зростає в ролі безпечного притулку під час геополітичних ризиків; курс 0.27 UAH залишається привабливим для хеджування.",
+      "timeframe": "Тиждень",
+      "risk_level": "low",
+      "id": "JPY_20260415195429",
+      "generated_at": "2026-04-15T19:54:29.558981+03:00"
+    },
+    {
+      "asset": "USD",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Долар залишається головним резервним активом у період підвищеної геополітичної невизначеності; курс 43.52 UAH стабільний, а активність ринків підтримує попит.",
       "timeframe": "Найближчий час",
-      "risk_level": "medium",
-      "id": "JPY_20260415155434",
-      "generated_at": "2026-04-15T15:54:34.278669+03:00"
+      "risk_level": "low",
+      "id": "USD_20260415195429",
+      "generated_at": "2026-04-15T19:54:29.558914+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.65,
-      "reason": "Crypto market shows high volatility with no supportive macro news; investors should limit exposure.",
+      "confidence": 0.7,
+      "reason": "Криптовалюти залишаються чутливими до регуляторних новин та глобальної волатильності; поточна ціна 73 871 $ не компенсує високий ризик.",
       "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260415155434",
-      "generated_at": "2026-04-15T15:54:34.278679+03:00"
+      "id": "BTC_20260415195429",
+      "generated_at": "2026-04-15T19:54:29.559002+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.65,
+      "reason": "Євро показує стабільність (51.27 UAH), проте очікування щодо нових регуляцій в ЄС та можливі наслідки законодавчих ініціатив створюють середньо‑високий ризик.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "EUR_20260415195429",
+      "generated_at": "2026-04-15T19:54:29.558966+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
-    "positive_news_count": 0,
+    "positive_news_count": 1,
     "negative_news_count": 2,
-    "total_news_analyzed": 8,
-    "top_currency": "USD",
-    "worst_currency": "RUB",
+    "total_news_analyzed": 6,
+    "top_currency": "UAH",
+    "worst_currency": "USD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -80,26 +70,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "OPEN",
-        "next_change": "17:30"
+        "status": "CLOSED",
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "OPEN",
-        "next_change": "18:00"
+        "status": "CLOSED",
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-15T15:54:31.107917+03:00",
-    "analysis_time": "15:54"
+    "last_economic_update": "2026-04-15T19:54:26.006527+03:00",
+    "analysis_time": "19:54"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260415155434",
-  "total_recommendations": 6,
-  "news_count": 8,
+  "analysis_id": "analysis_20260415195429",
+  "total_recommendations": 5,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-04-15T16:00:00+03:00"
+  "next_analysis": "2026-04-15T20:00:00+03:00"
 }
