@@ -1,73 +1,73 @@
 {
-  "last_update": "2026-04-15T12:43:41.145450+03:00",
-  "last_update_display": "2026-04-15 12:43:41",
+  "last_update": "2026-04-15T15:54:34.278919+03:00",
+  "last_update_display": "2026-04-15 15:54:34",
   "recommendations": [
     {
-      "asset": "USD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "USD remains the primary safe‑haven amid ongoing conflict in Ukraine and uncertain European earnings; its 43.50 UAH rate shows limited volatility.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260415124341",
-      "generated_at": "2026-04-15T12:43:41.145163+03:00"
-    },
-    {
       "asset": "GOLD",
-      "action": "STRONG_BUY",
+      "action": "BUY",
       "confidence": 0.84,
-      "reason": "Gold benefits from safe‑haven demand as the Ukraine conflict continues and inflation expectations stay elevated across Europe.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "GOLD_20260415124341",
-      "generated_at": "2026-04-15T12:43:41.145237+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Japanese yen benefits from global risk‑off sentiment and low interest‑rate differentials, making it a modest hedge against equity volatility.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "JPY_20260415124341",
-      "generated_at": "2026-04-15T12:43:41.145196+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Swiss franc’s reputation as a stable store of value is reinforced by Europe’s mild earnings reset and continued war uncertainty.",
+      "reason": "Geopolitical uncertainties and active markets keep gold attractive as a hedge, with price trending upward.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "CHF_20260415124341",
-      "generated_at": "2026-04-15T12:43:41.145208+03:00"
+      "id": "GOLD_20260415155434",
+      "generated_at": "2026-04-15T15:54:34.278689+03:00"
     },
     {
       "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "Euro is supported by a stable exchange rate but faces headwinds from European political risk and slower growth; no clear upside in the short term.",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Barclays' upbeat outlook on European airports signals stronger regional travel demand, supporting eurozone growth prospects.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260415124341",
-      "generated_at": "2026-04-15T12:43:41.145219+03:00"
+      "id": "EUR_20260415155434",
+      "generated_at": "2026-04-15T15:54:34.278613+03:00"
+    },
+    {
+      "asset": "GBP",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "UK's stable regulatory environment and positive spill‑over from European travel recovery bolster the pound.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "GBP_20260415155434",
+      "generated_at": "2026-04-15T15:54:34.278644+03:00"
+    },
+    {
+      "asset": "USD",
+      "action": "NEUTRAL",
+      "confidence": 0.7,
+      "reason": "Dollar remains a safe‑haven but lacks fresh catalysts; current level reflects balanced US‑Euro interest‑rate outlook.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260415155434",
+      "generated_at": "2026-04-15T15:54:34.278658+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Low‑yield yen offers limited upside as risk appetite improves; potential for further depreciation against major currencies.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "JPY_20260415155434",
+      "generated_at": "2026-04-15T15:54:34.278669+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Bitcoin’s price at $74 000 is high but volatility remains elevated; regulatory scrutiny and war‑related market stress increase downside risk.",
-      "timeframe": "тиждень",
+      "confidence": 0.65,
+      "reason": "Crypto market shows high volatility with no supportive macro news; investors should limit exposure.",
+      "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260415124341",
-      "generated_at": "2026-04-15T12:43:41.145228+03:00"
+      "id": "BTC_20260415155434",
+      "generated_at": "2026-04-15T15:54:34.278679+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 3,
-    "total_news_analyzed": 6,
+    "negative_news_count": 2,
+    "total_news_analyzed": 8,
     "top_currency": "USD",
     "worst_currency": "RUB",
     "market_status": {
@@ -93,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-15T12:43:37.790445+03:00",
-    "analysis_time": "12:43"
+    "last_economic_update": "2026-04-15T15:54:31.107917+03:00",
+    "analysis_time": "15:54"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260415124341",
+  "analysis_id": "analysis_20260415155434",
   "total_recommendations": 6,
-  "news_count": 6,
+  "news_count": 8,
   "language": "uk",
   "next_analysis": "2026-04-15T16:00:00+03:00"
 }
