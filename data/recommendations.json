@@ -1,75 +1,75 @@
 {
-  "last_update": "2026-04-17T12:26:43.101333+03:00",
-  "last_update_display": "2026-04-17 12:26:43",
+  "last_update": "2026-04-17T19:46:00.336004+03:00",
+  "last_update_display": "2026-04-17 19:46:00",
   "recommendations": [
     {
-      "asset": "GOLD",
+      "asset": "USD",
       "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Rising commodity concerns from limited European aviation fuel reserves and a soft dollar boost gold demand.",
+      "confidence": 0.88,
+      "reason": "USD benefits from safe‑haven flows as oil prices dip and geopolitical tension rises in the Middle East; market liquidity remains strong.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "USD_20260417194600",
+      "generated_at": "2026-04-17T19:46:00.335675+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.86,
+      "reason": "Falling oil prices and risk‑off sentiment drive investors to gold as a hedge; price momentum is upward.",
       "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20260417122643",
-      "generated_at": "2026-04-17T12:26:43.101152+03:00"
+      "risk_level": "low",
+      "id": "GOLD_20260417194600",
+      "generated_at": "2026-04-17T19:46:00.335768+03:00"
     },
     {
       "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Euro steadies near pre‑war levels as dollar weakens, offering relative strength and lower volatility.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "EUR_20260417122643",
-      "generated_at": "2026-04-17T12:26:43.101088+03:00"
-    },
-    {
-      "asset": "USD",
       "action": "AVOID",
-      "confidence": 0.78,
-      "reason": "Second consecutive weekly drop signals further depreciation against major currencies.",
+      "confidence": 0.82,
+      "reason": "Goldman Sachs advises shorting EUR against the forint, reflecting doubts about euro‑zone stability and upcoming euro adoption challenges.",
       "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "USD_20260417122643",
-      "generated_at": "2026-04-17T12:26:43.101119+03:00"
+      "id": "EUR_20260417194600",
+      "generated_at": "2026-04-17T19:46:00.335735+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.75,
-      "reason": "Safe‑haven demand rises with dollar weakness and geopolitical uncertainty in the Middle East.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.81,
+      "reason": "JPY is a traditional safe‑haven; declining oil prices and heightened regional risk boost demand for the yen.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20260417122643",
-      "generated_at": "2026-04-17T12:26:43.101131+03:00"
+      "id": "JPY_20260417194600",
+      "generated_at": "2026-04-17T19:46:00.335748+03:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.7,
-      "reason": "Swiss franc benefits from safe‑haven flows and a weakening dollar, providing stability.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.79,
+      "reason": "Swiss franc remains a low‑correlation asset; investors seek stability amid oil‑price weakness and geopolitical shocks.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "CHF_20260417122643",
-      "generated_at": "2026-04-17T12:26:43.101140+03:00"
+      "id": "CHF_20260417194600",
+      "generated_at": "2026-04-17T19:46:00.335758+03:00"
     },
     {
       "asset": "BTC",
       "action": "NEUTRAL",
-      "confidence": 0.65,
-      "reason": "Bitcoin at record highs but remains volatile; no clear catalyst beyond broad market activity.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20260417122643",
-      "generated_at": "2026-04-17T12:26:43.101161+03:00"
+      "confidence": 0.68,
+      "reason": "BTC stays near record highs ($78k) but volatility and regulatory uncertainty limit upside in the short term.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "BTC_20260417194600",
+      "generated_at": "2026-04-17T19:46:00.335776+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 1,
-    "total_news_analyzed": 5,
+    "negative_news_count": 0,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
-    "worst_currency": "EUR",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -80,26 +80,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "OPEN",
-        "next_change": "17:30"
+        "status": "CLOSED",
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "OPEN",
-        "next_change": "18:00"
+        "status": "CLOSED",
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-17T12:26:38.978259+03:00",
-    "analysis_time": "12:26"
+    "last_economic_update": "2026-04-17T19:45:57.826347+03:00",
+    "analysis_time": "19:46"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260417122643",
+  "analysis_id": "analysis_20260417194600",
   "total_recommendations": 6,
-  "news_count": 5,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-04-17T16:00:00+03:00"
+  "next_analysis": "2026-04-17T20:00:00+03:00"
 }
