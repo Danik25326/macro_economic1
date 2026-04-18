@@ -1,72 +1,62 @@
 {
-  "last_update": "2026-04-18T12:00:48.168956+03:00",
-  "last_update_display": "2026-04-18 12:00:48",
+  "last_update": "2026-04-18T19:29:51.949590+03:00",
+  "last_update_display": "2026-04-18 19:29:51",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Falling oil prices and geopolitical uncertainty increase safe‑haven demand, pushing gold higher.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "GOLD_20260418120048",
-      "generated_at": "2026-04-18T12:00:48.168740+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Switzerland’s trade pact upgrade with China is expected to boost exports and attract capital, supporting the franc.",
+      "confidence": 0.91,
+      "reason": "Зростання геополітичної напруги та можливе підвищення цін на енергоносії через закриття Ормуза стимулює інвесторів до золота як захисного активу; поточна ціна стабільна і підтримується попитом.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "CHF_20260418120048",
-      "generated_at": "2026-04-18T12:00:48.168715+03:00"
+      "id": "GOLD_20260418192951",
+      "generated_at": "2026-04-18T19:29:51.949394+03:00"
     },
     {
       "asset": "USD",
-      "action": "AVOID",
-      "confidence": 0.78,
-      "reason": "US policy pressure from Colombia and falling oil prices reduce demand for the dollar, raising depreciation risk.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "USD_20260418120048",
-      "generated_at": "2026-04-18T12:00:48.168679+03:00"
+      "action": "STRONG_BUY",
+      "confidence": 0.88,
+      "reason": "Посилення геополіттичних ризиків (закриття Ормуза Іраном, інцидент у Лівані) підвищує попит на долар як безпечний актив, а поточний курс 43.89 UAH виглядає привабливим для інвесторів.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260418192951",
+      "generated_at": "2026-04-18T19:29:51.949347+03:00"
     },
     {
       "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.75,
-      "reason": "Eurozone is less exposed to Latin American tensions; risk‑off flows may diversify into euros, keeping it stable.",
-      "timeframe": "Найближчий час",
+      "action": "AVOID",
+      "confidence": 0.74,
+      "reason": "Туреччина вважає можливий вихід США з європейської безпекової архітектури деструктивним, що може посилити нестабільність у Європі та тиснути на євро; курс 51.77 UAH показує слабкість.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260418120048",
-      "generated_at": "2026-04-18T12:00:48.168729+03:00"
+      "id": "EUR_20260418192951",
+      "generated_at": "2026-04-18T19:29:51.949379+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.73,
-      "reason": "Risk‑off sentiment typically benefits the yen; lower oil prices reduce Japan’s import bill, supporting JPY.",
-      "timeframe": "тиждень",
+      "confidence": 0.68,
+      "reason": "Йєн традиційно зростає під час ризикових подій; хоча його курс 0.28 USD низький, безпечний статус підтримується поточними новинами про конфлікти.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20260418120048",
-      "generated_at": "2026-04-18T12:00:48.168758+03:00"
+      "id": "JPY_20260418192951",
+      "generated_at": "2026-04-18T19:29:51.949405+03:00"
     },
     {
       "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Crypto market remains volatile with no clear catalyst from recent news; maintain current exposure.",
-      "timeframe": "Найближчий час",
+      "action": "AVOID",
+      "confidence": 0.65,
+      "reason": "Попри високий рівень $76,125, криптовалюти залишаються надзвичайно волатильними і чутливими до глобальної невизначеності; консервативним інвесторам краще утриматися.",
+      "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260418120048",
-      "generated_at": "2026-04-18T12:00:48.168749+03:00"
+      "id": "BTC_20260418192951",
+      "generated_at": "2026-04-18T19:29:51.949415+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 0,
+    "negative_news_count": 1,
     "total_news_analyzed": 5,
     "top_currency": "USD",
     "worst_currency": "GOLD",
@@ -93,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-18T12:00:44.459884+03:00",
-    "analysis_time": "12:00"
+    "last_economic_update": "2026-04-18T19:29:48.544213+03:00",
+    "analysis_time": "19:29"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260418120048",
-  "total_recommendations": 6,
+  "analysis_id": "analysis_20260418192951",
+  "total_recommendations": 5,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-04-18T16:00:00+03:00"
+  "next_analysis": "2026-04-18T20:00:00+03:00"
 }
