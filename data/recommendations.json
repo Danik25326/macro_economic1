@@ -1,75 +1,65 @@
 {
-  "last_update": "2026-04-27T20:15:19.425481+03:00",
-  "last_update_display": "2026-04-27 20:15:19",
+  "last_update": "2026-04-30T16:15:29.956801+03:00",
+  "last_update_display": "2026-04-30 16:15:29",
   "recommendations": [
-    {
-      "asset": "USD",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "US firm stance on Iran's control of Hormuz and growing anti‑war sentiment in Russia boost demand for the dollar as a safe‑haven.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20260427201519",
-      "generated_at": "2026-04-27T20:15:19.425207+03:00"
-    },
     {
       "asset": "GOLD",
       "action": "BUY",
-      "confidence": 0.8,
-      "reason": "Gold gains as investors seek safety amid Russian domestic unrest and US‑Iran tensions, reinforcing its role as a hedge.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "GOLD_20260427201519",
-      "generated_at": "2026-04-27T20:15:19.425267+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "JPY traditionally benefits from risk‑off flows; rising tensions in Russia and the Middle East increase demand for the yen.",
+      "confidence": 0.86,
+      "reason": "Зростання цін на нафту до максимуму 2022 року та підвищена геополітична ризика підвищують попит на золото як інструмент захисту від інфляції.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20260427201519",
-      "generated_at": "2026-04-27T20:15:19.425242+03:00"
+      "id": "GOLD_20260430161529",
+      "generated_at": "2026-04-30T16:15:29.956603+03:00"
     },
     {
-      "asset": "CHF",
+      "asset": "USD",
       "action": "BUY",
-      "confidence": 0.75,
-      "reason": "Swiss franc remains a reliable safe‑haven amid geopolitical uncertainty, supporting its strength against major currencies.",
-      "timeframe": "тиждень",
+      "confidence": 0.84,
+      "reason": "Зростання цін на нафту та посилення геополітичної напруги підвищують попит на долар як безпечну валюту; курс USD проти UAH вже стабільний.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "CHF_20260427201519",
-      "generated_at": "2026-04-27T20:15:19.425256+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "Euro shows stability but limited upside without clear ECB policy shift; monitor inflation data.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "EUR_20260427201519",
-      "generated_at": "2026-04-27T20:15:19.425285+03:00"
+      "id": "USD_20260430161529",
+      "generated_at": "2026-04-30T16:15:29.956527+03:00"
     },
     {
       "asset": "BTC",
       "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Bitcoin is near historic highs but crypto volatility and potential regulatory actions keep upside uncertain.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.73,
+      "reason": "Криптовалюти залишаються волатильними; хоча BTC торгується на рівні $76,294, відсутність стабільних фундаментальних драйверів вимагає обережності.",
+      "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260427201519",
-      "generated_at": "2026-04-27T20:15:19.425276+03:00"
+      "id": "BTC_20260430161529",
+      "generated_at": "2026-04-30T16:15:29.956592+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.71,
+      "reason": "EUR залишається сильним щодо UAH, проте відсутність чіткої економічної підтримки та потенційна корекція після підвищеного попиту на USD створює невизначеність.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "EUR_20260430161529",
+      "generated_at": "2026-04-30T16:15:29.956567+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Курс JPY (0.28 UAH) демонструє слабкість, а глобальна інфляція та підвищення цін на нафту підштовхують інвесторів до більш сильних валют.",
+      "timeframe": "тиждень",
+      "risk_level": "high",
+      "id": "JPY_20260430161529",
+      "generated_at": "2026-04-30T16:15:29.956581+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 1,
-    "negative_news_count": 1,
+    "negative_news_count": 2,
     "total_news_analyzed": 5,
-    "top_currency": "UAH",
-    "worst_currency": "GOLD",
+    "top_currency": "USD",
+    "worst_currency": "RUB",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -80,26 +70,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
         "status": "OPEN",
         "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-04-27T20:15:15.421235+03:00",
-    "analysis_time": "20:15"
+    "last_economic_update": "2026-04-30T16:15:25.997564+03:00",
+    "analysis_time": "16:15"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260427201519",
-  "total_recommendations": 6,
+  "analysis_id": "analysis_20260430161529",
+  "total_recommendations": 5,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-04-28T08:00:00+03:00"
+  "next_analysis": "2026-04-30T20:00:00+03:00"
 }
