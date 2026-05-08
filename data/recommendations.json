@@ -1,53 +1,63 @@
 {
-  "last_update": "2026-05-07T16:23:14.102335+03:00",
-  "last_update_display": "2026-05-07 16:23:14",
+  "last_update": "2026-05-08T12:46:41.031588+03:00",
+  "last_update_display": "2026-05-08 12:46:41",
   "recommendations": [
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.91,
+      "reason": "Золото традиційно зростає в умовах геополітичної напруги та інфляційних очікувань, що робить його безпечним притулком.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "GOLD_20260508124641",
+      "generated_at": "2026-05-08T12:46:41.031336+03:00"
+    },
     {
       "asset": "USD",
       "action": "STRONG_BUY",
       "confidence": 0.88,
-      "reason": "Долар традиційно служить безпечним притулком під час військових конфліктів; поточна нестабільність в Україні підвищує попит на USD.",
+      "reason": "Долар залишається головним притулком під час геополітичних ризиків, а курс 43.80 UAH вказує на стабільність попиту серед інвесторів.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "USD_20260507162314",
-      "generated_at": "2026-05-07T16:23:14.102087+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Японська ієна є традиційним активом‑убежищем; підвищена волатильність на ринках підсилює її привабливість.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "JPY_20260507162314",
-      "generated_at": "2026-05-07T16:23:14.102135+03:00"
+      "id": "USD_20260508124641",
+      "generated_at": "2026-05-08T12:46:41.031275+03:00"
     },
     {
       "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Євро підтримується стабільною економікою ЄС, а ризики локального конфлікту в Україні незначно впливають на його курс.",
+      "action": "NEUTRAL",
+      "confidence": 0.73,
+      "reason": "Євро під тиском через можливе посилення санкцій проти Росії, проте економічна стабільність ЄС підтримує його вартість.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260507162314",
-      "generated_at": "2026-05-07T16:23:14.102122+03:00"
+      "id": "EUR_20260508124641",
+      "generated_at": "2026-05-08T12:46:41.031310+03:00"
+    },
+    {
+      "asset": "GBP",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Британська фунта піддається додатковому тиску через невизначеність щодо переговорів про мир та можливе підвищення інфляції у Великій Британії.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GBP_20260508124641",
+      "generated_at": "2026-05-08T12:46:41.031324+03:00"
     },
     {
       "asset": "BTC",
-      "action": "AVOID",
+      "action": "NEUTRAL",
       "confidence": 0.65,
-      "reason": "Криптовалюти залишаються надзвичайно волатильними, а відсутність позитивних регуляторних новин підвищує ризик втрат.",
-      "timeframe": "Найближчий час",
+      "reason": "Криптовалюти залишаються волатильними; поточна ціна BTC $79,831 вказує на можливі короткострокові коливання без чіткої тенденції.",
+      "timeframe": "тиждень",
       "risk_level": "high",
-      "id": "BTC_20260507162314",
-      "generated_at": "2026-05-07T16:23:14.102145+03:00"
+      "id": "BTC_20260508124641",
+      "generated_at": "2026-05-08T12:46:41.031347+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 0,
-    "total_news_analyzed": 5,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -64,8 +74,8 @@
         "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "OPEN",
@@ -73,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-05-07T16:23:10.417531+03:00",
-    "analysis_time": "16:23"
+    "last_economic_update": "2026-05-08T12:46:38.274783+03:00",
+    "analysis_time": "12:46"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260507162314",
-  "total_recommendations": 4,
-  "news_count": 5,
+  "analysis_id": "analysis_20260508124641",
+  "total_recommendations": 5,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-05-07T20:00:00+03:00"
+  "next_analysis": "2026-05-08T16:00:00+03:00"
 }
