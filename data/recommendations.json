@@ -1,79 +1,79 @@
 {
-  "last_update": "2026-05-26T21:18:38.612548+03:00",
-  "last_update_display": "2026-05-26 21:18:38",
+  "last_update": "2026-05-30T19:53:28.744152+03:00",
+  "last_update_display": "2026-05-30 19:53:28",
   "recommendations": [
     {
-      "asset": "GOLD",
+      "asset": "CHF",
       "action": "STRONG_BUY",
-      "confidence": 0.9,
-      "reason": "Geopolitical escalation (US strikes Iran) and inflation worries from European heat wave boost demand for gold as a safe‑haven store of value.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "GOLD_20260526211838",
-      "generated_at": "2026-05-26T21:18:38.612277+03:00"
-    },
-    {
-      "asset": "USD",
-      "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Xometry hitting 52‑week high signals robust US industrial demand and the USD benefits from higher yields amid rising geopolitical risk from US strikes on Iran.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20260526211838",
-      "generated_at": "2026-05-26T21:18:38.612193+03:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "BUY",
-      "confidence": 0.81,
-      "reason": "GBP gains from relatively higher UK rate outlook and safe‑haven demand as US‑Iran tensions rise, while Euro area faces heat‑driven inflation concerns.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "GBP_20260526211838",
-      "generated_at": "2026-05-26T21:18:38.612245+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.76,
-      "reason": "JPY traditionally benefits in risk‑off environments; heightened geopolitical risk pushes investors toward yen as a safe‑haven.",
+      "confidence": 0.84,
+      "reason": "Швейцарський франк традиційно зростає в умовах підвищеної невизначеності; поточна геополітична динаміка підсилює його статус безпечного притулку.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20260526211838",
-      "generated_at": "2026-05-26T21:18:38.612257+03:00"
+      "id": "CHF_20260530195328",
+      "generated_at": "2026-05-30T19:53:28.743928+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Новина про Норвегію, яка інвестує у зелену енергетику, підкреслює довгострокову інфляційну тиск на реальні активи, підвищуючи попит на золото як захист від інфляції.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20260530195328",
+      "generated_at": "2026-05-30T19:53:28.743940+03:00"
     },
     {
       "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "European heat wave pressures inflation, but ECB remains cautious; no clear catalyst for EUR strength yet.",
-      "timeframe": "тиждень",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Скорочення військових розгортань США в Європі знижує тиск на єврозону, а стабільність економіки ЄС підтримує попит на євро.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260526211838",
-      "generated_at": "2026-05-26T21:18:38.612232+03:00"
+      "id": "EUR_20260530195328",
+      "generated_at": "2026-05-30T19:53:28.743881+03:00"
+    },
+    {
+      "asset": "USD",
+      "action": "AVOID",
+      "confidence": 0.71,
+      "reason": "Плани США щодо швидшого виведення військ з Європи можуть знизити бюджетний дефіцит, що в короткостроковій перспективі тисне на долар у порівнянні з євро та фунтом.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "USD_20260530195328",
+      "generated_at": "2026-05-30T19:53:28.743914+03:00"
     },
     {
       "asset": "BTC",
       "action": "NEUTRAL",
       "confidence": 0.68,
-      "reason": "BTC price remains high at $76k but volatility stays elevated; without clear regulatory or macro catalyst, a cautious stance is prudent.",
-      "timeframe": "тиждень",
+      "reason": "Біткоїн торгується на рівні $73,842, що є історично високим, проте відсутність нових регуляторних стимулів і підвищена волатильність зберігають середньо‑високий ризик.",
+      "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260526211838",
-      "generated_at": "2026-05-26T21:18:38.612267+03:00"
+      "id": "BTC_20260530195328",
+      "generated_at": "2026-05-30T19:53:28.743950+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.65,
+      "reason": "Українська гривня залишається під впливом військових ризиків і обмеженої ліквідності, що робить її менш привабливою в короткостроковій перспективі.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "UAH_20260530195328",
+      "generated_at": "2026-05-30T19:53:28.743960+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "ПОЗИТИВНИЙ",
-    "positive_news_count": 1,
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "positive_news_count": 0,
     "negative_news_count": 0,
     "total_news_analyzed": 5,
-    "top_currency": "EUR",
+    "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -81,25 +81,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-05-26T21:18:34.785547+03:00",
-    "analysis_time": "21:18"
+    "last_economic_update": "2026-05-30T19:53:25.420780+03:00",
+    "analysis_time": "19:53"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260526211838",
+  "analysis_id": "analysis_20260530195328",
   "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-05-27T08:00:00+03:00"
+  "next_analysis": "2026-05-30T20:00:00+03:00"
 }
