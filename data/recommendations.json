@@ -1,75 +1,75 @@
 {
-  "last_update": "2026-06-15T19:48:55.348155+03:00",
-  "last_update_display": "2026-06-15 19:48:55",
+  "last_update": "2026-06-16T19:17:45.208805+03:00",
+  "last_update_display": "2026-06-16 19:17:45",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Золото отримало підсилення після удару по Києво‑Печерській лаврі, оскільки інвестори шукають реальні активи в умовах підвищеного геополітичного ризику.",
+      "action": "BUY",
+      "confidence": 0.86,
+      "reason": "Risk‑off sentiment after the B‑52 tragedy and mixed equity performance boosts demand for gold as a hedge.",
       "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20260616191745",
+      "generated_at": "2026-06-16T19:17:45.208649+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "BUY",
+      "confidence": 0.84,
+      "reason": "Peace‑deal optimism fuels European growth expectations, supporting euro demand; the currency trades at 51.94 UAH, near recent lows, offering upside.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "GOLD_20260615194855",
-      "generated_at": "2026-06-15T19:48:55.347933+03:00"
+      "id": "EUR_20260616191745",
+      "generated_at": "2026-06-16T19:17:45.208599+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Йєн традиційно зростає в умовах геополітичної нестабільності; поточний курс 0.28 робить його привабливим для короткострокових інвесторів, які шукають захист від ризику.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.78,
+      "reason": "Geopolitical tension from the US crash pushes investors toward safe‑haven yen; its 0.28 UAH rate is attractive for short‑term appreciation.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "JPY_20260615194855",
-      "generated_at": "2026-06-15T19:48:55.347912+03:00"
+      "id": "JPY_20260616191745",
+      "generated_at": "2026-06-16T19:17:45.208644+03:00"
     },
     {
       "asset": "USD",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Долар зберігає статус безпечного притулку під час ескалації конфлікту в Україні та після зустрічі Anthropic з американськими чиновниками, що знижує ризики нових технологічних санкцій.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260615194855",
-      "generated_at": "2026-06-15T19:48:55.347867+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.76,
-      "reason": "Швейцарський франк підтримується сильною фінансовою системою та низькою інфляцією, що робить його безпечним активом на фоні підвищеної волатильності на ринках.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260615194855",
-      "generated_at": "2026-06-15T19:48:55.347923+03:00"
-    },
-    {
-      "asset": "EUR",
       "action": "NEUTRAL",
       "confidence": 0.71,
-      "reason": "Євро стабільний завдяки підтримці ЄС, проте відсутність нових позитивних макроекономічних даних обмежує потенціал підйому в короткостроковій перспективі.",
-      "timeframe": "1-3 дні",
+      "reason": "US market stability is uncertain after the B‑52 accident, limiting upside for the dollar despite its 44.78 UAH rate.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "EUR_20260615194855",
-      "generated_at": "2026-06-15T19:48:55.347898+03:00"
+      "id": "USD_20260616191745",
+      "generated_at": "2026-06-16T19:17:45.208630+03:00"
+    },
+    {
+      "asset": "GBP",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Dutch AEX decline signals broader European equity weakness that could pressure the pound; current 60.07 UAH level offers limited gain.",
+      "timeframe": "тиждень",
+      "risk_level": "high",
+      "id": "GBP_20260616191745",
+      "generated_at": "2026-06-16T19:17:45.208637+03:00"
     },
     {
       "asset": "BTC",
-      "action": "AVOID",
+      "action": "NEUTRAL",
       "confidence": 0.65,
-      "reason": "Криптовалюти залишаються в центрі регуляторних дискусій, а підвищений ризик від потенційних обмежень у США після переговорів щодо AI‑експорту підвищує волатильність BTC.",
-      "timeframe": "1-3 дні",
+      "reason": "Cryptocurrency markets remain volatile; no clear catalyst from the news to justify a directional bet.",
+      "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260615194855",
-      "generated_at": "2026-06-15T19:48:55.347942+03:00"
+      "id": "BTC_20260616191745",
+      "generated_at": "2026-06-16T19:17:45.208653+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 2,
-    "total_news_analyzed": 5,
-    "top_currency": "USD",
-    "worst_currency": "GBP",
+    "negative_news_count": 1,
+    "total_news_analyzed": 6,
+    "top_currency": "EUR",
+    "worst_currency": "USD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -93,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-06-15T19:48:51.513667+03:00",
-    "analysis_time": "19:48"
+    "last_economic_update": "2026-06-16T19:17:41.731529+03:00",
+    "analysis_time": "19:17"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260615194855",
+  "analysis_id": "analysis_20260616191745",
   "total_recommendations": 6,
-  "news_count": 5,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-06-15T20:00:00+03:00"
+  "next_analysis": "2026-06-16T20:00:00+03:00"
 }
