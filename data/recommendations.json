@@ -1,66 +1,56 @@
 {
-  "last_update": "2026-06-18T21:22:11.171504+03:00",
-  "last_update_display": "2026-06-18 21:22:11",
+  "last_update": "2026-06-19T01:03:15.186945+03:00",
+  "last_update_display": "2026-06-19 01:03:15",
   "recommendations": [
-    {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.9,
-      "reason": "Попит на золото зростає як захисний актив після новин про нові удари по Москві та невизначеність щодо США‑Іран, інфляційний тиск підтримує ціну.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20260618212211",
-      "generated_at": "2026-06-18T21:22:11.171316+03:00"
-    },
-    {
-      "asset": "USD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Долар зберігає статус безпечного активу на фоні новин про нові удари по Москві та неповної реалізації мирної угоди, курс стабільний на 44.91 UAH.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260618212211",
-      "generated_at": "2026-06-18T21:22:11.171233+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Йєн традиційно зростає в умовах геополітичної нестабільності; курс 0.28 UAH виглядає привабливим для захисних позицій.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "JPY_20260618212211",
-      "generated_at": "2026-06-18T21:22:11.171280+03:00"
-    },
     {
       "asset": "EUR",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Євро підтримується стабільною економікою ЄС, а потенційне полегшення геополітичної напруги після США‑Іран може підвищити ризиковий апетит, проте інфляційний тиск залишається.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "EUR_20260618212211",
-      "generated_at": "2026-06-18T21:22:11.171266+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "Швейцарський франк залишається стабільним, проте відсутність нових драйверів обмежує потенціал росту в короткостроковій перспективі.",
+      "confidence": 0.82,
+      "reason": "US‑Iran peace reduces safe‑haven demand for USD, supporting euro; eurozone growth outlook remains steady.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "CHF_20260618212211",
-      "generated_at": "2026-06-18T21:22:11.171291+03:00"
+      "id": "EUR_20260619010315",
+      "generated_at": "2026-06-19T01:03:15.186613+03:00"
+    },
+    {
+      "asset": "USD",
+      "action": "NEUTRAL",
+      "confidence": 0.78,
+      "reason": "While peace talks lift risk sentiment, US monetary policy remains tight, limiting upside.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "USD_20260619010315",
+      "generated_at": "2026-06-19T01:03:15.186650+03:00"
+    },
+    {
+      "asset": "GBP",
+      "action": "NEUTRAL",
+      "confidence": 0.74,
+      "reason": "UK economy shows modest growth; no major news affecting pound, so hold position.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GBP_20260619010315",
+      "generated_at": "2026-06-19T01:03:15.186664+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Reduced geopolitical risk after US‑Iran deal lowers safe‑haven demand for gold, price pressure expected.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "GOLD_20260619010315",
+      "generated_at": "2026-06-19T01:03:15.186686+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.65,
-      "reason": "Криптовалюти залишаються надзвичайно волатильними, без позитивних новин у сфері регулювання чи інституційного прийняття, ризик високий.",
+      "confidence": 0.68,
+      "reason": "Crypto markets remain volatile; no supportive macro news, and regulatory scrutiny persists.",
       "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260618212211",
-      "generated_at": "2026-06-18T21:22:11.171301+03:00"
+      "id": "BTC_20260619010315",
+      "generated_at": "2026-06-19T01:03:15.186675+03:00"
     }
   ],
   "market_overview": {
@@ -84,8 +74,8 @@
         "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
@@ -93,12 +83,12 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-06-18T21:22:07.741479+03:00",
-    "analysis_time": "21:22"
+    "last_economic_update": "2026-06-19T01:03:12.244898+03:00",
+    "analysis_time": "01:03"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260618212211",
-  "total_recommendations": 6,
+  "analysis_id": "analysis_20260619010315",
+  "total_recommendations": 5,
   "news_count": 5,
   "language": "uk",
   "next_analysis": "2026-06-19T08:00:00+03:00"
