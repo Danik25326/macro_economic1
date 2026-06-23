@@ -1,75 +1,75 @@
 {
-  "last_update": "2026-06-19T15:14:52.893138+03:00",
-  "last_update_display": "2026-06-19 15:14:52",
+  "last_update": "2026-06-23T20:46:01.941513+03:00",
+  "last_update_display": "2026-06-23 20:46:01",
   "recommendations": [
     {
-      "asset": "USD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Зростаюча геополітична нестабільність (дронова атака на Москву, можливий конфлікт США‑Іран) підсилює статус долара як безпечного активу.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260619151452",
-      "generated_at": "2026-06-19T15:14:52.892815+03:00"
-    },
-    {
       "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.85,
-      "reason": "Золото традиційно виграє у періоди геополітичної напруги; останні новини про військові удари підвищують попит на безпечні активи.",
-      "timeframe": "тиждень",
+      "action": "STRONG_BUY",
+      "confidence": 0.9,
+      "reason": "Зростаюча геополітична напруга (Україна‑Польща, Іран) підвищує попит на золото як захист від інфляції та валютних коливань.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "GOLD_20260619151452",
-      "generated_at": "2026-06-19T15:14:52.892869+03:00"
+      "id": "GOLD_20260623204601",
+      "generated_at": "2026-06-23T20:46:01.941277+03:00"
     },
     {
-      "asset": "BTC",
+      "asset": "USD",
       "action": "BUY",
-      "confidence": 0.8,
-      "reason": "Отримання MiCA‑ліцензії WhiteBIT EU створює регуляторну ясність в Європі, що підвищує довіру інвесторів до криптовалют.",
+      "confidence": 0.88,
+      "reason": "Barclays очікує підвищення долара після корекції євро, а геополітична напруга в регіоні підвищує попит на долар як резервну валюту.",
       "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "BTC_20260619151452",
-      "generated_at": "2026-06-19T15:14:52.892880+03:00"
+      "risk_level": "low",
+      "id": "USD_20260623204601",
+      "generated_at": "2026-06-23T20:46:01.941207+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Японська єна традиційно служить притулком у часи глобальної нестабільності; поточна напруга підсилює її привабливість.",
+      "confidence": 0.81,
+      "reason": "Йєна традиційно зростає в умовах геополітичної нестабільності; поточна турбулентність в Україні та Ірані підсилює її роль безпечного притулку.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20260619151452",
-      "generated_at": "2026-06-19T15:14:52.892890+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.77,
-      "reason": "Швейцарський франк зберігає статус стабільного притулку, особливо коли є ризик ескалації конфліктів у Європі.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260619151452",
-      "generated_at": "2026-06-19T15:14:52.892899+03:00"
+      "id": "JPY_20260623204601",
+      "generated_at": "2026-06-23T20:46:01.941254+03:00"
     },
     {
       "asset": "EUR",
       "action": "AVOID",
-      "confidence": 0.75,
-      "reason": "Євросистема стикається з тиском через санкції проти Росії та можливі економічні наслідки від конфлікту, що може послабити євро.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.78,
+      "reason": "Євро втрачає позиції після підвищення долара, а економічна невизначеність у Європі посилює тиск на валюту.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260619151452",
-      "generated_at": "2026-06-19T15:14:52.892854+03:00"
+      "id": "EUR_20260623204601",
+      "generated_at": "2026-06-23T20:46:01.941240+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.75,
+      "reason": "Швейцарський франк зберігає статус безпечного активу, а відсутність прямих ризиків у регіоні підтримує його стабільність.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "CHF_20260623204601",
+      "generated_at": "2026-06-23T20:46:01.941266+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Криптовалюти залишаються надзвичайно волатильними; відсутність позитивних новин про регуляцію підвищує ризик короткострокових втрат.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260623204601",
+      "generated_at": "2026-06-23T20:46:01.941287+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 0,
-    "negative_news_count": 0,
-    "total_news_analyzed": 5,
-    "top_currency": "USD",
-    "worst_currency": "GOLD",
+    "positive_news_count": 1,
+    "negative_news_count": 1,
+    "total_news_analyzed": 6,
+    "top_currency": "GOLD",
+    "worst_currency": "PLN",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -80,26 +80,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "OPEN",
-        "next_change": "17:30"
+        "status": "CLOSED",
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "OPEN",
-        "next_change": "18:00"
+        "status": "CLOSED",
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-06-19T15:14:49.884645+03:00",
-    "analysis_time": "15:14"
+    "last_economic_update": "2026-06-23T20:45:58.384801+03:00",
+    "analysis_time": "20:46"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260619151452",
+  "analysis_id": "analysis_20260623204601",
   "total_recommendations": 6,
-  "news_count": 5,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-06-19T16:00:00+03:00"
+  "next_analysis": "2026-06-24T08:00:00+03:00"
 }
