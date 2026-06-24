@@ -1,85 +1,75 @@
 {
-  "last_update": "2026-06-24T00:41:00.667131+03:00",
-  "last_update_display": "2026-06-24 00:41:00",
+  "last_update": "2026-06-24T20:48:23.584102+03:00",
+  "last_update_display": "2026-06-24 20:48:23",
   "recommendations": [
     {
-      "asset": "JPY",
+      "asset": "GOLD",
       "action": "STRONG_BUY",
       "confidence": 0.9,
-      "reason": "Japanese yen traditionally strengthens in risk‑off environments; current geopolitical stress supports further appreciation.",
+      "reason": "Зростання геополітичних ризиків і інфляційний тиск підштовхують інвесторів до золота як захисного активу.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666815+03:00"
+      "id": "GOLD_20260624204823",
+      "generated_at": "2026-06-24T20:48:23.583856+03:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.88,
-      "reason": "US dollar benefits from safe‑haven flows amid Ukraine‑Poland diplomatic crisis and rising regional instability.",
+      "reason": "Зростання геополітичної напруги підвищує попит на долар як безпечний актив, а активний ринок підтримує його стабільність.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666783+03:00"
+      "id": "USD_20260624204823",
+      "generated_at": "2026-06-24T20:48:23.583802+03:00"
     },
     {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.87,
-      "reason": "Gold is the premier hedge against geopolitical risk; recent tensions boost demand and support price gains.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "GOLD_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666898+03:00"
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.85,
+      "reason": "Японська ієна традиційно зростає під час конфліктів; поточна нестабільність у Європі та на Близькому Сході підсилює її роль захисного активу.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "JPY_20260624204823",
+      "generated_at": "2026-06-24T20:48:23.583843+03:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.85,
-      "reason": "Swiss franc remains a stable store of value; active markets and limited exposure to Eastern European risks make it attractive.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666851+03:00"
-    },
-    {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 0.82,
-      "reason": "Ukrainian hryvnia faces depreciation pressure from worsening Ukraine‑Poland relations and potential military escalation.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "UAH_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666878+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "NEUTRAL",
       "confidence": 0.78,
-      "reason": "Eurozone growth is steady but exposure to Eastern Europe trade links creates uncertainty; hold position.",
+      "reason": "Швейцарський франк залишається стабільним у період геополітичної нестабільності, що робить його привабливим для консервативних інвесторів.",
       "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "EUR_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666867+03:00"
+      "risk_level": "low",
+      "id": "CHF_20260624204823",
+      "generated_at": "2026-06-24T20:48:23.583867+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.65,
-      "reason": "Cryptocurrencies lack correlation with safe‑haven demand and exhibit high volatility; no supportive news for price upside.",
+      "confidence": 0.7,
+      "reason": "Binance стикається з регуляторними труднощами в Європі, що підвищує короткостроковий ризик для криптовалют.",
       "timeframe": "тиждень",
       "risk_level": "high",
-      "id": "BTC_20260624004100",
-      "generated_at": "2026-06-24T00:41:00.666889+03:00"
+      "id": "BTC_20260624204823",
+      "generated_at": "2026-06-24T20:48:23.583876+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Висока інфляція та військові ризики в Україні створюють значну валютну нестабільність.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "UAH_20260624204823",
+      "generated_at": "2026-06-24T20:48:23.583888+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 1,
-    "negative_news_count": 1,
+    "positive_news_count": 0,
+    "negative_news_count": 0,
     "total_news_analyzed": 5,
-    "top_currency": "GOLD",
-    "worst_currency": "PLN",
+    "top_currency": "USD",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -94,8 +84,8 @@
         "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
@@ -103,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-06-24T00:40:56.812404+03:00",
-    "analysis_time": "00:41"
+    "last_economic_update": "2026-06-24T20:48:19.443132+03:00",
+    "analysis_time": "20:48"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260624004100",
-  "total_recommendations": 7,
+  "analysis_id": "analysis_20260624204823",
+  "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-06-24T08:00:00+03:00"
+  "next_analysis": "2026-06-25T08:00:00+03:00"
 }
