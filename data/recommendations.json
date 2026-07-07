@@ -1,35 +1,35 @@
 {
-  "last_update": "2026-06-30T20:47:15.722241+03:00",
-  "last_update_display": "2026-06-30 20:47:15",
+  "last_update": "2026-07-07T17:00:17.472190+03:00",
+  "last_update_display": "2026-07-07 17:00:17",
   "recommendations": [
     {
-      "asset": "EUR",
-      "action": "AVOID",
-      "confidence": 1.0,
-      "reason": "Негативний вплив новин (1 негативних)",
-      "timeframe": "1-2 дні",
-      "risk_level": "medium",
-      "id": "EUR_20260630204715",
-      "generated_at": "2026-06-30T20:47:15.722067+03:00"
+      "asset": "USD",
+      "action": "BUY",
+      "confidence": 0.88,
+      "reason": "USD залишається головною резервною валютою, а новини про створення глобального оборонного банку підвищують попит на безпечні активи, підтримуючи курс.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260707170017",
+      "generated_at": "2026-07-07T17:00:17.471954+03:00"
     },
     {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 1.0,
-      "reason": "Негативний вплив новин (1 негативних)",
-      "timeframe": "1-2 дні",
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.74,
+      "reason": "Євро стабільний, проте геополітична напруга в Європі та можливі санкції створюють середньо‑високий ризик, тому варто утримуватись від активних покупок.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "UAH_20260630204715",
-      "generated_at": "2026-06-30T20:47:15.722106+03:00"
+      "id": "EUR_20260707170017",
+      "generated_at": "2026-07-07T17:00:17.471989+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 1,
-    "negative_news_count": 1,
-    "total_news_analyzed": 5,
+    "positive_news_count": 0,
+    "negative_news_count": 0,
+    "total_news_analyzed": 7,
     "top_currency": "USD",
-    "worst_currency": "UAH",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -48,18 +48,18 @@
         "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-06-30T20:47:11.628461+03:00",
-    "analysis_time": "20:47"
+    "last_economic_update": "2026-07-07T17:00:13.844808+03:00",
+    "analysis_time": "17:00"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260630204715",
+  "analysis_id": "analysis_20260707170017",
   "total_recommendations": 2,
-  "news_count": 5,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2026-07-01T08:00:00+03:00"
+  "next_analysis": "2026-07-07T20:00:00+03:00"
 }
