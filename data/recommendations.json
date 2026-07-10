@@ -1,33 +1,63 @@
 {
-  "last_update": "2026-07-07T17:00:17.472190+03:00",
-  "last_update_display": "2026-07-07 17:00:17",
+  "last_update": "2026-07-10T14:13:12.056671+03:00",
+  "last_update_display": "2026-07-10 14:13:12",
   "recommendations": [
     {
       "asset": "USD",
-      "action": "BUY",
+      "action": "STRONG_BUY",
       "confidence": 0.88,
-      "reason": "USD залишається головною резервною валютою, а новини про створення глобального оборонного банку підвищують попит на безпечні активи, підтримуючи курс.",
-      "timeframe": "Найближчий час",
+      "reason": "Військовий конфлікт і санкції проти Росії підсилюють статус долара як глобального резервного та безпечного активу, а курс залишився стабільним.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260707170017",
-      "generated_at": "2026-07-07T17:00:17.471954+03:00"
+      "id": "USD_20260710141312",
+      "generated_at": "2026-07-10T14:13:12.056410+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Зростаюча невизначеність у регіоні та активна інфляційна динаміка підвищують попит на золото як захист від ризику.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GOLD_20260710141312",
+      "generated_at": "2026-07-10T14:13:12.056444+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.75,
+      "reason": "Швейцарський франк традиційно сприймається як стабільна валюта‑убежище; поточна геополітична нестабільність підсилює його привабливість.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "CHF_20260710141312",
+      "generated_at": "2026-07-10T14:13:12.056458+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Висока волатильність криптовалют та відсутність регуляторних гарантій у контексті поточних фінансових розслідувань підвищують ризики.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260710141312",
+      "generated_at": "2026-07-10T14:13:12.056479+03:00"
     },
     {
       "asset": "EUR",
       "action": "NEUTRAL",
-      "confidence": 0.74,
-      "reason": "Євро стабільний, проте геополітична напруга в Європі та можливі санкції створюють середньо‑високий ризик, тому варто утримуватись від активних покупок.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.68,
+      "reason": "Курс євро стабільний, проте відсутність позитивних драйверів і ризики від енергетичної залежності від Росії обмежують потенціал росту.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260707170017",
-      "generated_at": "2026-07-07T17:00:17.471989+03:00"
+      "id": "EUR_20260710141312",
+      "generated_at": "2026-07-10T14:13:12.056469+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 0,
+    "overall_sentiment": "ПОЗИТИВНИЙ",
+    "positive_news_count": 1,
     "negative_news_count": 0,
-    "total_news_analyzed": 7,
+    "total_news_analyzed": 5,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -40,12 +70,12 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "OPEN",
@@ -53,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-07-07T17:00:13.844808+03:00",
-    "analysis_time": "17:00"
+    "last_economic_update": "2026-07-10T14:13:08.855901+03:00",
+    "analysis_time": "14:13"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260707170017",
-  "total_recommendations": 2,
-  "news_count": 7,
+  "analysis_id": "analysis_20260710141312",
+  "total_recommendations": 5,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-07-07T20:00:00+03:00"
+  "next_analysis": "2026-07-10T16:00:00+03:00"
 }
