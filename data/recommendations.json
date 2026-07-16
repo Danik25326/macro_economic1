@@ -1,53 +1,43 @@
 {
-  "last_update": "2026-07-16T16:11:05.561816+03:00",
-  "last_update_display": "2026-07-16 16:11:05",
+  "last_update": "2026-07-16T20:05:45.154228+03:00",
+  "last_update_display": "2026-07-16 20:05:45",
   "recommendations": [
-    {
-      "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Золото традиційно зростає під час політичної невизначеності; поточна нестабільність в Україні та активні світові ринки підсилюють його притягальність.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20260716161105",
-      "generated_at": "2026-07-16T16:11:05.561624+03:00"
-    },
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.82,
-      "reason": "Зниження довіри до місцевих інституцій підвищує попит на долар як безпечний актив, а курс 44.62 залишається привабливим для інвесторів.",
+      "reason": "Сильний долар (44.62 UAH) і підвищений попит на безпечні активи через політичну напругу в Україні підтримують його зростання.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260716161105",
-      "generated_at": "2026-07-16T16:11:05.561561+03:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "AVOID",
-      "confidence": 0.71,
-      "reason": "Британська валюта під тиском через очікування подальшого підвищення ставок у Великій Британії, а курс 60.25 може знизитися при посиленні інфляції.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "GBP_20260716161105",
-      "generated_at": "2026-07-16T16:11:05.561607+03:00"
+      "id": "USD_20260716200545",
+      "generated_at": "2026-07-16T20:05:45.154029+03:00"
     },
     {
       "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Євро стабільний проти гривні (51.16), проте відсутність суттєвих економічних драйверів у ЄС зберігає його на рівні без суттєвих змін.",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Євро стабільний проти долара, а ризик‑апетит інвесторів знижується, що сприяє помірному підвищенню EUR/USD.",
       "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260716161105",
-      "generated_at": "2026-07-16T16:11:05.561594+03:00"
+      "id": "EUR_20260716200545",
+      "generated_at": "2026-07-16T20:05:45.154058+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.75,
+      "reason": "Йєн традиційно є притулком під час геополітичних ризиків; поточна волатильність підсилює його привабливість.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "JPY_20260716200545",
+      "generated_at": "2026-07-16T20:05:45.154072+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 0,
-    "total_news_analyzed": 5,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -60,26 +50,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "OPEN",
-        "next_change": "17:30"
+        "status": "CLOSED",
+        "next_change": "09:00"
       },
       "us_stocks": {
         "status": "OPEN",
         "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "OPEN",
-        "next_change": "18:00"
+        "status": "CLOSED",
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-07-16T16:11:03.182084+03:00",
-    "analysis_time": "16:11"
+    "last_economic_update": "2026-07-16T20:05:41.533358+03:00",
+    "analysis_time": "20:05"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260716161105",
-  "total_recommendations": 4,
-  "news_count": 5,
+  "analysis_id": "analysis_20260716200545",
+  "total_recommendations": 3,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-07-16T20:00:00+03:00"
+  "next_analysis": "2026-07-17T08:00:00+03:00"
 }
