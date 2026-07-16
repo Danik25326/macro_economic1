@@ -1,65 +1,55 @@
 {
-  "last_update": "2026-07-15T23:56:30.479163+03:00",
-  "last_update_display": "2026-07-15 23:56:30",
+  "last_update": "2026-07-16T16:11:05.561816+03:00",
+  "last_update_display": "2026-07-16 16:11:05",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.91,
-      "reason": "Конфлікт в Україні та обмеження захисту для нових українських біженців у ЄС підвищують попит на золото як захист від інфляції та політичних ризиків.",
-      "timeframe": "Найближчий час",
-      "risk_level": "medium",
-      "id": "GOLD_20260715235630",
-      "generated_at": "2026-07-15T23:56:30.478944+03:00"
-    },
-    {
-      "asset": "JPY",
       "action": "BUY",
       "confidence": 0.88,
-      "reason": "Зростаюча геополітична напруга (російські удари по Житомиру, нові ретранслятори в Білорусі) підвищує попит на традиційні активи‑тихі, такі як йєн, що традиційно зростає у періоди конфліктів.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "JPY_20260715235630",
-      "generated_at": "2026-07-15T23:56:30.478896+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Швейцарський франк залишається стабільним у період геополітичних ризиків, а відсутність новин про економічні потрясіння в Швейцарії підтримує його привабливість.",
+      "reason": "Золото традиційно зростає під час політичної невизначеності; поточна нестабільність в Україні та активні світові ринки підсилюють його притягальність.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "CHF_20260715235630",
-      "generated_at": "2026-07-15T23:56:30.478931+03:00"
+      "id": "GOLD_20260716161105",
+      "generated_at": "2026-07-16T16:11:05.561624+03:00"
     },
     {
       "asset": "USD",
-      "action": "NEUTRAL",
-      "confidence": 0.74,
-      "reason": "Долар залишається головною резервною валютою, проте відсутність суттєвих змін у монетарній політиці США і поточна курсова стабільність (44.75 UAH) не дають підстав для активного купівлі.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "USD_20260715235630",
-      "generated_at": "2026-07-15T23:56:30.478956+03:00"
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Зниження довіри до місцевих інституцій підвищує попит на долар як безпечний актив, а курс 44.62 залишається привабливим для інвесторів.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "USD_20260716161105",
+      "generated_at": "2026-07-16T16:11:05.561561+03:00"
     },
     {
-      "asset": "BTC",
+      "asset": "GBP",
       "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Криптовалюти залишаються надзвичайно волатильними, а відсутність позитивних фундаментальних новин (єдине згадування – Form 4 Omada Health) не підтримує їх у поточному ризиковому середовищі.",
+      "confidence": 0.71,
+      "reason": "Британська валюта під тиском через очікування подальшого підвищення ставок у Великій Британії, а курс 60.25 може знизитися при посиленні інфляції.",
       "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260715235630",
-      "generated_at": "2026-07-15T23:56:30.478966+03:00"
+      "id": "GBP_20260716161105",
+      "generated_at": "2026-07-16T16:11:05.561607+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.68,
+      "reason": "Євро стабільний проти гривні (51.16), проте відсутність суттєвих економічних драйверів у ЄС зберігає його на рівні без суттєвих змін.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "EUR_20260716161105",
+      "generated_at": "2026-07-16T16:11:05.561594+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 1,
-    "negative_news_count": 1,
+    "positive_news_count": 0,
+    "negative_news_count": 0,
     "total_news_analyzed": 5,
     "top_currency": "USD",
-    "worst_currency": "EUR",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -70,26 +60,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-07-15T23:56:26.907141+03:00",
-    "analysis_time": "23:56"
+    "last_economic_update": "2026-07-16T16:11:03.182084+03:00",
+    "analysis_time": "16:11"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260715235630",
-  "total_recommendations": 5,
+  "analysis_id": "analysis_20260716161105",
+  "total_recommendations": 4,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-07-16T08:00:00+03:00"
+  "next_analysis": "2026-07-16T20:00:00+03:00"
 }
