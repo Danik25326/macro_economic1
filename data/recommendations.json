@@ -1,63 +1,23 @@
 {
-  "last_update": "2026-07-22T16:15:12.303877+03:00",
-  "last_update_display": "2026-07-22 16:15:12",
+  "last_update": "2026-07-23T13:31:25.199511+03:00",
+  "last_update_display": "2026-07-23 13:31:25",
   "recommendations": [
     {
-      "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.85,
-      "reason": "Rising oil prices boost inflation expectations, making gold an attractive hedge; safe‑haven demand is rising amid geopolitical uncertainty.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20260722161512",
-      "generated_at": "2026-07-22T16:15:12.303654+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Eurozone equities rally signals investor confidence in the euro area, and a weaker USD from higher oil prices supports EUR gains.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "EUR_20260722161512",
-      "generated_at": "2026-07-22T16:15:12.303601+03:00"
-    },
-    {
-      "asset": "GBP",
+      "asset": "USD",
       "action": "BUY",
       "confidence": 0.78,
-      "reason": "Britain benefits from the same USD weakness and strong commodity sentiment; recent market breadth shows resilience in UK stocks.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GBP_20260722161512",
-      "generated_at": "2026-07-22T16:15:12.303641+03:00"
-    },
-    {
-      "asset": "USD",
-      "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Oil‑price surge pressures the dollar as investors shift to commodity‑linked assets; recent EUR strength adds downside pressure.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "USD_20260722161512",
-      "generated_at": "2026-07-22T16:15:12.303665+03:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.65,
-      "reason": "No specific crypto‑related news; market remains volatile and driven by broader risk sentiment rather than fundamentals.",
+      "reason": "Військовий конфлікт між Росією і Україною підвищує попит на долар як безпечний актив, а курс залишається стабільним.",
       "timeframe": "1-3 дні",
-      "risk_level": "high",
-      "id": "BTC_20260722161512",
-      "generated_at": "2026-07-22T16:15:12.303675+03:00"
+      "risk_level": "low",
+      "id": "USD_20260723133125",
+      "generated_at": "2026-07-23T13:31:25.199266+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 0,
-    "total_news_analyzed": 7,
+    "negative_news_count": 1,
+    "total_news_analyzed": 5,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -74,8 +34,8 @@
         "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "OPEN",
@@ -83,13 +43,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-07-22T16:15:09.405781+03:00",
-    "analysis_time": "16:15"
+    "last_economic_update": "2026-07-23T13:31:21.031745+03:00",
+    "analysis_time": "13:31"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260722161512",
-  "total_recommendations": 5,
-  "news_count": 7,
+  "analysis_id": "analysis_20260723133125",
+  "total_recommendations": 1,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-07-22T20:00:00+03:00"
+  "next_analysis": "2026-07-23T16:00:00+03:00"
 }
