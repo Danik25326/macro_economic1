@@ -1,45 +1,75 @@
 {
-  "last_update": "2026-07-24T13:25:58.953154+03:00",
-  "last_update_display": "2026-07-24 13:25:58",
+  "last_update": "2026-07-27T17:04:31.429866+03:00",
+  "last_update_display": "2026-07-27 17:04:31",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Ризики війни в Україні та атаки на Чорне море підвищують попит на золото як безпечний актив.",
-      "timeframe": "1-3 дні",
+      "action": "STRONG_BUY",
+      "confidence": 0.9,
+      "reason": "Золото отримує підтримку як захисний актив у період геополітичної нестабільності та інфляційних очікувань",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "GOLD_20260724132558",
-      "generated_at": "2026-07-24T13:25:58.952946+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.8,
-      "reason": "Швейцарський франк традиційно зростає під час геополітичної невизначеності, що підтримується поточними новинами.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260724132558",
-      "generated_at": "2026-07-24T13:25:58.952990+03:00"
+      "id": "GOLD_20260727170431",
+      "generated_at": "2026-07-27T17:04:31.429688+03:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.77,
-      "reason": "USD залишається головною резервною валютою; навіть при торгівельному конфлікті з Канадою інвестори шукають захист у доларі.",
-      "timeframe": "тиждень",
+      "confidence": 0.88,
+      "reason": "Долар залишається головним резервним активом, а активність ринків і стабільний курс підтримують попит",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260727170431",
+      "generated_at": "2026-07-27T17:04:31.429630+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.8,
+      "reason": "Йєна традиційно зростає в умовах ризику, а можливе закриття чорноморських портів підвищує попит на безпечні активи",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "JPY_20260727170431",
+      "generated_at": "2026-07-27T17:04:31.429672+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.75,
+      "reason": "Євро демонструє стабільність, проте невизначеність у ЄС щодо монетарної політики обмежує потенціал зростання",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "USD_20260724132558",
-      "generated_at": "2026-07-24T13:25:58.952976+03:00"
+      "id": "EUR_20260727170431",
+      "generated_at": "2026-07-27T17:04:31.429661+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Криптовалюти залишаються надзвичайно волатильними, а потенційні регуляторні обмеження в ЄС і США підвищують ризик",
+      "timeframe": "тиждень",
+      "risk_level": "high",
+      "id": "BTC_20260727170431",
+      "generated_at": "2026-07-27T17:04:31.429681+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "NEUTRAL",
+      "confidence": 0.68,
+      "reason": "Швейцарський франк зберігає статус безпечного притулку, проте відсутність значних драйверів обмежує короткостроковий потенціал",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "CHF_20260727170431",
+      "generated_at": "2026-07-27T17:04:31.429695+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 1,
+    "negative_news_count": 0,
     "total_news_analyzed": 5,
     "top_currency": "USD",
-    "worst_currency": "RUB",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -50,12 +80,12 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "OPEN",
-        "next_change": "17:30"
+        "status": "CLOSED",
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
         "status": "OPEN",
@@ -63,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-07-24T13:25:55.358560+03:00",
-    "analysis_time": "13:25"
+    "last_economic_update": "2026-07-27T17:04:27.395961+03:00",
+    "analysis_time": "17:04"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260724132558",
-  "total_recommendations": 3,
+  "analysis_id": "analysis_20260727170431",
+  "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-07-24T16:00:00+03:00"
+  "next_analysis": "2026-07-27T20:00:00+03:00"
 }
