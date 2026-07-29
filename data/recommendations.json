@@ -1,61 +1,61 @@
 {
-  "last_update": "2026-07-29T00:03:30.857438+03:00",
-  "last_update_display": "2026-07-29 00:03:30",
+  "last_update": "2026-07-29T16:30:34.558555+03:00",
+  "last_update_display": "2026-07-29 16:30:34",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Geopolitical tension and natural‑disaster risk boost demand for gold as a hedge against market volatility.",
+      "action": "BUY",
+      "confidence": 0.86,
+      "reason": "Heightened geopolitical risk from Iran‑Ukraine tensions and the Japan earthquake boost safe‑haven demand for gold.",
       "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20260729000330",
-      "generated_at": "2026-07-29T00:03:30.857172+03:00"
+      "risk_level": "medium",
+      "id": "GOLD_20260729163034",
+      "generated_at": "2026-07-29T16:30:34.558343+03:00"
     },
     {
-      "asset": "CHF",
+      "asset": "EUR",
       "action": "BUY",
       "confidence": 0.82,
-      "reason": "Swiss franc benefits from safe‑haven flows as investors seek stability amid Ukraine‑US talks and Japanese quake uncertainty.",
+      "reason": "BorgWarner secured a European eTurbo contract, signalling strength in the auto supply chain and supporting euro‑zone industrial outlook.",
       "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "CHF_20260729000330",
-      "generated_at": "2026-07-29T00:03:30.857134+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "AVOID",
-      "confidence": 0.73,
-      "reason": "The recent strong earthquake in Japan raises concerns about economic disruption and could weaken the yen in the short term.",
-      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "JPY_20260729000330",
-      "generated_at": "2026-07-29T00:03:30.857186+03:00"
+      "id": "EUR_20260729163034",
+      "generated_at": "2026-07-29T16:30:34.558290+03:00"
     },
     {
       "asset": "USD",
       "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "US support for Ukraine may support the dollar, but broader market activity keeps short‑term direction unclear.",
+      "confidence": 0.78,
+      "reason": "US‑Ukraine high‑level talks suggest continued US support, but no new fiscal data; dollar remains stable against regional currencies.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260729163034",
+      "generated_at": "2026-07-29T16:30:34.558330+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "NEUTRAL",
+      "confidence": 0.7,
+      "reason": "The earthquake may cause short‑term yen volatility, but safe‑haven flows could offset; no clear directional bias yet.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "USD_20260729000330",
-      "generated_at": "2026-07-29T00:03:30.857195+03:00"
+      "id": "JPY_20260729163034",
+      "generated_at": "2026-07-29T16:30:34.558354+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.65,
-      "reason": "No specific catalyst in the news; crypto remains highly volatile and unrelated to current macro drivers.",
+      "confidence": 0.68,
+      "reason": "Lack of crypto‑specific news and heightened market uncertainty make Bitcoin riskier than traditional safe‑havens.",
       "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260729000330",
-      "generated_at": "2026-07-29T00:03:30.857202+03:00"
+      "id": "BTC_20260729163034",
+      "generated_at": "2026-07-29T16:30:34.558363+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 1,
+    "overall_sentiment": "НЕГАТИВНИЙ",
+    "positive_news_count": 0,
     "negative_news_count": 1,
     "total_news_analyzed": 5,
     "top_currency": "USD",
@@ -70,26 +70,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-07-29T00:03:26.982111+03:00",
-    "analysis_time": "00:03"
+    "last_economic_update": "2026-07-29T16:30:31.132871+03:00",
+    "analysis_time": "16:30"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260729000330",
+  "analysis_id": "analysis_20260729163034",
   "total_recommendations": 5,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-07-29T08:00:00+03:00"
+  "next_analysis": "2026-07-29T20:00:00+03:00"
 }
