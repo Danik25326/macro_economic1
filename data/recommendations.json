@@ -1,25 +1,75 @@
 {
-  "last_update": "2026-08-10T15:38:03.997067+03:00",
-  "last_update_display": "2026-08-10 15:38:03",
+  "last_update": "2026-08-10T19:44:04.862674+03:00",
+  "last_update_display": "2026-08-10 19:44:04",
   "recommendations": [
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.9,
+      "reason": "Спекотний 2026 рік і початок Ель‑Ніньо підвищують інфляційні очікування, а ризик дефіциту продуктів в Україні підсилює попит на золото як захисний актив.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20260810194404",
+      "generated_at": "2026-08-10T19:44:04.862508+03:00"
+    },
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.88,
-      "reason": "Сильний попит на долар як безпечний актив під впливом ель‑ніньо та підтримки України, курс стабільний на рівні 44.83 UAH.",
+      "reason": "Зростання марж на бензин підвищує попит на нафту, котра торгується в USD, а також USD залишається безпечним притулком під час війни в Україні.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "USD_20260810194404",
+      "generated_at": "2026-08-10T19:44:04.862458+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "STRONG_BUY",
+      "confidence": 0.85,
+      "reason": "Швейцарський франк традиційно виграє під час глобальної невизначеності, а поточна енергетична та продовольча нестабільність підсилює його притягальність.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "USD_20260810153803",
-      "generated_at": "2026-08-10T15:38:03.996840+03:00"
+      "id": "CHF_20260810194404",
+      "generated_at": "2026-08-10T19:44:04.862501+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Єврозона демонструє стабільність, а відсутність негативних новин підтримує помірний попит на EUR, хоча тиск USD залишає його в другій черзі.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "EUR_20260810194404",
+      "generated_at": "2026-08-10T19:44:04.862491+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.75,
+      "reason": "Ризик дефіциту продовольства через російські обстріли посилює економічний тиск на гривню, що може призвести до подальшого ослаблення курсу.",
+      "timeframe": "1-3 дні",
+      "risk_level": "high",
+      "id": "UAH_20260810194404",
+      "generated_at": "2026-08-10T19:44:04.862520+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Криптовалюти залишаються надзвичайно волатильними без підкріплюючих фундаментальних новин, що робить їх надмірно ризикованими для консервативних інвесторів.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260810194404",
+      "generated_at": "2026-08-10T19:44:04.862514+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "ПОЗИТИВНИЙ",
-    "positive_news_count": 3,
-    "negative_news_count": 0,
-    "total_news_analyzed": 5,
-    "top_currency": "UAH",
-    "worst_currency": "GOLD",
+    "positive_news_count": 2,
+    "negative_news_count": 1,
+    "total_news_analyzed": 6,
+    "top_currency": "USD",
+    "worst_currency": "RUB",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -30,26 +80,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "OPEN",
-        "next_change": "17:30"
+        "status": "CLOSED",
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
-        "status": "OPEN",
-        "next_change": "18:00"
+        "status": "CLOSED",
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-08-10T15:38:00.341541+03:00",
-    "analysis_time": "15:38"
+    "last_economic_update": "2026-08-10T19:44:00.769918+03:00",
+    "analysis_time": "19:44"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260810153803",
-  "total_recommendations": 1,
-  "news_count": 5,
+  "analysis_id": "analysis_20260810194404",
+  "total_recommendations": 6,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-08-10T16:00:00+03:00"
+  "next_analysis": "2026-08-10T20:00:00+03:00"
 }
