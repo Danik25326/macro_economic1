@@ -1,105 +1,55 @@
 {
-  "last_update": "2026-08-09T11:53:49.895634+03:00",
-  "last_update_display": "2026-08-09 11:53:49",
+  "last_update": "2026-08-10T15:38:03.997067+03:00",
+  "last_update_display": "2026-08-10 15:38:03",
   "recommendations": [
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.88,
-      "reason": "Зростаюча нестабільність у регіоні Близького Сходу (атаки Хуті на Саудівську Арамко) та ослаблення європейської індустрії підвищують попит на долар як безпечний актив.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20260809115349",
-      "generated_at": "2026-08-09T11:53:49.895370+03:00"
-    },
-    {
-      "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Зростання геополітичних ризиків (атаки Хуті, російські дрони) і можливе ослаблення євро підвищують попит на золото як традиційний захист від інфляції та нестабільності.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20260809115349",
-      "generated_at": "2026-08-09T11:53:49.895439+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Йєн традиційно зростає під час геополітичних криз; поточна напруга в Саудівській Аравії та можливе посилення санкцій проти Росії підсилюють його статус безпечного притулку.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "JPY_20260809115349",
-      "generated_at": "2026-08-09T11:53:49.895419+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Швейцарський франк, як стабільна валюта‑запас, отримує підтримку від інвесторів, які уникають ризикованих ринків через невизначеність у Європі та на Близькому Сході.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260809115349",
-      "generated_at": "2026-08-09T11:53:49.895430+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "Хоча Німеччина стикається з ростом торгового дефіциту перед Китаєм, загальне відновлення європейських «laggards» підтримує євро, проте ризики залишаються.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "EUR_20260809115349",
-      "generated_at": "2026-08-09T11:53:49.895405+03:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.66,
-      "reason": "Криптовалюти залишаються надзвичайно волатильними; відсутність позитивних фундаментальних новин і підвищений ризик регуляторних обмежень у Європі роблять BTC менш привабливим у короткостроковій перспективі.",
+      "reason": "Сильний попит на долар як безпечний актив під впливом ель‑ніньо та підтримки України, курс стабільний на рівні 44.83 UAH.",
       "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20260809115349",
-      "generated_at": "2026-08-09T11:53:49.895448+03:00"
+      "risk_level": "low",
+      "id": "USD_20260810153803",
+      "generated_at": "2026-08-10T15:38:03.996840+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 0,
+    "overall_sentiment": "ПОЗИТИВНИЙ",
+    "positive_news_count": 3,
     "negative_news_count": 0,
-    "total_news_analyzed": 6,
-    "top_currency": "USD",
+    "total_news_analyzed": 5,
+    "top_currency": "UAH",
     "worst_currency": "GOLD",
     "market_status": {
       "forex": {
-        "status": "CLOSED",
-        "next_change": "Нд 23:00"
+        "status": "OPEN",
+        "next_change": "Пт 23:00"
       },
       "crypto": {
         "status": "OPEN",
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "Пн 09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 16:30"
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "Пн 10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-08-09T11:53:46.533428+03:00",
-    "analysis_time": "11:53"
+    "last_economic_update": "2026-08-10T15:38:00.341541+03:00",
+    "analysis_time": "15:38"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260809115349",
-  "total_recommendations": 6,
-  "news_count": 6,
+  "analysis_id": "analysis_20260810153803",
+  "total_recommendations": 1,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-08-09T12:00:00+03:00"
+  "next_analysis": "2026-08-10T16:00:00+03:00"
 }
