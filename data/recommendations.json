@@ -1,83 +1,63 @@
 {
-  "last_update": "2026-08-20T19:23:51.218535+03:00",
-  "last_update_display": "2026-08-20 19:23:51",
+  "last_update": "2026-08-21T11:50:19.715034+03:00",
+  "last_update_display": "2026-08-21 11:50:19",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "BUY",
       "confidence": 0.9,
-      "reason": "Падіння акцій та підвищений ризик інфляції підвищують попит на золото як традиційний захист.",
-      "timeframe": "тиждень",
+      "reason": "Gold price surge is lifting European shares, indicating continued demand for the metal as a hedge against geopolitical risk.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "GOLD_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218321+03:00"
+      "id": "GOLD_20260821115019",
+      "generated_at": "2026-08-21T11:50:19.714792+03:00"
     },
     {
       "asset": "USD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Хавкічний підхід центральних банків ЄС та Великобританії підсилює попит на долар як захист від підвищеної інфляції.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218251+03:00"
-    },
-    {
-      "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.86,
-      "reason": "Йєна традиційно зростає в умовах глобальної невизначеності та підвищеної волатильності ринків.",
+      "confidence": 0.88,
+      "reason": "US sanctions threat to Iran fuels safe‑haven demand for the dollar; gold price rise supports USD strength.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "JPY_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218298+03:00"
+      "id": "USD_20260821115019",
+      "generated_at": "2026-08-21T11:50:19.714746+03:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Швейцарський франк залишається стабільним притулком під тиском на ризикові активи, підтримуючи попит на безпечні валюти.",
+      "confidence": 0.8,
+      "reason": "Swiss franc benefits from safe‑haven flows as US‑Iran tensions rise and equity markets show volatility.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "CHF_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218310+03:00"
+      "id": "CHF_20260821115019",
+      "generated_at": "2026-08-21T11:50:19.714814+03:00"
     },
     {
       "asset": "EUR",
       "action": "AVOID",
-      "confidence": 0.82,
-      "reason": "Сім сесій падіння євроакцій свідчать про тиск на євро, а потенційне підвищення ставок посилює його слабкість.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.75,
+      "reason": "Eurozone growth concerns and stronger gold‑driven risk‑off sentiment pressure the euro lower against the dollar.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218283+03:00"
-    },
-    {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 0.78,
-      "reason": "Регіональна геополітична напруга та ослаблення іноземних інвестицій створюють тиск на гривню.",
-      "timeframe": "1-3 дні",
-      "risk_level": "high",
-      "id": "UAH_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218341+03:00"
+      "id": "EUR_20260821115019",
+      "generated_at": "2026-08-21T11:50:19.714779+03:00"
     },
     {
       "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "Криптовалюти стикаються з підвищеною волатильністю ринків; без чіткої макроекономічної підтримки варто утриматися.",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "No supportive macro news; heightened regulatory scrutiny in Europe could weigh on crypto prices.",
       "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "BTC_20260820192351",
-      "generated_at": "2026-08-20T19:23:51.218332+03:00"
+      "risk_level": "high",
+      "id": "BTC_20260821115019",
+      "generated_at": "2026-08-21T11:50:19.714804+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 1,
-    "total_news_analyzed": 6,
+    "total_news_analyzed": 5,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -90,26 +70,26 @@
         "next_change": "Немає"
       },
       "european_stocks": {
-        "status": "CLOSED",
-        "next_change": "09:00"
+        "status": "OPEN",
+        "next_change": "17:30"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
-        "status": "CLOSED",
-        "next_change": "10:00"
+        "status": "OPEN",
+        "next_change": "18:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-08-20T19:23:47.341375+03:00",
-    "analysis_time": "19:23"
+    "last_economic_update": "2026-08-21T11:50:16.665956+03:00",
+    "analysis_time": "11:50"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260820192351",
-  "total_recommendations": 7,
-  "news_count": 6,
+  "analysis_id": "analysis_20260821115019",
+  "total_recommendations": 5,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-08-20T20:00:00+03:00"
+  "next_analysis": "2026-08-21T12:00:00+03:00"
 }
