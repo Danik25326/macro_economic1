@@ -1,56 +1,76 @@
 {
-  "last_update": "2026-08-21T23:20:18.584711+03:00",
-  "last_update_display": "2026-08-21 23:20:18",
+  "last_update": "2026-08-23T15:13:46.085775+03:00",
+  "last_update_display": "2026-08-23 15:13:46",
   "recommendations": [
-    {
-      "asset": "USD",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Очікувана угода між Мексикою та США схожа на USMCA, що підвищує експортний попит США, а ризиковий авersion у зв’язку з санкціями проти Ірану зміцнює долар як безпечний актив.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20260821232018",
-      "generated_at": "2026-08-21T23:20:18.584389+03:00"
-    },
     {
       "asset": "GOLD",
       "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Нові санкції та можливе ескалація конфлікту підвищують попит на золото як захист від інфляції та політичних ризиків.",
-      "timeframe": "Найближчий час",
-      "risk_level": "medium",
-      "id": "GOLD_20260821232018",
-      "generated_at": "2026-08-21T23:20:18.584437+03:00"
+      "confidence": 0.85,
+      "reason": "Geopolitical tension and Fed uncertainty boost gold demand; price likely to rise in short term.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "GOLD_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085539+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Safe‑haven demand rises as investors watch Fed policy uncertainty; yen at 0.28 UAH offers upside.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "JPY_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085502+03:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Зростаюча геополітична напруга (санкції США проти Ірану) підвищує попит на традиційні безпечні активи, серед яких швейцарський франк традиційно зростає.",
+      "confidence": 0.8,
+      "reason": "CHF benefits from global risk‑off sentiment and stable Swiss monetary policy, making it a conservative hedge.",
       "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "CHF_20260821232018",
-      "generated_at": "2026-08-21T23:20:18.584423+03:00"
+      "id": "CHF_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085517+03:00"
     },
     {
-      "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "У період ризикового авersion інвестори уникають криптовалют через їхню високу волатильність і відсутність фундаментальної підтримки.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20260821232018",
-      "generated_at": "2026-08-21T23:20:18.584459+03:00"
+      "asset": "USD",
+      "action": "NEUTRAL",
+      "confidence": 0.78,
+      "reason": "Fed credibility questioned in latest analysis, keeping dollar volatile despite current 44.66 UAH rate.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "USD_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085468+03:00"
     },
     {
       "asset": "EUR",
       "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "У Єврозоні немає суттєвих економічних новин, а потенційне переорієнтування торгівлі в бік США може трохи ослабити євро.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.75,
+      "reason": "Euro remains stable at 52.25 UAH; no major policy shifts in Eurozone, so hold position.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "EUR_20260821232018",
-      "generated_at": "2026-08-21T23:20:18.584449+03:00"
+      "id": "EUR_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085528+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Crypto volatility remains high and no supportive regulatory news; risk outweighs potential gain.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085549+03:00"
+    },
+    {
+      "asset": "ETH",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Same as BTC; lack of clear catalyst and market stress make ETH unsuitable for conservative investors.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "ETH_20260823151346",
+      "generated_at": "2026-08-23T15:13:46.085560+03:00"
     }
   ],
   "market_overview": {
@@ -62,8 +82,8 @@
     "worst_currency": "GOLD",
     "market_status": {
       "forex": {
-        "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "status": "CLOSED",
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -71,25 +91,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
         "status": "CLOSED",
-        "next_change": "16:30"
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-08-21T23:20:15.289197+03:00",
-    "analysis_time": "23:20"
+    "last_economic_update": "2026-08-23T15:13:42.411852+03:00",
+    "analysis_time": "15:13"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260821232018",
-  "total_recommendations": 5,
+  "analysis_id": "analysis_20260823151346",
+  "total_recommendations": 7,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-08-22T08:00:00+03:00"
+  "next_analysis": "2026-08-23T16:00:00+03:00"
 }
