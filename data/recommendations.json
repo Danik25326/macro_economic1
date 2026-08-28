@@ -1,89 +1,69 @@
 {
-  "last_update": "2026-08-23T15:13:46.085775+03:00",
-  "last_update_display": "2026-08-23 15:13:46",
+  "last_update": "2026-08-28T23:09:37.632935+03:00",
+  "last_update_display": "2026-08-28 23:09:37",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "BUY",
       "confidence": 0.85,
-      "reason": "Geopolitical tension and Fed uncertainty boost gold demand; price likely to rise in short term.",
+      "reason": "Зростаюча геополітична напруга та нестабільність на фондових ринках підвищують попит на золото як безпечний актив.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "GOLD_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085539+03:00"
+      "id": "GOLD_20260828230937",
+      "generated_at": "2026-08-28T23:09:37.632725+03:00"
     },
     {
-      "asset": "JPY",
-      "action": "BUY",
+      "asset": "UAH",
+      "action": "STRONG_BUY",
       "confidence": 0.82,
-      "reason": "Safe‑haven demand rises as investors watch Fed policy uncertainty; yen at 0.28 UAH offers upside.",
+      "reason": "Очікується активне втручання Нацбанку для стримування інфляції після підвищення цін на продукти внаслідок атак на склади, що може підкріпити гривню.",
       "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "JPY_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085502+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.8,
-      "reason": "CHF benefits from global risk‑off sentiment and stable Swiss monetary policy, making it a conservative hedge.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085517+03:00"
+      "risk_level": "medium",
+      "id": "UAH_20260828230937",
+      "generated_at": "2026-08-28T23:09:37.632717+03:00"
     },
     {
       "asset": "USD",
-      "action": "NEUTRAL",
+      "action": "BUY",
       "confidence": 0.78,
-      "reason": "Fed credibility questioned in latest analysis, keeping dollar volatile despite current 44.66 UAH rate.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "USD_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085468+03:00"
+      "reason": "Долар залишається глобальним резервним активом; стабільний курс 44.55 UAH і активні ринки підтримують його при зростаючій геополітичній невизначеності.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20260828230937",
+      "generated_at": "2026-08-28T23:09:37.632675+03:00"
     },
     {
       "asset": "EUR",
       "action": "NEUTRAL",
-      "confidence": 0.75,
-      "reason": "Euro remains stable at 52.25 UAH; no major policy shifts in Eurozone, so hold position.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.7,
+      "reason": "Євро показує помірну слабкість проти гривні (51.88 UAH) без суттєвих позитивних чи негативних новин, тому варто утримуватись від активних позицій.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085528+03:00"
+      "id": "EUR_20260828230937",
+      "generated_at": "2026-08-28T23:09:37.632706+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
       "confidence": 0.68,
-      "reason": "Crypto volatility remains high and no supportive regulatory news; risk outweighs potential gain.",
+      "reason": "Криптовалютний ринок залишається волатильним, а рішення суду щодо Kalshi вказують на можливе посилення регуляторного тиску в США.",
       "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085549+03:00"
-    },
-    {
-      "asset": "ETH",
-      "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Same as BTC; lack of clear catalyst and market stress make ETH unsuitable for conservative investors.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "ETH_20260823151346",
-      "generated_at": "2026-08-23T15:13:46.085560+03:00"
+      "id": "BTC_20260828230937",
+      "generated_at": "2026-08-28T23:09:37.632731+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 0,
+    "overall_sentiment": "ПОЗИТИВНИЙ",
+    "positive_news_count": 1,
     "negative_news_count": 0,
-    "total_news_analyzed": 5,
-    "top_currency": "USD",
+    "total_news_analyzed": 6,
+    "top_currency": "EUR",
     "worst_currency": "GOLD",
     "market_status": {
       "forex": {
-        "status": "CLOSED",
-        "next_change": "Нд 23:00"
+        "status": "OPEN",
+        "next_change": "Пт 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -91,25 +71,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 09:00"
+        "next_change": "09:00"
       },
       "us_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 16:30"
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 10:00"
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-08-23T15:13:42.411852+03:00",
-    "analysis_time": "15:13"
+    "last_economic_update": "2026-08-28T23:09:33.699204+03:00",
+    "analysis_time": "23:09"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260823151346",
-  "total_recommendations": 7,
-  "news_count": 5,
+  "analysis_id": "analysis_20260828230937",
+  "total_recommendations": 5,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-08-23T16:00:00+03:00"
+  "next_analysis": "2026-08-29T08:00:00+03:00"
 }
