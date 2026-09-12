@@ -1,23 +1,73 @@
 {
-  "last_update": "2026-09-12T17:29:04.393604+03:00",
-  "last_update_display": "2026-09-12 17:29:04",
+  "last_update": "2026-09-12T20:59:39.875547+03:00",
+  "last_update_display": "2026-09-12 20:59:39",
   "recommendations": [
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.88,
+      "reason": "Pipeline shutdown raises inflation expectations and safe‑haven demand, making gold likely to rally in the near term.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GOLD_20260912205939",
+      "generated_at": "2026-09-12T20:59:39.875363+03:00"
+    },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Зростаюча геополітична напруга через блокування нафтового трубопроводу та атаки в Україні підвищує попит на безпечні активи, зокрема ієн, що підтримує його курс проти долара.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.81,
+      "reason": "Risk‑off sentiment from oil‑supply shocks boosts demand for low‑correlation safe‑haven currencies, supporting the yen.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20260912172904",
-      "generated_at": "2026-09-12T17:29:04.393415+03:00"
+      "id": "JPY_20260912205939",
+      "generated_at": "2026-09-12T20:59:39.875344+03:00"
+    },
+    {
+      "asset": "USD",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Geopolitical tensions in the Red Sea and Ukraine increase demand for the dollar as a safe‑haven, while its status as the global reserve currency remains intact.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "USD_20260912205939",
+      "generated_at": "2026-09-12T20:59:39.875314+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.75,
+      "reason": "The Swiss franc traditionally appreciates during periods of uncertainty; current volatility offers modest upside potential.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "CHF_20260912205939",
+      "generated_at": "2026-09-12T20:59:39.875355+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Cryptocurrencies remain highly volatile and sensitive to regulatory developments, with no supportive fundamentals from recent news.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260912205939",
+      "generated_at": "2026-09-12T20:59:39.875371+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Continued conflict in Ukraine and potential infrastructure damage weigh on the hryvnia's stability and outlook.",
+      "timeframe": "1-3 дні",
+      "risk_level": "high",
+      "id": "UAH_20260912205939",
+      "generated_at": "2026-09-12T20:59:39.875378+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "ПОЗИТИВНИЙ",
-    "positive_news_count": 1,
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "positive_news_count": 0,
     "negative_news_count": 0,
-    "total_news_analyzed": 6,
+    "total_news_analyzed": 5,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -43,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-12T17:28:59.524081+03:00",
-    "analysis_time": "17:29"
+    "last_economic_update": "2026-09-12T20:59:35.931446+03:00",
+    "analysis_time": "20:59"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260912172904",
-  "total_recommendations": 1,
-  "news_count": 6,
+  "analysis_id": "analysis_20260912205939",
+  "total_recommendations": 6,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-09-12T20:00:00+03:00"
+  "next_analysis": "2026-09-13T08:00:00+03:00"
 }
