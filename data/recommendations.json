@@ -1,69 +1,29 @@
 {
-  "last_update": "2026-09-09T18:24:41.769599+03:00",
-  "last_update_display": "2026-09-09 18:24:41",
+  "last_update": "2026-09-12T17:29:04.393604+03:00",
+  "last_update_display": "2026-09-12 17:29:04",
   "recommendations": [
     {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.9,
-      "reason": "Gold traditionally rises during geopolitical crises; recent attacks on Kyiv intensify demand for safe‑haven metal.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "GOLD_20260909182441",
-      "generated_at": "2026-09-09T18:24:41.769320+03:00"
-    },
-    {
-      "asset": "USD",
+      "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.88,
-      "reason": "US dollar benefits from safe‑haven demand amid heightened Ukraine‑Russia conflict and stable US monetary policy.",
+      "confidence": 0.78,
+      "reason": "Зростаюча геополітична напруга через блокування нафтового трубопроводу та атаки в Україні підвищує попит на безпечні активи, зокрема ієн, що підтримує його курс проти долара.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260909182441",
-      "generated_at": "2026-09-09T18:24:41.769261+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Eurozone remains politically stable; EUR gains as investors seek alternatives to USD in a risk‑off environment.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "EUR_20260909182441",
-      "generated_at": "2026-09-09T18:24:41.769294+03:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "BUY",
-      "confidence": 0.8,
-      "reason": "British pound supported by relatively strong UK growth outlook and safe‑haven appeal compared to emerging markets.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GBP_20260909182441",
-      "generated_at": "2026-09-09T18:24:41.769308+03:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.65,
-      "reason": "Cryptocurrency volatility remains high and risk‑off sentiment limits upside; monitor regulatory developments.",
-      "timeframe": "тиждень",
-      "risk_level": "high",
-      "id": "BTC_20260909182441",
-      "generated_at": "2026-09-09T18:24:41.769329+03:00"
+      "id": "JPY_20260912172904",
+      "generated_at": "2026-09-12T17:29:04.393415+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
-    "positive_news_count": 0,
-    "negative_news_count": 1,
-    "total_news_analyzed": 7,
+    "overall_sentiment": "ПОЗИТИВНИЙ",
+    "positive_news_count": 1,
+    "negative_news_count": 0,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
-    "worst_currency": "RUB",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -71,25 +31,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-09T18:24:38.101873+03:00",
-    "analysis_time": "18:24"
+    "last_economic_update": "2026-09-12T17:28:59.524081+03:00",
+    "analysis_time": "17:29"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260909182441",
-  "total_recommendations": 5,
-  "news_count": 7,
+  "analysis_id": "analysis_20260912172904",
+  "total_recommendations": 1,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-09-09T20:00:00+03:00"
+  "next_analysis": "2026-09-12T20:00:00+03:00"
 }
