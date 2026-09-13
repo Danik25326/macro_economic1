@@ -1,56 +1,76 @@
 {
-  "last_update": "2026-09-13T16:15:57.426622+03:00",
-  "last_update_display": "2026-09-13 16:15:57",
+  "last_update": "2026-09-13T18:09:54.300547+03:00",
+  "last_update_display": "2026-09-13 18:09:54",
   "recommendations": [
     {
-      "asset": "GOLD",
+      "asset": "USD",
       "action": "STRONG_BUY",
-      "confidence": 0.91,
-      "reason": "Rising oil prices and geopolitical tension boost gold as an inflation hedge; active markets support upward momentum.",
-      "timeframe": "тиждень",
+      "confidence": 0.92,
+      "reason": "Oil‑price pressure from the Saudi outage supports the dollar as oil is priced in USD and risk‑off flows boost its safe‑haven appeal.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "GOLD_20260913161557",
-      "generated_at": "2026-09-13T16:15:57.426353+03:00"
+      "id": "USD_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300222+03:00"
     },
     {
-      "asset": "USD",
+      "asset": "GOLD",
       "action": "BUY",
       "confidence": 0.88,
-      "reason": "US dollar benefits from safe‑haven demand as oil supply concerns raise inflation expectations; USD/UAH remains stable at 44.55.",
+      "reason": "Higher oil prices and geopolitical uncertainty increase demand for gold as an inflation hedge and safe‑haven.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300269+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.85,
+      "reason": "Swiss franc benefits from global risk aversion and its reputation as a stable store of value amid Middle‑East tensions.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260913161557",
-      "generated_at": "2026-09-13T16:15:57.426318+03:00"
+      "id": "CHF_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300255+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "JPY traditionally strengthens in risk‑off environments; pipeline outage and market sell‑off increase demand for the yen.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.81,
+      "reason": "Japanese yen traditionally strengthens in risk‑off environments; current market stress supports short‑term appreciation.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20260913161557",
-      "generated_at": "2026-09-13T16:15:57.426394+03:00"
+      "id": "JPY_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300288+03:00"
     },
     {
       "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "European AI funding gap may weigh on growth outlook, while euro faces pressure from higher oil‑linked inflation; no clear directional bias.",
-      "timeframe": "Найближчий час",
+      "action": "AVOID",
+      "confidence": 0.78,
+      "reason": "European AI funding gap drives capital outflows to the US, weakening the euro against the dollar and other safe assets.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20260913161557",
-      "generated_at": "2026-09-13T16:15:57.426367+03:00"
+      "id": "EUR_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300279+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "NEUTRAL",
+      "confidence": 0.7,
+      "reason": "Domestic winter energy demand may pressure the hryvnia, but no clear directional catalyst beyond seasonal factors.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "UAH_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300308+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Crypto remains volatile amid uncertain regulatory environment and heightened geopolitical risk; better to stay in liquid safe assets.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.68,
+      "reason": "Lack of supportive news and heightened risk aversion make cryptocurrency volatility unattractive for conservative investors.",
+      "timeframe": "тиждень",
       "risk_level": "high",
-      "id": "BTC_20260913161557",
-      "generated_at": "2026-09-13T16:15:57.426404+03:00"
+      "id": "BTC_20260913180954",
+      "generated_at": "2026-09-13T18:09:54.300298+03:00"
     }
   ],
   "market_overview": {
@@ -83,12 +103,12 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-13T16:15:53.795711+03:00",
-    "analysis_time": "16:15"
+    "last_economic_update": "2026-09-13T18:09:51.089317+03:00",
+    "analysis_time": "18:09"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260913161557",
-  "total_recommendations": 5,
+  "analysis_id": "analysis_20260913180954",
+  "total_recommendations": 7,
   "news_count": 5,
   "language": "uk",
   "next_analysis": "2026-09-13T20:00:00+03:00"
