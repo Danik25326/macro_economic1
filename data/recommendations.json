@@ -1,63 +1,63 @@
 {
-  "last_update": "2026-09-15T18:47:05.957537+03:00",
-  "last_update_display": "2026-09-15 18:47:05",
+  "last_update": "2026-09-15T22:22:58.967526+03:00",
+  "last_update_display": "2026-09-15 22:22:58",
   "recommendations": [
     {
-      "asset": "GOLD",
+      "asset": "CHF",
       "action": "STRONG_BUY",
       "confidence": 0.88,
-      "reason": "Escalating war‑related risks and lack of clear resolution increase demand for gold as a store of value.",
+      "reason": "Swiss franc traditionally strengthens in geopolitical crises; CHF remains stable and offers protection against regional volatility.",
       "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "CHF_20260915222258",
+      "generated_at": "2026-09-15T22:22:58.967360+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.84,
+      "reason": "Gold is the classic hedge; recent war‑related uncertainty and central bank buying support price gains.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "GOLD_20260915184705",
-      "generated_at": "2026-09-15T18:47:05.957321+03:00"
+      "id": "GOLD_20260915222258",
+      "generated_at": "2026-09-15T22:22:58.967368+03:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.82,
-      "reason": "US corporate optimism from the GE‑Aerospace deal and safe‑haven demand amid regional tensions support dollar strength.",
+      "reason": "US dollar benefits from safe‑haven demand as war escalation raises risk aversion, and the current rate of 44.64 UAH offers modest upside against local currency.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260915184705",
-      "generated_at": "2026-09-15T18:47:05.957280+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Geopolitical uncertainty in Eastern Europe drives investors to traditional safe‑haven currencies like the yen.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "JPY_20260915184705",
-      "generated_at": "2026-09-15T18:47:05.957312+03:00"
+      "id": "USD_20260915222258",
+      "generated_at": "2026-09-15T22:22:58.967330+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
       "confidence": 0.7,
-      "reason": "High volatility and regulatory uncertainty outweigh any short‑term upside given the current risk‑off environment.",
-      "timeframe": "Найближчий час",
+      "reason": "Cryptocurrency markets are highly sensitive to regulatory and macro shocks; war‑driven risk aversion reduces appetite for risky assets like BTC.",
+      "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260915184705",
-      "generated_at": "2026-09-15T18:47:05.957335+03:00"
+      "id": "BTC_20260915222258",
+      "generated_at": "2026-09-15T22:22:58.967373+03:00"
     },
     {
       "asset": "EUR",
       "action": "NEUTRAL",
       "confidence": 0.65,
-      "reason": "Eurozone lacks specific catalysts; mixed outlook with no strong data to shift direction.",
-      "timeframe": "1-3 дні",
+      "reason": "Eurozone faces mixed data and the EUR at 51.51 UAH shows limited upside; no clear catalyst to justify a directional bet.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260915184705",
-      "generated_at": "2026-09-15T18:47:05.957328+03:00"
+      "id": "EUR_20260915222258",
+      "generated_at": "2026-09-15T22:22:58.967379+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 1,
-    "total_news_analyzed": 7,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
     "worst_currency": "GOLD",
     "market_status": {
@@ -83,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-15T18:47:02.517804+03:00",
-    "analysis_time": "18:47"
+    "last_economic_update": "2026-09-15T22:22:55.356802+03:00",
+    "analysis_time": "22:22"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260915184705",
+  "analysis_id": "analysis_20260915222258",
   "total_recommendations": 5,
-  "news_count": 7,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-09-15T20:00:00+03:00"
+  "next_analysis": "2026-09-16T08:00:00+03:00"
 }
