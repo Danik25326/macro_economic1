@@ -1,65 +1,65 @@
 {
-  "last_update": "2026-09-16T22:14:33.665634+03:00",
-  "last_update_display": "2026-09-16 22:14:33",
+  "last_update": "2026-09-17T22:26:07.396587+03:00",
+  "last_update_display": "2026-09-17 22:26:07",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "BUY",
+      "action": "STRONG_BUY",
       "confidence": 0.9,
-      "reason": "Зростання ризику внаслідок війни в Ємені та санкцій проти Росії підвищує попит на золото як захист від інфляції та нестабільності.",
+      "reason": "Escalating conflicts and sanctions boost safe‑haven demand for gold; historically it outperforms during geopolitical shocks.",
       "timeframe": "Найближчий час",
-      "risk_level": "medium",
-      "id": "GOLD_20260916221433",
-      "generated_at": "2026-09-16T22:14:33.665434+03:00"
+      "risk_level": "low",
+      "id": "GOLD_20260917222607",
+      "generated_at": "2026-09-17T22:26:07.396341+03:00"
     },
     {
       "asset": "USD",
       "action": "STRONG_BUY",
       "confidence": 0.88,
-      "reason": "Долар традиційно зростає під час геополітичних криз; нові \"пекельні\" санкції проти Росії підсилюють його статус безпечного притулку.",
-      "timeframe": "Найближчий час",
+      "reason": "US sanctions on Russia and safe‑haven demand for the dollar increase its appeal; the currency is trading at 44.66 UAH, showing relative strength.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20260916221433",
-      "generated_at": "2026-09-16T22:14:33.665386+03:00"
+      "id": "USD_20260917222607",
+      "generated_at": "2026-09-17T22:26:07.396296+03:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.85,
-      "reason": "Швейцарський франк зберігає статус стабільної валюти‑убежища, а відсутність прямого впливу конфліктів робить його привабливим у поточному середовищі.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.8,
+      "reason": "Swiss franc is a classic safe‑haven; current US‑Russia tensions and market uncertainty drive demand for CHF.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "CHF_20260916221433",
-      "generated_at": "2026-09-16T22:14:33.665422+03:00"
+      "id": "CHF_20260917222607",
+      "generated_at": "2026-09-17T22:26:07.396362+03:00"
     },
     {
       "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "Євро підтримується стабільною економікою ЄС, проте його курс під тиском через загальну ринкову волатильність і відсутність явних драйверів росту.",
-      "timeframe": "1-3 дні",
+      "action": "BUY",
+      "confidence": 0.75,
+      "reason": "Euro remains stable against the dollar (51.24 UAH) and benefits from diversified European exposure, though broader market risk tempers enthusiasm.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260916221433",
-      "generated_at": "2026-09-16T22:14:33.665442+03:00"
+      "id": "EUR_20260917222607",
+      "generated_at": "2026-09-17T22:26:07.396327+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.65,
-      "reason": "Криптовалюти стикаються з підвищеною волатильністю під час глобальної нестабільності; відсутність регуляторної ясності підвищує ризики.",
-      "timeframe": "тиждень",
+      "confidence": 0.68,
+      "reason": "Crypto markets are highly sensitive to regulatory and geopolitical risk; recent turmoil reduces liquidity and increases volatility.",
+      "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260916221433",
-      "generated_at": "2026-09-16T22:14:33.665450+03:00"
+      "id": "BTC_20260917222607",
+      "generated_at": "2026-09-17T22:26:07.396352+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 0,
-    "total_news_analyzed": 9,
-    "top_currency": "USD",
-    "worst_currency": "GOLD",
+    "negative_news_count": 2,
+    "total_news_analyzed": 7,
+    "top_currency": "EUR",
+    "worst_currency": "RUB",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -83,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-16T22:14:30.062554+03:00",
-    "analysis_time": "22:14"
+    "last_economic_update": "2026-09-17T22:26:04.433532+03:00",
+    "analysis_time": "22:26"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260916221433",
+  "analysis_id": "analysis_20260917222607",
   "total_recommendations": 5,
-  "news_count": 9,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2026-09-17T08:00:00+03:00"
+  "next_analysis": "2026-09-18T08:00:00+03:00"
 }
