@@ -1,69 +1,69 @@
 {
-  "last_update": "2026-09-18T01:37:16.653544+03:00",
-  "last_update_display": "2026-09-18 01:37:16",
+  "last_update": "2026-09-19T15:26:23.909479+03:00",
+  "last_update_display": "2026-09-19 15:26:23",
   "recommendations": [
     {
-      "asset": "USD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "США отримують перевагу як головна безпечна валюта під час зростання військових конфліктів і нових санкцій проти Росії, що підтримує попит на долар.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260918013716",
-      "generated_at": "2026-09-18T01:37:16.653307+03:00"
-    },
-    {
       "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Зростаючі ризики в регіоні Близького Сходу та нові санкції підвищують попит на золото як захист від інфляції та геополітичних шоків.",
+      "action": "STRONG_BUY",
+      "confidence": 0.86,
+      "reason": "Підвищення цін на газ у Європі підвищує інфляційні очікування, а санкції проти Росії посилюють попит на золото як захист від валютних ризиків.",
       "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20260918013716",
-      "generated_at": "2026-09-18T01:37:16.653350+03:00"
+      "risk_level": "low",
+      "id": "GOLD_20260919152623",
+      "generated_at": "2026-09-19T15:26:23.909271+03:00"
     },
     {
-      "asset": "CHF",
+      "asset": "USD",
       "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Швейцарський франк традиційно зростає в умовах глобальної нестабільності; поточна геополітична напруга підсилює його статус безпечного притулку.",
+      "confidence": 0.82,
+      "reason": "Нові \"пекельні\" санкції США проти Росії посилюють попит на долар як безпечний актив, підтримуючи його курс.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "CHF_20260918013716",
-      "generated_at": "2026-09-18T01:37:16.653340+03:00"
+      "id": "USD_20260919152623",
+      "generated_at": "2026-09-19T15:26:23.909215+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "У зв'язку з геополітичними напруженнями (санкції, угода США‑Данія щодо Гренландії) інвестори шукають традиційні гіганти‑захисники, серед яких і ієна.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "JPY_20260919152623",
+      "generated_at": "2026-09-19T15:26:23.909262+03:00"
     },
     {
       "asset": "EUR",
       "action": "AVOID",
-      "confidence": 0.73,
-      "reason": "Євро стикається з відтоком капіталу в бік долара та франка через підвищений ризик‑оф, а також зростаючі енергетичні витрати внаслідок конфлікту в Україні.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.74,
+      "reason": "Зростання цін на електроенергію в Європі підвищує інфляційний ризик, що може спонукати ЄЦБ до подальшого жорсткого монетарного стискання.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20260918013716",
-      "generated_at": "2026-09-18T01:37:16.653356+03:00"
+      "id": "EUR_20260919152623",
+      "generated_at": "2026-09-19T15:26:23.909250+03:00"
     },
     {
       "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Криптовалюти в умовах підвищеної геополітичної нестабільності втрачають притягальність, а регуляторний тиск у США та ЄС зростає.",
-      "timeframe": "тиждень",
+      "action": "NEUTRAL",
+      "confidence": 0.65,
+      "reason": "В умовах підвищеної геополітичної невизначеності криптовалюти залишаються волатильними; без чітких фундаментальних драйверів варто утриматися.",
+      "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20260918013716",
-      "generated_at": "2026-09-18T01:37:16.653363+03:00"
+      "id": "BTC_20260919152623",
+      "generated_at": "2026-09-19T15:26:23.909279+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 2,
-    "total_news_analyzed": 6,
-    "top_currency": "EUR",
-    "worst_currency": "RUB",
+    "negative_news_count": 0,
+    "total_news_analyzed": 7,
+    "top_currency": "USD",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
         "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -71,25 +71,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
         "status": "CLOSED",
-        "next_change": "16:30"
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-18T01:37:13.559503+03:00",
-    "analysis_time": "01:37"
+    "last_economic_update": "2026-09-19T15:26:20.375984+03:00",
+    "analysis_time": "15:26"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260918013716",
+  "analysis_id": "analysis_20260919152623",
   "total_recommendations": 5,
-  "news_count": 6,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2026-09-18T08:00:00+03:00"
+  "next_analysis": "2026-09-19T16:00:00+03:00"
 }
