@@ -1,49 +1,89 @@
 {
-  "last_update": "2026-09-19T21:18:57.401837+03:00",
-  "last_update_display": "2026-09-19 21:18:57",
+  "last_update": "2026-09-21T20:16:21.494097+03:00",
+  "last_update_display": "2026-09-21 20:16:21",
   "recommendations": [
     {
-      "asset": "USD",
+      "asset": "EUR",
       "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Зростаюча геополітична напруга (загроза атак в Саудівській Аравії та нові санкції проти Росії) підсилює статус долара як безпечного притулку, а активний ринковий настрій підтримує його попит.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20260919211857",
-      "generated_at": "2026-09-19T21:18:57.401546+03:00"
+      "confidence": 0.82,
+      "reason": "STOXX 600 rally driven by European banks and tech supports euro‑zone growth outlook, while lower oil prices reduce inflation pressure on the euro.",
+      "timeframe": "1-3 дні",
+      "risk_level": "medium",
+      "id": "EUR_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493863+03:00"
     },
     {
-      "asset": "JPY",
+      "asset": "GBP",
       "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Йєн традиційно зростає під час глобальної нестабільності; поточна загроза в регіоні Близького Сходу та високий рівень боргу у Франції підвищують його привабливість.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.81,
+      "reason": "British banks benefit from the same strength seen in European equities, and a stable pound at 59.88 UAH suggests room for modest upside.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GBP_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493909+03:00"
+    },
+    {
+      "asset": "USD",
+      "action": "NEUTRAL",
+      "confidence": 0.78,
+      "reason": "Oil price decline eases pressure on the dollar, but no clear directional catalyst from US data; maintain current exposure.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20260919211857",
-      "generated_at": "2026-09-19T21:18:57.401577+03:00"
+      "id": "USD_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493898+03:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Швейцарський франк є стабільним притулком, а відсутність прямих ризиків у країні робить його привабливим у контексті зростаючої невизначеності в Європі.",
-      "timeframe": "Тиждень",
+      "confidence": 0.75,
+      "reason": "Swiss franc remains a safe‑haven amid oil market uncertainty and geopolitical headlines, offering low‑volatility exposure.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "CHF_20260919211857",
-      "generated_at": "2026-09-19T21:18:57.401590+03:00"
+      "id": "CHF_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493917+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "NEUTRAL",
+      "confidence": 0.73,
+      "reason": "Retreating oil prices reduce inflation concerns, limiting gold’s upside, while safe‑haven demand stays modest.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GOLD_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493937+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "No positive crypto‑specific news; market volatility remains high and investors prefer safer assets amid oil price swings.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493924+03:00"
+    },
+    {
+      "asset": "ETH",
+      "action": "AVOID",
+      "confidence": 0.66,
+      "reason": "Ethereum faces similar uncertainty as Bitcoin with no supportive fundamentals in current news flow; risk remains elevated.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "ETH_20260921201621",
+      "generated_at": "2026-09-21T20:16:21.493931+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 0,
+    "negative_news_count": 1,
     "total_news_analyzed": 6,
     "top_currency": "USD",
-    "worst_currency": "GOLD",
+    "worst_currency": "UAH",
     "market_status": {
       "forex": {
         "status": "OPEN",
-        "next_change": "Нд 23:00"
+        "next_change": "Пт 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -51,25 +91,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 09:00"
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "Пн 16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 10:00"
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-09-19T21:18:53.073197+03:00",
-    "analysis_time": "21:18"
+    "last_economic_update": "2026-09-21T20:16:18.928619+03:00",
+    "analysis_time": "20:16"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20260919211857",
-  "total_recommendations": 3,
+  "analysis_id": "analysis_20260921201621",
+  "total_recommendations": 7,
   "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-09-20T08:00:00+03:00"
+  "next_analysis": "2026-09-22T08:00:00+03:00"
 }
