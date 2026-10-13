@@ -1,74 +1,74 @@
 {
-  "last_update": "2026-10-12T02:25:07.100013+03:00",
-  "last_update_display": "2026-10-12 02:25:07",
+  "last_update": "2026-10-13T04:46:51.349525+03:00",
+  "last_update_display": "2026-10-13 04:46:51",
   "recommendations": [
     {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.89,
-      "reason": "Зростаюча напруга на Близькому Сході та можливі коливання цін на нафту підвищують попит на золото як захист від інфляції та геополітичного ризику.",
-      "timeframe": "Найближчий час",
+      "asset": "USD",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Middle‑East security shock raises demand for the world’s primary reserve currency, while USD remains stable at 44.96 UAH.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "GOLD_20261012022507",
-      "generated_at": "2026-10-12T02:25:07.099809+03:00"
+      "id": "USD_20261013044651",
+      "generated_at": "2026-10-13T04:46:51.349311+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.81,
+      "reason": "Safe‑haven metal gains on heightened tensions and oversold equity signals in Asia (SK Hynix, Nikkei).",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "GOLD_20261013044651",
+      "generated_at": "2026-10-13T04:46:51.349349+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Японська єна традиційно зростає під час геополітичної нестабільності; ризик ескалації в Саудівській Аравії підсилює попит на безпечні активи, що підтримує JPY.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.78,
+      "reason": "JPY traditionally benefits from risk‑off flows after geopolitical events; current rate 0.28 suggests modest upside.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20261012022507",
-      "generated_at": "2026-10-12T02:25:07.099793+03:00"
+      "id": "JPY_20261013044651",
+      "generated_at": "2026-10-13T04:46:51.349341+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Proximity to conflict zones and recent Ukrainian political statements increase currency volatility.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "UAH_20261013044651",
+      "generated_at": "2026-10-13T04:46:51.349360+03:00"
     },
     {
       "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Євро виглядає привабливішим у порівнянні з USD через менший вплив FAA‑повідомлення та стабільність економіки ЄС, а також поточний курс 50.31 UAH вказує на можливу корекцію в бік підвищення.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "EUR_20261012022507",
-      "generated_at": "2026-10-12T02:25:07.099783+03:00"
-    },
-    {
-      "asset": "CHF",
-      "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Швейцарський франк є ще одним класичним притулком під час конфліктів; поточна невизначеність щодо енергетичного перемир'я підвищує його привабливість.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "CHF_20261012022507",
-      "generated_at": "2026-10-12T02:25:07.099801+03:00"
-    },
-    {
-      "asset": "USD",
       "action": "NEUTRAL",
-      "confidence": 0.78,
-      "reason": "FAA застерігає американські авіакомпанії щодо польотів до Саудівської Аравії, що може короткостроково вплинути на прибутковість авіаційного сектора та трошки ослабити долар, проте загальна позиція долара як резервної валюти залишається стабільною.",
+      "confidence": 0.68,
+      "reason": "Eurozone data unchanged; EUR at 50.24 UAH, but regional political uncertainty (Hungary‑EU talks) tempers upside.",
       "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20261012022507",
-      "generated_at": "2026-10-12T02:25:07.099750+03:00"
+      "risk_level": "medium",
+      "id": "EUR_20261013044651",
+      "generated_at": "2026-10-13T04:46:51.349355+03:00"
     },
     {
       "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.73,
-      "reason": "Криптовалюти залишаються надзвичайно волатильними; відсутність новин, що підтримують їх, та можливі регуляторні обмеження в США підвищують ризики.",
-      "timeframe": "1-3 дні",
+      "action": "NEUTRAL",
+      "confidence": 0.65,
+      "reason": "Crypto markets remain volatile; no clear catalyst from news, so maintain current exposure.",
+      "timeframe": "тиждень",
       "risk_level": "high",
-      "id": "BTC_20261012022507",
-      "generated_at": "2026-10-12T02:25:07.099815+03:00"
+      "id": "BTC_20261013044651",
+      "generated_at": "2026-10-13T04:46:51.349366+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
-    "positive_news_count": 0,
+    "overall_sentiment": "ПОЗИТИВНИЙ",
+    "positive_news_count": 1,
     "negative_news_count": 0,
-    "total_news_analyzed": 5,
-    "top_currency": "USD",
+    "total_news_analyzed": 7,
+    "top_currency": "UAH",
     "worst_currency": "GOLD",
     "market_status": {
       "forex": {
@@ -93,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-12T02:25:03.137520+03:00",
-    "analysis_time": "02:25"
+    "last_economic_update": "2026-10-13T04:46:47.983751+03:00",
+    "analysis_time": "04:46"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261012022507",
+  "analysis_id": "analysis_20261013044651",
   "total_recommendations": 6,
-  "news_count": 5,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2026-10-12T08:00:00+03:00"
+  "next_analysis": "2026-10-13T08:00:00+03:00"
 }
