@@ -1,36 +1,66 @@
 {
-  "last_update": "2026-10-13T18:50:30.760029+03:00",
-  "last_update_display": "2026-10-13 18:50:30",
+  "last_update": "2026-10-14T19:02:39.626984+03:00",
+  "last_update_display": "2026-10-14 19:02:39",
   "recommendations": [
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.88,
+      "reason": "Gold benefits from geopolitical tension and a stable USD; price expected to rise as investors seek safe assets.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "GOLD_20261014190239",
+      "generated_at": "2026-10-14T19:02:39.626835+03:00"
+    },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.9,
-      "reason": "Позитивний вплив новин (1 позитивних)",
-      "timeframe": "1-2 дні",
-      "risk_level": "medium",
-      "id": "USD_20261013185030",
-      "generated_at": "2026-10-13T18:50:30.759795+03:00"
+      "confidence": 0.82,
+      "reason": "USD remains a safe‑haven amid heightened political uncertainty in the region; its 44.98 UAH rate is stable and supported by active markets.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "USD_20261014190239",
+      "generated_at": "2026-10-14T19:02:39.626787+03:00"
     },
     {
       "asset": "UAH",
-      "action": "BUY",
-      "confidence": 0.9,
-      "reason": "Позитивний вплив новин (1 позитивних)",
-      "timeframe": "1-2 дні",
+      "action": "NEUTRAL",
+      "confidence": 0.73,
+      "reason": "Local currency remains pressured by external shocks; no strong catalyst for appreciation, so hold current positions.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "UAH_20261013185030",
-      "generated_at": "2026-10-13T18:50:30.759837+03:00"
+      "id": "UAH_20261014190239",
+      "generated_at": "2026-10-14T19:02:39.626840+03:00"
     },
     {
-      "asset": "RUB",
-      "action": "BUY",
-      "confidence": 0.75,
-      "reason": "Позитивний вплив новин (1 позитивних)",
-      "timeframe": "1-2 дні",
+      "asset": "BTC",
+      "action": "NEUTRAL",
+      "confidence": 0.71,
+      "reason": "Cryptocurrency volatility stays high; no new regulatory clarity, but BTC’s 2026‑10 trend is flat, making a wait‑and‑see approach prudent.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20261014190239",
+      "generated_at": "2026-10-14T19:02:39.626824+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Eurozone growth data is weak and the EUR at 50.35 UAH shows limited upside; risk of further depreciation amid global rate‑cut expectations.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "RUB_20261013185030",
-      "generated_at": "2026-10-13T18:50:30.759861+03:00"
+      "id": "EUR_20261014190239",
+      "generated_at": "2026-10-14T19:02:39.626817+03:00"
+    },
+    {
+      "asset": "ETH",
+      "action": "AVOID",
+      "confidence": 0.65,
+      "reason": "Ethereum faces scaling‑fee pressures and lower institutional interest; conservative investors should stay out until clearer market signals.",
+      "timeframe": "тиждень",
+      "risk_level": "high",
+      "id": "ETH_20261014190239",
+      "generated_at": "2026-10-14T19:02:39.626830+03:00"
     }
   ],
   "market_overview": {
@@ -38,7 +68,7 @@
     "positive_news_count": 1,
     "negative_news_count": 0,
     "total_news_analyzed": 5,
-    "top_currency": "USD",
+    "top_currency": "UAH",
     "worst_currency": "GOLD",
     "market_status": {
       "forex": {
@@ -63,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-13T18:50:29.036284+03:00",
-    "analysis_time": "18:50"
+    "last_economic_update": "2026-10-14T19:02:35.909693+03:00",
+    "analysis_time": "19:02"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261013185030",
-  "total_recommendations": 3,
+  "analysis_id": "analysis_20261014190239",
+  "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-10-13T20:00:00+03:00"
+  "next_analysis": "2026-10-14T20:00:00+03:00"
 }
