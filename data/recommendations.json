@@ -1,75 +1,75 @@
 {
-  "last_update": "2026-10-14T19:02:39.626984+03:00",
-  "last_update_display": "2026-10-14 19:02:39",
+  "last_update": "2026-10-15T22:35:08.270798+03:00",
+  "last_update_display": "2026-10-15 22:35:08",
   "recommendations": [
-    {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Gold benefits from geopolitical tension and a stable USD; price expected to rise as investors seek safe assets.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "GOLD_20261014190239",
-      "generated_at": "2026-10-14T19:02:39.626835+03:00"
-    },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.82,
-      "reason": "USD remains a safe‑haven amid heightened political uncertainty in the region; its 44.98 UAH rate is stable and supported by active markets.",
+      "confidence": 0.88,
+      "reason": "US dollar remains safe‑haven amid Ukraine conflict and political uncertainty, with stable USD/UAH rate of 44.89 and active markets.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20261014190239",
-      "generated_at": "2026-10-14T19:02:39.626787+03:00"
+      "id": "USD_20261015223508",
+      "generated_at": "2026-10-15T22:35:08.270539+03:00"
     },
     {
-      "asset": "UAH",
-      "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "Local currency remains pressured by external shocks; no strong catalyst for appreciation, so hold current positions.",
-      "timeframe": "Найближчий час",
-      "risk_level": "medium",
-      "id": "UAH_20261014190239",
-      "generated_at": "2026-10-14T19:02:39.626840+03:00"
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.84,
+      "reason": "JPY traditionally benefits from risk‑off sentiment; current 0.28 UAH per JPY reflects low valuation and safe‑haven demand.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "JPY_20261015223508",
+      "generated_at": "2026-10-15T22:35:08.270569+03:00"
     },
     {
-      "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.71,
-      "reason": "Cryptocurrency volatility stays high; no new regulatory clarity, but BTC’s 2026‑10 trend is flat, making a wait‑and‑see approach prudent.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20261014190239",
-      "generated_at": "2026-10-14T19:02:39.626824+03:00"
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Gold benefits from heightened geopolitical tension and rising energy prices, making it a prudent hedge.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "GOLD_20261015223508",
+      "generated_at": "2026-10-15T22:35:08.270596+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.8,
+      "reason": "Swiss franc is a classic hedge against European political risk, especially after recent Ukrainian political news.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "CHF_20261015223508",
+      "generated_at": "2026-10-15T22:35:08.270580+03:00"
     },
     {
       "asset": "EUR",
-      "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Eurozone growth data is weak and the EUR at 50.35 UAH shows limited upside; risk of further depreciation amid global rate‑cut expectations.",
-      "timeframe": "тиждень",
+      "action": "NEUTRAL",
+      "confidence": 0.7,
+      "reason": "European energy margins rising could support euro‑zone growth, but inflation concerns and political instability keep outlook balanced.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "EUR_20261014190239",
-      "generated_at": "2026-10-14T19:02:39.626817+03:00"
+      "id": "EUR_20261015223508",
+      "generated_at": "2026-10-15T22:35:08.270588+03:00"
     },
     {
-      "asset": "ETH",
+      "asset": "BTC",
       "action": "AVOID",
       "confidence": 0.65,
-      "reason": "Ethereum faces scaling‑fee pressures and lower institutional interest; conservative investors should stay out until clearer market signals.",
-      "timeframe": "тиждень",
+      "reason": "Cryptocurrencies remain volatile with no supportive macro data; risk outweighs potential upside in current environment.",
+      "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "ETH_20261014190239",
-      "generated_at": "2026-10-14T19:02:39.626830+03:00"
+      "id": "BTC_20261015223508",
+      "generated_at": "2026-10-15T22:35:08.270603+03:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "ПОЗИТИВНИЙ",
-    "positive_news_count": 1,
-    "negative_news_count": 0,
+    "overall_sentiment": "НЕГАТИВНИЙ",
+    "positive_news_count": 0,
+    "negative_news_count": 1,
     "total_news_analyzed": 5,
-    "top_currency": "UAH",
-    "worst_currency": "GOLD",
+    "top_currency": "EUR",
+    "worst_currency": "USD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -93,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-14T19:02:35.909693+03:00",
-    "analysis_time": "19:02"
+    "last_economic_update": "2026-10-15T22:35:04.835666+03:00",
+    "analysis_time": "22:35"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261014190239",
+  "analysis_id": "analysis_20261015223508",
   "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-10-14T20:00:00+03:00"
+  "next_analysis": "2026-10-16T08:00:00+03:00"
 }
