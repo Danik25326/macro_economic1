@@ -1,65 +1,65 @@
 {
-  "last_update": "2026-10-16T01:51:58.280613+03:00",
-  "last_update_display": "2026-10-16 01:51:58",
+  "last_update": "2026-10-16T22:09:03.676749+03:00",
+  "last_update_display": "2026-10-16 22:09:03",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "STRONG_BUY",
       "confidence": 0.88,
-      "reason": "Зростаюча геополітична напруга (напади на саудівську інфраструктуру) та очікування волатильності на валютних ринках підвищують попит на золото як захисний актив.",
+      "reason": "Gold gains as investors seek protection against currency volatility and geopolitical risk, especially after statements on stalled Starlink defenses and NATO tensions.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "GOLD_20261016220903",
+      "generated_at": "2026-10-16T22:09:03.676589+03:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "STRONG_BUY",
+      "confidence": 0.85,
+      "reason": "Japanese yen traditionally strengthens during geopolitical uncertainty; recent EU‑US diplomatic friction and war concerns boost its safe‑haven appeal.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "GOLD_20261016015158",
-      "generated_at": "2026-10-16T01:51:58.280413+03:00"
+      "id": "JPY_20261016220903",
+      "generated_at": "2026-10-16T22:09:03.676581+03:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Конфлікт Хуті у Ємені та можливі перебої в постачанні нафти підвищують попит на безпечну валюту, а підготовка до США‑виборів посилює ризик‑офсет.",
+      "confidence": 0.78,
+      "reason": "USD remains the primary global reserve currency and benefits from safe‑haven demand as NATO‑Russia tensions rise, supporting its modest upside against UAH.",
       "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "USD_20261016015158",
-      "generated_at": "2026-10-16T01:51:58.280367+03:00"
+      "risk_level": "low",
+      "id": "USD_20261016220903",
+      "generated_at": "2026-10-16T22:09:03.676551+03:00"
     },
     {
-      "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.74,
-      "reason": "Євро стикається з двостороннім тиском: стабільність у Європі проти потенційного зростання енергетичних цін, що може обмежити короткостроковий підйом.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "EUR_20261016015158",
-      "generated_at": "2026-10-16T01:51:58.280400+03:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "NEUTRAL",
-      "confidence": 0.71,
-      "reason": "Британський фунт підтримується стабільною інфляцією, проте невизначеність щодо енергетичних імпортів і глобальної інфляції стримує його зростання.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GBP_20261016015158",
-      "generated_at": "2026-10-16T01:51:58.280408+03:00"
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.72,
+      "reason": "Ukrainian hryvnia faces pressure from ongoing conflict and uncertain foreign aid flows, making short‑term depreciation likely.",
+      "timeframe": "1-3 дні",
+      "risk_level": "high",
+      "id": "UAH_20261016220903",
+      "generated_at": "2026-10-16T22:09:03.676599+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.66,
-      "reason": "Криптовалюти залишаються надзвичайно чутливими до регуляторних новин та виборчої нестабільності в США, що підвищує короткостроковий ризик.",
+      "confidence": 0.7,
+      "reason": "Anthropic's breakthrough in cryptography could expose vulnerabilities in blockchain security, increasing regulatory and technical risk for Bitcoin.",
       "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20261016015158",
-      "generated_at": "2026-10-16T01:51:58.280418+03:00"
+      "id": "BTC_20261016220903",
+      "generated_at": "2026-10-16T22:09:03.676594+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 1,
-    "total_news_analyzed": 5,
-    "top_currency": "EUR",
-    "worst_currency": "USD",
+    "total_news_analyzed": 7,
+    "top_currency": "USD",
+    "worst_currency": "UAH",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -74,8 +74,8 @@
         "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
@@ -83,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-16T01:51:54.900526+03:00",
-    "analysis_time": "01:51"
+    "last_economic_update": "2026-10-16T22:09:00.932075+03:00",
+    "analysis_time": "22:09"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261016015158",
+  "analysis_id": "analysis_20261016220903",
   "total_recommendations": 5,
-  "news_count": 5,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2026-10-16T08:00:00+03:00"
+  "next_analysis": "2026-10-17T08:00:00+03:00"
 }
