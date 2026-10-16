@@ -1,69 +1,69 @@
 {
-  "last_update": "2026-10-16T22:09:03.676749+03:00",
-  "last_update_display": "2026-10-16 22:09:03",
+  "last_update": "2026-10-17T01:27:27.376035+03:00",
+  "last_update_display": "2026-10-17 01:27:27",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Gold gains as investors seek protection against currency volatility and geopolitical risk, especially after statements on stalled Starlink defenses and NATO tensions.",
+      "confidence": 0.9,
+      "reason": "Geopolitical uncertainty and potential escalation in the Black Sea drive investors to gold as a hedge; price stability supports a strong buy stance.",
       "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20261016220903",
-      "generated_at": "2026-10-16T22:09:03.676589+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "STRONG_BUY",
-      "confidence": 0.85,
-      "reason": "Japanese yen traditionally strengthens during geopolitical uncertainty; recent EU‑US diplomatic friction and war concerns boost its safe‑haven appeal.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "JPY_20261016220903",
-      "generated_at": "2026-10-16T22:09:03.676581+03:00"
+      "risk_level": "medium",
+      "id": "GOLD_20261017012727",
+      "generated_at": "2026-10-17T01:27:27.375870+03:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "USD remains the primary global reserve currency and benefits from safe‑haven demand as NATO‑Russia tensions rise, supporting its modest upside against UAH.",
+      "confidence": 0.88,
+      "reason": "US dollar remains the primary reserve currency amid regional instability; active markets and stable rate of 44.86 UAH support short‑term strength.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20261016220903",
-      "generated_at": "2026-10-16T22:09:03.676551+03:00"
+      "id": "USD_20261017012727",
+      "generated_at": "2026-10-17T01:27:27.375829+03:00"
     },
     {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 0.72,
-      "reason": "Ukrainian hryvnia faces pressure from ongoing conflict and uncertain foreign aid flows, making short‑term depreciation likely.",
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.84,
+      "reason": "JPY traditionally benefits from risk‑off flows; heightened political risk in Ukraine and Russia increases demand for safe‑haven yen.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "JPY_20261017012727",
+      "generated_at": "2026-10-17T01:27:27.375860+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Eurozone remains relatively stable; despite political headlines, the EUR rate at 50.50 UAH shows resilience, making a modest buy appropriate.",
       "timeframe": "1-3 дні",
-      "risk_level": "high",
-      "id": "UAH_20261016220903",
-      "generated_at": "2026-10-16T22:09:03.676599+03:00"
+      "risk_level": "medium",
+      "id": "EUR_20261017012727",
+      "generated_at": "2026-10-17T01:27:27.375885+03:00"
     },
     {
       "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Anthropic's breakthrough in cryptography could expose vulnerabilities in blockchain security, increasing regulatory and technical risk for Bitcoin.",
+      "action": "NEUTRAL",
+      "confidence": 0.68,
+      "reason": "Recent insider selling at Ethos Technologies signals possible short‑term weakness in crypto‑related stocks; however, broader crypto market remains volatile.",
       "timeframe": "1-3 дні",
       "risk_level": "high",
-      "id": "BTC_20261016220903",
-      "generated_at": "2026-10-16T22:09:03.676594+03:00"
+      "id": "BTC_20261017012727",
+      "generated_at": "2026-10-17T01:27:27.375878+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 1,
-    "total_news_analyzed": 7,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
     "worst_currency": "UAH",
     "market_status": {
       "forex": {
         "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -71,25 +71,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-16T22:09:00.932075+03:00",
-    "analysis_time": "22:09"
+    "last_economic_update": "2026-10-17T01:27:23.770093+03:00",
+    "analysis_time": "01:27"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261016220903",
+  "analysis_id": "analysis_20261017012727",
   "total_recommendations": 5,
-  "news_count": 7,
+  "news_count": 6,
   "language": "uk",
   "next_analysis": "2026-10-17T08:00:00+03:00"
 }
