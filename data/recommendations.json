@@ -1,56 +1,66 @@
 {
-  "last_update": "2026-10-17T01:27:27.376035+03:00",
-  "last_update_display": "2026-10-17 01:27:27",
+  "last_update": "2026-10-19T20:50:37.038127+03:00",
+  "last_update_display": "2026-10-19 20:50:37",
   "recommendations": [
     {
-      "asset": "GOLD",
+      "asset": "JPY",
       "action": "STRONG_BUY",
       "confidence": 0.9,
-      "reason": "Geopolitical uncertainty and potential escalation in the Black Sea drive investors to gold as a hedge; price stability supports a strong buy stance.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20261017012727",
-      "generated_at": "2026-10-17T01:27:27.375870+03:00"
+      "reason": "Японська єна є класичним притулком під час геополітичних криз; поточний курс 0.28 UAH робить її привабливою для короткострокових позицій.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "JPY_20261019205037",
+      "generated_at": "2026-10-19T20:50:37.037838+03:00"
     },
     {
       "asset": "USD",
-      "action": "BUY",
+      "action": "STRONG_BUY",
       "confidence": 0.88,
-      "reason": "US dollar remains the primary reserve currency amid regional instability; active markets and stable rate of 44.86 UAH support short‑term strength.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20261017012727",
-      "generated_at": "2026-10-17T01:27:27.375829+03:00"
-    },
-    {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.84,
-      "reason": "JPY traditionally benefits from risk‑off flows; heightened political risk in Ukraine and Russia increases demand for safe‑haven yen.",
+      "reason": "Російські атаки підвищують ризик, що стимулює інвесторів шукати безпечні активи; долар традиційно виграє у таких умовах, а курс 45 UAH демонструє стабільність.",
       "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "JPY_20261017012727",
-      "generated_at": "2026-10-17T01:27:27.375860+03:00"
+      "id": "USD_20261019205037",
+      "generated_at": "2026-10-19T20:50:37.037805+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "STRONG_BUY",
+      "confidence": 0.85,
+      "reason": "Зростаюча геополітична нестабільність та ризик‑офф на ринках традиційно підвищують попит на золото як захист від інфляції та конфліктів.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "GOLD_20261019205037",
+      "generated_at": "2026-10-19T20:50:37.037873+03:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Швейцарський франк зберігає статус безпечного активу, а відсутність негативних новин щодо Швейцарії підтримує його стабільність.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "CHF_20261019205037",
+      "generated_at": "2026-10-19T20:50:37.037851+03:00"
     },
     {
       "asset": "EUR",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Eurozone remains relatively stable; despite political headlines, the EUR rate at 50.50 UAH shows resilience, making a modest buy appropriate.",
+      "confidence": 0.75,
+      "reason": "Євро залишається стабільним у порівнянні з UAH, а відсутність суттєвих негативних новин про Єврозону підтримує його позиції; курс 50.53 UAH вказує на помірну переоцінку.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "EUR_20261017012727",
-      "generated_at": "2026-10-17T01:27:27.375885+03:00"
+      "id": "EUR_20261019205037",
+      "generated_at": "2026-10-19T20:50:37.037863+03:00"
     },
     {
       "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Recent insider selling at Ethos Technologies signals possible short‑term weakness in crypto‑related stocks; however, broader crypto market remains volatile.",
-      "timeframe": "1-3 дні",
+      "action": "AVOID",
+      "confidence": 0.65,
+      "reason": "Криптовалюти залишаються надзвичайно волатильними, а в умовах підвищеного ризику інвестори схильні уникати їх на користь більш передбачуваних активів.",
+      "timeframe": "тиждень",
       "risk_level": "high",
-      "id": "BTC_20261017012727",
-      "generated_at": "2026-10-17T01:27:27.375878+03:00"
+      "id": "BTC_20261019205037",
+      "generated_at": "2026-10-19T20:50:37.037883+03:00"
     }
   ],
   "market_overview": {
@@ -59,11 +69,11 @@
     "negative_news_count": 1,
     "total_news_analyzed": 6,
     "top_currency": "USD",
-    "worst_currency": "UAH",
+    "worst_currency": "RUB",
     "market_status": {
       "forex": {
         "status": "OPEN",
-        "next_change": "Нд 23:00"
+        "next_change": "Пт 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -71,25 +81,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 09:00"
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "Пн 16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 10:00"
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-17T01:27:23.770093+03:00",
-    "analysis_time": "01:27"
+    "last_economic_update": "2026-10-19T20:50:33.428723+03:00",
+    "analysis_time": "20:50"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261017012727",
-  "total_recommendations": 5,
+  "analysis_id": "analysis_20261019205037",
+  "total_recommendations": 6,
   "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-10-17T08:00:00+03:00"
+  "next_analysis": "2026-10-20T08:00:00+03:00"
 }
