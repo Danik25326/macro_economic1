@@ -1,66 +1,66 @@
 {
-  "last_update": "2026-10-20T18:54:33.020159+03:00",
-  "last_update_display": "2026-10-20 18:54:33",
+  "last_update": "2026-10-20T22:45:41.000159+03:00",
+  "last_update_display": "2026-10-20 22:45:41",
   "recommendations": [
     {
-      "asset": "USD",
-      "action": "BUY",
-      "confidence": 0.88,
-      "reason": "US dollar benefits from risk‑off sentiment driven by French protests and Ukraine instability, and remains the primary safe‑haven currency.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "USD_20261020185433",
-      "generated_at": "2026-10-20T18:54:33.019902+03:00"
-    },
-    {
       "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.86,
-      "reason": "Gold price supported by falling risk appetite and safe‑haven demand after French protests and Ukraine attacks.",
-      "timeframe": "1-3 дні",
+      "action": "STRONG_BUY",
+      "confidence": 0.9,
+      "reason": "Зростаюча невизначеність і інфляційний тиск роблять золото привабливим активом‑захистом у поточному ризиковому середовищі.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "GOLD_20261020185433",
-      "generated_at": "2026-10-20T18:54:33.019969+03:00"
+      "id": "GOLD_20261020224540",
+      "generated_at": "2026-10-20T22:45:40.999991+03:00"
     },
     {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Japanese yen gains as investors seek safe‑haven assets amid heightened geopolitical risk in Europe and Ukraine.",
+      "asset": "USD",
+      "action": "STRONG_BUY",
+      "confidence": 0.88,
+      "reason": "Зростаюча військова активність в Україні підсилює попит на долар як глобальний актив‑захист, а підтримка США залишає його стабільним.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "JPY_20261020185433",
-      "generated_at": "2026-10-20T18:54:33.019949+03:00"
+      "id": "USD_20261020224540",
+      "generated_at": "2026-10-20T22:45:40.999936+03:00"
     },
     {
       "asset": "EUR",
-      "action": "AVOID",
-      "confidence": 0.81,
-      "reason": "Eurozone equity weakness and domestic unrest in France weigh on euro, limiting upside in the near term.",
-      "timeframe": "Найближчий час",
+      "action": "BUY",
+      "confidence": 0.75,
+      "reason": "Європейські країни продовжують надавати фінансову підтримку Україні, що підтримує євро, хоча ризик війни обмежує його потенціал.",
+      "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "EUR_20261020185433",
-      "generated_at": "2026-10-20T18:54:33.019935+03:00"
+      "id": "EUR_20261020224540",
+      "generated_at": "2026-10-20T22:45:40.999971+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Прямі бойові дії та пошкодження інфраструктури створюють сильний тиск на гривню, знижуючи її стабільність.",
+      "timeframe": "Найближчий час",
+      "risk_level": "high",
+      "id": "UAH_20261020224541",
+      "generated_at": "2026-10-20T22:45:41.000005+03:00"
     },
     {
       "asset": "GBP",
-      "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "British pound faces mixed signals; UK economy stable but European risk reduces demand, warranting a wait‑and‑see approach.",
-      "timeframe": "тиждень",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Британія менш залучена до конфлікту, але підвищена інфляція та невизначеність щодо монетарної політики підвищують ризики для фунта.",
+      "timeframe": "Найближчий час",
       "risk_level": "medium",
-      "id": "GBP_20261020185433",
-      "generated_at": "2026-10-20T18:54:33.019959+03:00"
+      "id": "GBP_20261020224540",
+      "generated_at": "2026-10-20T22:45:40.999982+03:00"
     },
     {
       "asset": "BTC",
       "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Cryptocurrencies remain volatile and lack clear macro support amid geopolitical uncertainty, making them unsuitable for conservative investors.",
+      "confidence": 0.65,
+      "reason": "Криптовалюти залишаються надзвичайно волатильними; війна в Україні та можливі регуляторні обмеження підвищують їх ризик.",
       "timeframe": "Найближчий час",
       "risk_level": "high",
-      "id": "BTC_20261020185433",
-      "generated_at": "2026-10-20T18:54:33.019978+03:00"
+      "id": "BTC_20261020224540",
+      "generated_at": "2026-10-20T22:45:40.999998+03:00"
     }
   ],
   "market_overview": {
@@ -93,13 +93,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-20T18:54:29.907182+03:00",
-    "analysis_time": "18:54"
+    "last_economic_update": "2026-10-20T22:45:37.644287+03:00",
+    "analysis_time": "22:45"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261020185433",
+  "analysis_id": "analysis_20261020224541",
   "total_recommendations": 6,
   "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-10-20T20:00:00+03:00"
+  "next_analysis": "2026-10-21T08:00:00+03:00"
 }
