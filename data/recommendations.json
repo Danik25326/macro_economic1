@@ -1,73 +1,43 @@
 {
-  "last_update": "2026-10-23T18:59:38.934692+03:00",
-  "last_update_display": "2026-10-23 18:59:38",
+  "last_update": "2026-10-23T22:39:57.645929+03:00",
+  "last_update_display": "2026-10-23 22:39:57",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Gold gains as investors seek safety amid Ukraine’s political instability and potential escalation; price action confirms upward bias.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "GOLD_20261023185938",
-      "generated_at": "2026-10-23T18:59:38.934445+03:00"
+      "action": "STRONG_BUY",
+      "confidence": 0.86,
+      "reason": "Зростаюча небезпека нових мирних планів в Україні та падіння індексів ризику підвищують попит на золото як захисний інструмент; технічний аналіз вказує на підтримку вище $1900.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GOLD_20261023223957",
+      "generated_at": "2026-10-23T22:39:57.645671+03:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.82,
-      "reason": "US dollar benefits from safe‑haven demand amid Ukraine‑related geopolitical risk and stable US macro data; active markets support short‑term strength.",
-      "timeframe": "1-3 дні",
+      "reason": "Геополітична напруга в Україні та очікування подальшого посилення санкцій підвищують попит на долар як безпечний актив, а курс стабільний на 45.20 UAH.",
+      "timeframe": "Найближчий час",
       "risk_level": "low",
-      "id": "USD_20261023185938",
-      "generated_at": "2026-10-23T18:59:38.934365+03:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "BUY",
-      "confidence": 0.75,
-      "reason": "Pound shows resilience as UK inflation eases and market sentiment favors risk‑on assets after memory‑chip rally; limited downside from current level.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "GBP_20261023185938",
-      "generated_at": "2026-10-23T18:59:38.934415+03:00"
+      "id": "USD_20261023223957",
+      "generated_at": "2026-10-23T22:39:57.645621+03:00"
     },
     {
       "asset": "JPY",
-      "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Yen remains vulnerable due to widening US‑Japan rate differentials and lack of supportive domestic data; risk of further depreciation.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "JPY_20261023185938",
-      "generated_at": "2026-10-23T18:59:38.934426+03:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Euro is pressured by higher USD rates and limited euro‑zone growth data; no clear catalyst from news to shift direction.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "EUR_20261023185938",
-      "generated_at": "2026-10-23T18:59:38.934402+03:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "NEUTRAL",
-      "confidence": 0.65,
-      "reason": "Cryptocurrency market lacks clear regulatory news; volatility stays high, so a wait‑and‑see approach is prudent.",
-      "timeframe": "тиждень",
-      "risk_level": "high",
-      "id": "BTC_20261023185938",
-      "generated_at": "2026-10-23T18:59:38.934435+03:00"
+      "action": "BUY",
+      "confidence": 0.78,
+      "reason": "Йєна традиційно зростає під час глобальної невизначеності; поточний рівень 0.29 UAH виглядає привабливим для короткострокових позицій.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "JPY_20261023223957",
+      "generated_at": "2026-10-23T22:39:57.645658+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 2,
-    "total_news_analyzed": 5,
+    "total_news_analyzed": 8,
     "top_currency": "USD",
     "worst_currency": "UAH",
     "market_status": {
@@ -93,13 +63,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-23T18:59:36.436199+03:00",
-    "analysis_time": "18:59"
+    "last_economic_update": "2026-10-23T22:39:53.808262+03:00",
+    "analysis_time": "22:39"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261023185938",
-  "total_recommendations": 6,
-  "news_count": 5,
+  "analysis_id": "analysis_20261023223957",
+  "total_recommendations": 3,
+  "news_count": 8,
   "language": "uk",
-  "next_analysis": "2026-10-23T20:00:00+03:00"
+  "next_analysis": "2026-10-24T08:00:00+03:00"
 }
