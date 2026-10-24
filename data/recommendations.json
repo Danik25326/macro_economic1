@@ -1,49 +1,79 @@
 {
-  "last_update": "2026-10-23T22:39:57.645929+03:00",
-  "last_update_display": "2026-10-23 22:39:57",
+  "last_update": "2026-10-25T01:12:43.917802+03:00",
+  "last_update_display": "2026-10-25 01:12:43",
   "recommendations": [
-    {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.86,
-      "reason": "Зростаюча небезпека нових мирних планів в Україні та падіння індексів ризику підвищують попит на золото як захисний інструмент; технічний аналіз вказує на підтримку вище $1900.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "GOLD_20261023223957",
-      "generated_at": "2026-10-23T22:39:57.645671+03:00"
-    },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Геополітична напруга в Україні та очікування подальшого посилення санкцій підвищують попит на долар як безпечний актив, а курс стабільний на 45.20 UAH.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.88,
+      "reason": "Новини про будівництво Audi у Джорджії та розширення Volkswagen у Південній Кароліні підвищують очікування росту виробництва в США, що підтримує попит на долар.",
+      "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20261023223957",
-      "generated_at": "2026-10-23T22:39:57.645621+03:00"
+      "id": "USD_20261025011243",
+      "generated_at": "2026-10-25T01:12:43.917531+03:00"
+    },
+    {
+      "asset": "GOLD",
+      "action": "BUY",
+      "confidence": 0.84,
+      "reason": "Хвилювання через атаки Хуті на Саудівські об’єкти підвищують інфляційні очікування та попит на золото як захисний актив.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GOLD_20261025011243",
+      "generated_at": "2026-10-25T01:12:43.917583+03:00"
     },
     {
       "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "Йєна традиційно зростає під час глобальної невизначеності; поточний рівень 0.29 UAH виглядає привабливим для короткострокових позицій.",
+      "confidence": 0.81,
+      "reason": "Геополітична напруга на Близькому Сході підвищує попит на безпечні активи, включаючи ієн, а низька вартість 0.29 UAH робить його привабливим для короткострокових позицій.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "JPY_20261023223957",
-      "generated_at": "2026-10-23T22:39:57.645658+03:00"
+      "id": "JPY_20261025011243",
+      "generated_at": "2026-10-25T01:12:43.917576+03:00"
+    },
+    {
+      "asset": "EUR",
+      "action": "NEUTRAL",
+      "confidence": 0.73,
+      "reason": "Євро залишається під тиском через відсутність нових позитивних даних про економіку ЄС, а поточний курс 50.58 UAH не вказує на значні коливання.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "EUR_20261025011243",
+      "generated_at": "2026-10-25T01:12:43.917565+03:00"
+    },
+    {
+      "asset": "UAH",
+      "action": "AVOID",
+      "confidence": 0.7,
+      "reason": "Потенційне посилення інфляції через підвищені ціни на енергоносії та ризики, пов’язані з війною в Україні, можуть ослабити гривню в короткостроковій перспективі.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "UAH_20261025011243",
+      "generated_at": "2026-10-25T01:12:43.917598+03:00"
+    },
+    {
+      "asset": "BTC",
+      "action": "AVOID",
+      "confidence": 0.68,
+      "reason": "Криптовалюти залишаються волатильними, а відсутність регуляторних новин чи позитивних фундаментальних факторів у поєднанні з підвищеним ризиком геополітики знижує їх привабливість.",
+      "timeframe": "найближчий час",
+      "risk_level": "high",
+      "id": "BTC_20261025011243",
+      "generated_at": "2026-10-25T01:12:43.917590+03:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 2,
-    "total_news_analyzed": 8,
-    "top_currency": "USD",
-    "worst_currency": "UAH",
+    "negative_news_count": 1,
+    "total_news_analyzed": 5,
+    "top_currency": "EUR",
+    "worst_currency": "USD",
     "market_status": {
       "forex": {
-        "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "status": "CLOSED",
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -51,25 +81,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-23T22:39:53.808262+03:00",
-    "analysis_time": "22:39"
+    "last_economic_update": "2026-10-25T01:12:41.024018+03:00",
+    "analysis_time": "01:12"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261023223957",
-  "total_recommendations": 3,
-  "news_count": 8,
+  "analysis_id": "analysis_20261025011243",
+  "total_recommendations": 6,
+  "news_count": 5,
   "language": "uk",
-  "next_analysis": "2026-10-24T08:00:00+03:00"
+  "next_analysis": "2026-10-25T08:00:00+03:00"
 }
