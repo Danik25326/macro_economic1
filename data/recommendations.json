@@ -1,79 +1,79 @@
 {
-  "last_update": "2026-10-25T01:12:43.917802+03:00",
-  "last_update_display": "2026-10-25 01:12:43",
+  "last_update": "2026-10-26T00:15:36.222195+02:00",
+  "last_update_display": "2026-10-26 00:15:36",
   "recommendations": [
+    {
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.86,
+      "reason": "Escalating security concerns near Ukraine increase demand for safe‑haven yen, supported by its low 0.29 rate.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "JPY_20261026001536",
+      "generated_at": "2026-10-26T00:15:36.221951+02:00"
+    },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Новини про будівництво Audi у Джорджії та розширення Volkswagen у Південній Кароліні підвищують очікування росту виробництва в США, що підтримує попит на долар.",
+      "confidence": 0.82,
+      "reason": "Close US‑Canada trade deal talks support dollar demand and reinforce North‑American economic ties.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "USD_20261026001536",
+      "generated_at": "2026-10-26T00:15:36.221888+02:00"
+    },
+    {
+      "asset": "CHF",
+      "action": "BUY",
+      "confidence": 0.79,
+      "reason": "Swiss franc remains a traditional safe haven; geopolitical risk and stable Swiss monetary policy justify a modest long position.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20261025011243",
-      "generated_at": "2026-10-25T01:12:43.917531+03:00"
+      "id": "CHF_20261026001536",
+      "generated_at": "2026-10-26T00:15:36.221962+02:00"
     },
     {
       "asset": "GOLD",
       "action": "BUY",
-      "confidence": 0.84,
-      "reason": "Хвилювання через атаки Хуті на Саудівські об’єкти підвищують інфляційні очікування та попит на золото як захисний актив.",
+      "confidence": 0.75,
+      "reason": "Gold benefits from heightened geopolitical tension and safe‑haven flows, with active markets indicating upward pressure.",
       "timeframe": "тиждень",
       "risk_level": "medium",
-      "id": "GOLD_20261025011243",
-      "generated_at": "2026-10-25T01:12:43.917583+03:00"
+      "id": "GOLD_20261026001536",
+      "generated_at": "2026-10-26T00:15:36.221972+02:00"
     },
     {
-      "asset": "JPY",
-      "action": "BUY",
-      "confidence": 0.81,
-      "reason": "Геополітична напруга на Близькому Сході підвищує попит на безпечні активи, включаючи ієн, а низька вартість 0.29 UAH робить його привабливим для короткострокових позицій.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "JPY_20261025011243",
-      "generated_at": "2026-10-25T01:12:43.917576+03:00"
+      "asset": "GBP",
+      "action": "AVOID",
+      "confidence": 0.71,
+      "reason": "UK decision not to join Canada’s defence bank adds fiscal uncertainty and limits upside for sterling.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "GBP_20261026001536",
+      "generated_at": "2026-10-26T00:15:36.221940+02:00"
     },
     {
       "asset": "EUR",
       "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "Євро залишається під тиском через відсутність нових позитивних даних про економіку ЄС, а поточний курс 50.58 UAH не вказує на значні коливання.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "EUR_20261025011243",
-      "generated_at": "2026-10-25T01:12:43.917565+03:00"
-    },
-    {
-      "asset": "UAH",
-      "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Потенційне посилення інфляції через підвищені ціни на енергоносії та ризики, пов’язані з війною в Україні, можуть ослабити гривню в короткостроковій перспективі.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "UAH_20261025011243",
-      "generated_at": "2026-10-25T01:12:43.917598+03:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "AVOID",
       "confidence": 0.68,
-      "reason": "Криптовалюти залишаються волатильними, а відсутність регуляторних новин чи позитивних фундаментальних факторів у поєднанні з підвищеним ризиком геополітики знижує їх привабливість.",
-      "timeframe": "найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20261025011243",
-      "generated_at": "2026-10-25T01:12:43.917590+03:00"
+      "reason": "Eurozone lacks fresh catalysts; current rate 50.58 shows modest strength but no clear directional bias.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "EUR_20261026001536",
+      "generated_at": "2026-10-26T00:15:36.221926+02:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
     "positive_news_count": 0,
-    "negative_news_count": 1,
-    "total_news_analyzed": 5,
-    "top_currency": "EUR",
-    "worst_currency": "USD",
+    "negative_news_count": 0,
+    "total_news_analyzed": 7,
+    "top_currency": "USD",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
-        "status": "CLOSED",
-        "next_change": "Нд 23:00"
+        "status": "OPEN",
+        "next_change": "Пт 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -81,25 +81,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 09:00"
+        "next_change": "09:00"
       },
       "us_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 16:30"
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 10:00"
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-25T01:12:41.024018+03:00",
-    "analysis_time": "01:12"
+    "last_economic_update": "2026-10-26T00:15:32.668288+02:00",
+    "analysis_time": "00:15"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261025011243",
+  "analysis_id": "analysis_20261026001536",
   "total_recommendations": 6,
-  "news_count": 5,
+  "news_count": 7,
   "language": "uk",
-  "next_analysis": "2026-10-25T08:00:00+03:00"
+  "next_analysis": "2026-10-26T08:00:00+02:00"
 }
