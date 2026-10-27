@@ -1,66 +1,36 @@
 {
-  "last_update": "2026-10-27T22:19:53.064087+02:00",
-  "last_update_display": "2026-10-27 22:19:53",
+  "last_update": "2026-10-28T01:26:15.619994+02:00",
+  "last_update_display": "2026-10-28 01:26:15",
   "recommendations": [
-    {
-      "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Heightened uncertainty and possible escalation keep demand for gold high; recent cease‑fire does not remove safe‑haven appeal.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20261027201953",
-      "generated_at": "2026-10-27T22:19:53.063794+02:00"
-    },
     {
       "asset": "EUR",
       "action": "BUY",
       "confidence": 0.82,
-      "reason": "EU leaders engaged in peace talks with Putin, signalling potential diplomatic progress that could strengthen the euro against risk‑off currencies.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "EUR_20261027201953",
-      "generated_at": "2026-10-27T22:19:53.063721+02:00"
+      "reason": "Новини про мирні переговори з Росією зменшують ризики для єврозони, а стабільний курс 50.85 підтримує попит на євро.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "EUR_20261027232615",
+      "generated_at": "2026-10-28T01:26:15.619799+02:00"
     },
     {
-      "asset": "JPY",
+      "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.8,
-      "reason": "Japanese yen benefits from global risk‑off sentiment and stable monetary policy, making it a prudent short‑term hold.",
-      "timeframe": "1-3 дні",
+      "confidence": 0.78,
+      "reason": "Швейцарський франк традиційно виграє в умовах невизначеності, а поточна стабільність ринків підсилює його привабливість.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "JPY_20261027201953",
-      "generated_at": "2026-10-27T22:19:53.063827+02:00"
+      "id": "CHF_20261027232615",
+      "generated_at": "2026-10-28T01:26:15.619838+02:00"
     },
     {
       "asset": "USD",
       "action": "NEUTRAL",
-      "confidence": 0.78,
-      "reason": "Dollar remains safe‑haven amid ongoing war; recent cease‑fire offers no clear catalyst for upside.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "USD_20261027201953",
-      "generated_at": "2026-10-27T22:19:53.063776+02:00"
-    },
-    {
-      "asset": "UAH",
-      "action": "BUY",
-      "confidence": 0.75,
-      "reason": "Local cease‑fire reduces immediate pressure on Ukraine’s economy, supporting the hryvnia despite overall war risk.",
+      "confidence": 0.74,
+      "reason": "Долар залишається головним безпечним активом, проте зниження геополітичної напруги може обмежити його короткострокове підвищення.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "UAH_20261027201953",
-      "generated_at": "2026-10-27T22:19:53.063806+02:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.7,
-      "reason": "Cryptocurrencies remain volatile and sensitive to regulatory actions; no positive news offsets this risk.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20261027201953",
-      "generated_at": "2026-10-27T22:19:53.063816+02:00"
+      "id": "USD_20261027232615",
+      "generated_at": "2026-10-28T01:26:15.619830+02:00"
     }
   ],
   "market_overview": {
@@ -84,8 +54,8 @@
         "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
@@ -93,12 +63,12 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-27T22:19:49.386591+02:00",
-    "analysis_time": "22:19"
+    "last_economic_update": "2026-10-28T01:26:11.343832+02:00",
+    "analysis_time": "01:26"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261027201953",
-  "total_recommendations": 6,
+  "analysis_id": "analysis_20261027232615",
+  "total_recommendations": 3,
   "news_count": 5,
   "language": "uk",
   "next_analysis": "2026-10-28T08:00:00+02:00"
