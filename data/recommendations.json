@@ -1,68 +1,68 @@
 {
-  "last_update": "2026-10-31T21:38:45.799498+02:00",
-  "last_update_display": "2026-10-31 21:38:45",
+  "last_update": "2026-11-01T01:00:24.028581+02:00",
+  "last_update_display": "2026-11-01 01:00:24",
   "recommendations": [
     {
       "asset": "GOLD",
       "action": "STRONG_BUY",
-      "confidence": 0.9,
-      "reason": "Geopolitical shocks and energy disruptions in Ukraine increase demand for gold as a hedge; price stability supports a strong buy stance.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20261031193845",
-      "generated_at": "2026-10-31T21:38:45.799293+02:00"
+      "confidence": 0.91,
+      "reason": "Gold benefits from higher energy prices, inflation expectations and safe‑haven flows triggered by Middle‑East risk and regional unrest.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "GOLD_20261031230024",
+      "generated_at": "2026-11-01T01:00:24.028371+02:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
       "confidence": 0.88,
-      "reason": "Escalating unrest in France and Poland pushes investors toward the US dollar as a safe‑haven; USD remains stable at 45.35 UAH.",
+      "reason": "Rising European gas prices and geopolitical uncertainty boost demand for the dollar as a global safe‑haven.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20261031193845",
-      "generated_at": "2026-10-31T21:38:45.799249+02:00"
+      "id": "USD_20261031230024",
+      "generated_at": "2026-11-01T01:00:24.028324+02:00"
     },
     {
       "asset": "CHF",
       "action": "BUY",
-      "confidence": 0.85,
-      "reason": "Swiss franc benefits from heightened risk aversion amid European political crises and lacks direct exposure to the region’s turmoil.",
+      "confidence": 0.82,
+      "reason": "Swiss franc remains a stable store of value amid EU political turbulence and energy price spikes.",
+      "timeframe": "тиждень",
+      "risk_level": "low",
+      "id": "CHF_20261031230024",
+      "generated_at": "2026-11-01T01:00:24.028357+02:00"
+    },
+    {
+      "asset": "JPY",
+      "action": "BUY",
+      "confidence": 0.76,
+      "reason": "Japanese yen is traditionally sought after during global risk‑off periods; current geopolitical stress supports modest upside.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "CHF_20261031193845",
-      "generated_at": "2026-10-31T21:38:45.799281+02:00"
+      "id": "JPY_20261031230024",
+      "generated_at": "2026-11-01T01:00:24.028381+02:00"
     },
     {
       "asset": "EUR",
       "action": "NEUTRAL",
-      "confidence": 0.73,
-      "reason": "Eurozone faces spill‑over effects from French unrest, but monetary policy remains supportive; no clear directional bias yet.",
-      "timeframe": "Найближчий час",
-      "risk_level": "medium",
-      "id": "EUR_20261031193845",
-      "generated_at": "2026-10-31T21:38:45.799303+02:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "AVOID",
       "confidence": 0.68,
-      "reason": "Crypto markets lack fundamental catalysts and are vulnerable to heightened risk‑off flows triggered by European instability.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20261031193845",
-      "generated_at": "2026-10-31T21:38:45.799313+02:00"
+      "reason": "Political instability in France and Poland may weigh on the euro, while ECB policy remains unchanged; no clear directional bias.",
+      "timeframe": "тиждень",
+      "risk_level": "medium",
+      "id": "EUR_20261031230024",
+      "generated_at": "2026-11-01T01:00:24.028391+02:00"
     }
   ],
   "market_overview": {
     "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 0,
     "negative_news_count": 3,
-    "total_news_analyzed": 5,
+    "total_news_analyzed": 6,
     "top_currency": "USD",
     "worst_currency": "RUB",
     "market_status": {
       "forex": {
-        "status": "OPEN",
+        "status": "CLOSED",
         "next_change": "Нд 23:00"
       },
       "crypto": {
@@ -83,13 +83,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-10-31T21:38:42.114481+02:00",
-    "analysis_time": "21:38"
+    "last_economic_update": "2026-11-01T01:00:20.627719+02:00",
+    "analysis_time": "01:00"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261031193845",
+  "analysis_id": "analysis_20261031230024",
   "total_recommendations": 5,
-  "news_count": 5,
+  "news_count": 6,
   "language": "uk",
   "next_analysis": "2026-11-01T08:00:00+02:00"
 }
