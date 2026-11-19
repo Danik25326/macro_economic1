@@ -1,65 +1,55 @@
 {
-  "last_update": "2026-11-16T20:18:28.536823+02:00",
-  "last_update_display": "2026-11-16 20:18:28",
+  "last_update": "2026-11-19T19:15:22.036309+02:00",
+  "last_update_display": "2026-11-19 19:15:22",
   "recommendations": [
     {
       "asset": "GOLD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Gold is a traditional hedge; rising geopolitical uncertainty and a softening equity market (Uranium low) boost safe‑haven demand.",
-      "timeframe": "1-3 дні",
-      "risk_level": "low",
-      "id": "GOLD_20261116181828",
-      "generated_at": "2026-11-16T20:18:28.536629+02:00"
+      "action": "BUY",
+      "confidence": 0.85,
+      "reason": "Зростання військових витрат у Росії та обмеження експорту чипів підвищують попит на золото як захист від інфляції та ризику.",
+      "timeframe": "Найближчий час",
+      "risk_level": "medium",
+      "id": "GOLD_20261119171522",
+      "generated_at": "2026-11-19T19:15:22.036150+02:00"
     },
     {
       "asset": "USD",
       "action": "BUY",
-      "confidence": 0.78,
-      "reason": "USD remains the regional safe‑haven amid uncertain equity earnings and a 52‑week low in uranium stock, supporting demand for the greenback.",
+      "confidence": 0.82,
+      "reason": "Російські рекордні військові витрати та нові санкції підвищують попит на долар як безпечну валюту.",
       "timeframe": "1-3 дні",
       "risk_level": "low",
-      "id": "USD_20261116181828",
-      "generated_at": "2026-11-16T20:18:28.536561+02:00"
+      "id": "USD_20261119171522",
+      "generated_at": "2026-11-19T19:15:22.036090+02:00"
     },
     {
-      "asset": "GBP",
+      "asset": "JPY",
       "action": "BUY",
-      "confidence": 0.75,
-      "reason": "GBP shows modest strength against UAH and benefits from higher interest‑rate differentials in the UK versus Eurozone.",
-      "timeframe": "Найближчий час",
+      "confidence": 0.78,
+      "reason": "Японська єна традиційно зростає під час геополітичних криз, а поточна нестабільність у Європі підсилює її привабливість.",
+      "timeframe": "тиждень",
       "risk_level": "low",
-      "id": "GBP_20261116181828",
-      "generated_at": "2026-11-16T20:18:28.536607+02:00"
+      "id": "JPY_20261119171522",
+      "generated_at": "2026-11-19T19:15:22.036140+02:00"
     },
     {
-      "asset": "EUR",
+      "asset": "CHF",
       "action": "NEUTRAL",
-      "confidence": 0.7,
-      "reason": "EUR is slightly weaker against UAH and lacks a clear catalyst; European Commission drug approval does not affect currency fundamentals.",
-      "timeframe": "тиждень",
-      "risk_level": "medium",
-      "id": "EUR_20261116181828",
-      "generated_at": "2026-11-16T20:18:28.536594+02:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.68,
-      "reason": "Cryptocurrency markets are volatile and lack supportive macro news; recent equity stress suggests risk‑off sentiment.",
-      "timeframe": "тиждень",
-      "risk_level": "high",
-      "id": "BTC_20261116181828",
-      "generated_at": "2026-11-16T20:18:28.536618+02:00"
+      "confidence": 0.71,
+      "reason": "Швейцарський франк залишається стабільним, проте відсутність нових драйверів обмежує його перевагу над USD та JPY.",
+      "timeframe": "1-3 дні",
+      "risk_level": "low",
+      "id": "CHF_20261119171522",
+      "generated_at": "2026-11-19T19:15:22.036156+02:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
-    "positive_news_count": 0,
-    "negative_news_count": 1,
-    "total_news_analyzed": 7,
-    "top_currency": "USD",
-    "worst_currency": "GOLD",
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "positive_news_count": 3,
+    "negative_news_count": 2,
+    "total_news_analyzed": 9,
+    "top_currency": "EUR",
+    "worst_currency": "USD",
     "market_status": {
       "forex": {
         "status": "OPEN",
@@ -83,13 +73,13 @@
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-11-16T20:18:24.469098+02:00",
-    "analysis_time": "20:18"
+    "last_economic_update": "2026-11-19T19:15:18.290992+02:00",
+    "analysis_time": "19:15"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261116181828",
-  "total_recommendations": 5,
-  "news_count": 7,
+  "analysis_id": "analysis_20261119171522",
+  "total_recommendations": 4,
+  "news_count": 9,
   "language": "uk",
-  "next_analysis": "2026-11-17T08:00:00+02:00"
+  "next_analysis": "2026-11-19T20:00:00+02:00"
 }
