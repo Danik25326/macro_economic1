@@ -1,79 +1,29 @@
 {
-  "last_update": "2026-11-20T18:53:51.675664+02:00",
-  "last_update_display": "2026-11-20 18:53:51",
+  "last_update": "2026-11-22T02:03:24.742892+02:00",
+  "last_update_display": "2026-11-22 02:03:24",
   "recommendations": [
     {
-      "asset": "GOLD",
-      "action": "BUY",
-      "confidence": 0.88,
-      "reason": "Золото традиційно зростає під час геополітичної нестабільності; рекордний врожай зерна в Україні підвищує попит на безпечні активи.",
-      "timeframe": "тиждень",
-      "risk_level": "low",
-      "id": "GOLD_20261120165351",
-      "generated_at": "2026-11-20T18:53:51.675487+02:00"
-    },
-    {
-      "asset": "BTC",
-      "action": "AVOID",
-      "confidence": 0.85,
-      "reason": "Біткоїн впав на 28,3% за місяць, що свідчить про сильний медвежий тренд і зниження інтересу інституційних інвесторів.",
-      "timeframe": "Найближчий час",
-      "risk_level": "high",
-      "id": "BTC_20261120165351",
-      "generated_at": "2026-11-20T18:53:51.675474+02:00"
-    },
-    {
-      "asset": "EUR",
-      "action": "BUY",
-      "confidence": 0.82,
-      "reason": "Євро зміцнюється на фоні стабільного економічного зростання в ЄС та помірної інфляції, тоді як долар стикається з тиском через високі державні витрати США.",
-      "timeframe": "Найближчий час",
-      "risk_level": "low",
-      "id": "EUR_20261120165351",
-      "generated_at": "2026-11-20T18:53:51.675426+02:00"
-    },
-    {
-      "asset": "ETH",
-      "action": "AVOID",
-      "confidence": 0.78,
-      "reason": "Ефір слідує за Біткоїном, його падіння підкріплює загальне відтік капіталу з криптовалют у зв’язку з підвищеною регуляторною невизначеністю.",
-      "timeframe": "1-3 дні",
-      "risk_level": "high",
-      "id": "ETH_20261120165351",
-      "generated_at": "2026-11-20T18:53:51.675481+02:00"
-    },
-    {
-      "asset": "GBP",
-      "action": "AVOID",
-      "confidence": 0.75,
-      "reason": "Фунт піддається тиску через слабкі макроекономічні дані у Великій Британії та ризик подальшого зниження інфляції, що може спровокувати нові монетарні кроки.",
-      "timeframe": "1-3 дні",
-      "risk_level": "medium",
-      "id": "GBP_20261120165351",
-      "generated_at": "2026-11-20T18:53:51.675460+02:00"
-    },
-    {
       "asset": "USD",
-      "action": "NEUTRAL",
-      "confidence": 0.68,
-      "reason": "Долар залишається головною резервною валютою, проте його підтримка під загрозою через зростаючі боргові навантаження та можливі зміни монетарної політики ФРС.",
-      "timeframe": "тиждень",
+      "action": "STRONG_BUY",
+      "confidence": 0.88,
+      "reason": "Посилення геополітичної напруги в Перській затоці та нові санкції проти Ірану підвищують попит на долар як безпечний актив.",
+      "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "USD_20261120165351",
-      "generated_at": "2026-11-20T18:53:51.675468+02:00"
+      "id": "USD_20261122000324",
+      "generated_at": "2026-11-22T02:03:24.742712+02:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "overall_sentiment": "НЕГАТИВНИЙ",
     "positive_news_count": 1,
-    "negative_news_count": 1,
-    "total_news_analyzed": 10,
-    "top_currency": "USD",
-    "worst_currency": "RUB",
+    "negative_news_count": 2,
+    "total_news_analyzed": 6,
+    "top_currency": "RUB",
+    "worst_currency": "BTC",
     "market_status": {
       "forex": {
-        "status": "OPEN",
-        "next_change": "Пт 23:00"
+        "status": "CLOSED",
+        "next_change": "Нд 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -81,25 +31,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "09:00"
+        "next_change": "Пн 09:00"
       },
       "us_stocks": {
-        "status": "OPEN",
-        "next_change": "23:00"
+        "status": "CLOSED",
+        "next_change": "Пн 16:30"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "10:00"
+        "next_change": "Пн 10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-11-20T18:53:48.499800+02:00",
-    "analysis_time": "18:53"
+    "last_economic_update": "2026-11-22T02:03:20.892751+02:00",
+    "analysis_time": "02:03"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261120165351",
-  "total_recommendations": 6,
-  "news_count": 10,
+  "analysis_id": "analysis_20261122000324",
+  "total_recommendations": 1,
+  "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-11-20T20:00:00+02:00"
+  "next_analysis": "2026-11-22T08:00:00+02:00"
 }
