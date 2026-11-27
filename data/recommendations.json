@@ -1,29 +1,39 @@
 {
-  "last_update": "2026-11-22T02:03:24.742892+02:00",
-  "last_update_display": "2026-11-22 02:03:24",
+  "last_update": "2026-11-27T20:03:03.306948+02:00",
+  "last_update_display": "2026-11-27 20:03:03",
   "recommendations": [
     {
-      "asset": "USD",
-      "action": "STRONG_BUY",
-      "confidence": 0.88,
-      "reason": "Посилення геополітичної напруги в Перській затоці та нові санкції проти Ірану підвищують попит на долар як безпечний актив.",
+      "asset": "EUR",
+      "action": "BUY",
+      "confidence": 0.82,
+      "reason": "Eurozone equities are rising and investors anticipate a stable policy environment ahead of the Spanish election, supporting euro demand.",
       "timeframe": "1-3 дні",
       "risk_level": "medium",
-      "id": "USD_20261122000324",
-      "generated_at": "2026-11-22T02:03:24.742712+02:00"
+      "id": "EUR_20261127180303",
+      "generated_at": "2026-11-27T20:03:03.306741+02:00"
+    },
+    {
+      "asset": "USD",
+      "action": "NEUTRAL",
+      "confidence": 0.75,
+      "reason": "USD remains stable at 45.02 UAH with no major macro data, but global risk appetite is mixed, limiting upside.",
+      "timeframe": "Найближчий час",
+      "risk_level": "low",
+      "id": "USD_20261127180303",
+      "generated_at": "2026-11-27T20:03:03.306771+02:00"
     }
   ],
   "market_overview": {
-    "overall_sentiment": "НЕГАТИВНИЙ",
-    "positive_news_count": 1,
-    "negative_news_count": 2,
+    "overall_sentiment": "НЕЙТРАЛЬНИЙ",
+    "positive_news_count": 0,
+    "negative_news_count": 0,
     "total_news_analyzed": 6,
-    "top_currency": "RUB",
-    "worst_currency": "BTC",
+    "top_currency": "USD",
+    "worst_currency": "GOLD",
     "market_status": {
       "forex": {
-        "status": "CLOSED",
-        "next_change": "Нд 23:00"
+        "status": "OPEN",
+        "next_change": "Пт 23:00"
       },
       "crypto": {
         "status": "OPEN",
@@ -31,25 +41,25 @@
       },
       "european_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 09:00"
+        "next_change": "09:00"
       },
       "us_stocks": {
-        "status": "CLOSED",
-        "next_change": "Пн 16:30"
+        "status": "OPEN",
+        "next_change": "23:00"
       },
       "ukrainian_stocks": {
         "status": "CLOSED",
-        "next_change": "Пн 10:00"
+        "next_change": "10:00"
       },
       "overall": "ACTIVE"
     },
-    "last_economic_update": "2026-11-22T02:03:20.892751+02:00",
-    "analysis_time": "02:03"
+    "last_economic_update": "2026-11-27T20:02:59.473950+02:00",
+    "analysis_time": "20:03"
   },
   "timezone": "Europe/Kiev (UTC+2)",
-  "analysis_id": "analysis_20261122000324",
-  "total_recommendations": 1,
+  "analysis_id": "analysis_20261127180303",
+  "total_recommendations": 2,
   "news_count": 6,
   "language": "uk",
-  "next_analysis": "2026-11-22T08:00:00+02:00"
+  "next_analysis": "2026-11-28T08:00:00+02:00"
 }
